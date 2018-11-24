@@ -1,0 +1,59 @@
+,address,closes,dayOfWeek,lat,long,name,opens,phoneNumber
+0,Malminkorpi 2,22:00,Sunday,60.180428,24.6785064,K-Supermarket Malminmäki,09:00,"010 3210 220, Posti 010 3210 224"
+1,Keskikuja 3,20:00,Sunday,60.3337793,24.3191819,K-Supermarket Nummela,10:00,02078 88150
+2,Koskentie 6,21:00,Sunday,60.2688411,24.4436317,K-Supermarket Veikkola,10:00,02075 97460
+3,Virastopiha 1,22:00,Sunday,60.2055403,24.6553447,K-Market Espoon keskus,10:00,045 7870 1600
+4,Kartanontie 2,21:00,Sunday,60.154235,24.545219,K-Market Kartanonranta,10:00,0207303630
+5,Kilonpuistonkatu 14,21:00,Sunday,60.2168285,24.7815109,K-Market Kilo,10:00,0207705140
+6,Kivenlahdenkatu 1,22:00,Sunday,60.155695,24.63064,K-Market Kivenlahdenkatu,10:00,040 755 0146
+7,Seisaketie 1,21:00,Sunday,60.2954867,24.2072466,K-Market Lohjanportti,11:00,050 428 6110
+8,Leenankuja 4,23:00,Sunday,60.153827,24.742225,K-Market Matinkylä,09:00,020 700 2235
+9,Oxfotintie 1,22:00,Sunday,60.168071,24.662343,K-Market Nöykkiö,09:00,020 700 5875
+10,Tietolantie 1,22:00,Sunday,60.191459,23.998571,K-Market Tietolantie,09:00,0503229433
+11,Tolsantie 16,21:00,Sunday,60.123206,24.469315,K-Market Tolsa,10:00,0103259110
+12,Piispansilta 11,22:00,Sunday,60.1618222,24.737745,K-Citymarket Espoo Iso Omena,10:00,01053 82200
+13,Ojamonharjuntie 61,21:00,Sunday,60.2278996,24.0255501,K-Citymarket Lohja,10:00,0105386400
+14,Tuusankaari 1,21:00,Sunday,60.3323698,24.3288737,K-Citymarket Vihti Nummela,10:00,0105387200
+15,Kylänportti 16,21:00,Sunday,60.2405371,24.7005042,K-Supermarket Aurora,10:00,09-8634340
+16,Rautatienkatu 19,18:00,Sunday,59.9795253,23.4491519,K-Supermarket Ekenäs,10:00,019-2126500
+17,Finnoonlaaksontie 9,20:00,Sunday,60.1630057,24.7076376,K-Supermarket Merituuli,10:00,0293700785
+18,Soukantie 16,18:00,Sunday,60.1421612,24.6698025,K-Supermarket Soukka,10:00,09-8190610
+19,Kynäkatu 6,22:00,Sunday,60.185753,24.746922,K-Supermarket Suurpelto,10:00,0104061110
+20,Kauniaistentie 7,21:00,Sunday,60.210277,24.729002,K-Supermarket Grani,09:00,0923103600
+21,Fiskarsintie 34,20:00,Sunday,60.131145,23.543631,K-Market Fiskars,11:00,020 700 4050
+22,Suomenlahdentie 1,22:00,Sunday,60.160827,24.739638,K-Market Iso Omena,10:00,010 538 2374
+23,Klippinkitie 9,22:00,Sunday,60.193285,24.599887,K-Market Kauklahti,10:00,0291706450
+24,Lansantie 23,23:00,Sunday,60.211765,24.768157,K-Market Lansa,09:00,0449825146
+25,Ojakkalantie 1,21:00,Sunday,60.341924,24.323506,K-Market Nummela,09:00,040 163 9442
+26,Sokinsuontie 4,21:00,Sunday,60.2002636,24.6699048,K-Market Suvela,09:00,040-1457420
+27,Veijolantie 7,19:00,Sunday,60.247461,24.096167,K-Market Veijolantie,10:00,020 700 4035
+28,Ratakatu 59,19:00,Sunday,60.0706935,23.6630926,K-Supermarket Karis-Karjaa,11:00,0207870150
+29,Raaseporintie 14,18:00,Sunday,59.978524,23.463893,K-Supermarket Popsi,12:00,020 763 0810
+30,Ulappakatu 2,19:00,Sunday,60.1484712,24.6573028,K-Supermarket Seilori,11:00,09-8190510
+31,Merivalkama 2,22:00,Sunday,60.1544737,24.6346748,K-Market Kivenlahti,09:00,040 5055 309
+32,Kaskipiha 1,21:00,Sunday,60.176539,24.655556,K-Market Latokaski,09:00,020 700 2250
+33,Laurinkatu 47,22:00,Sunday,60.2496,24.063297,K-Market Laurinkatu,09:00,020 700 4097
+34,Puistokatu 23,22:00,Sunday,60.243765,24.080843,K-Market Puistokatu Lohja,09:00,020 700 5830
+35,Lippajärventie 29-31,21:00,Sunday,60.2290377,24.7149639,K-Market Ravioli,11:00,020-7705000
+36,Gräsanlaakso 2,23:00,Sunday,60.1629926,24.7530053,Neste K Matinkylä,09:00,09-34876080
+37,Lähderannantie 22,22:00,Sunday,60.2394968,24.7408649,K-Supermarket Lähderanta,10:00,010 292 6770
+38,Merituulentie 36,21:00,Sunday,60.170944,24.763773,K-Supermarket Ruokaniitty,10:00,+358 9 75115400
+39,Iivisniemenkatu 3,22:00,Sunday,60.1490534,24.6915301,K-Market Iivisniemi,10:00,0207416371
+40,Kauppakuja 1,18:00,Sunday,60.3803427,23.9577645,K-Market Landen,10:00,019-3112210
+41,Tinankuja 1,20:00,Sunday,60.1578162,24.5354317,K-Market Masala,10:00,09-2764750
+42,Askersintie 44,20:00,Sunday,60.13901,23.868948,K-Market Mustio,10:00,020 700 4045
+43,Enätie 24,21:00,Sunday,60.368891,24.392495,K-Market Ojakkala,09:00,0400579771
+44,Kivenlahdentie 5,23:00,Sunday,60.1525428,24.6630313,Neste K Kivenlahdentie,09:00,09-8091811
+45,Uuskartanontie 2,23:00,Sunday,60.1703918,24.7475782,Neste K Olari,09:00,09-4129210
+46,Martinsillantie 2 B,00:00,Sunday,60.1616206,24.700795,Neste K Suomenoja,08:00,09-58400351
+47,Rajamännynahde 1,23:00,Sunday,60.2263816,24.7423999,Neste K Viherlaakso,09:00,09-599626
+48,Asemankulma 2,21:00,Sunday,60.1201401,24.4437984,K-Citymarket Kirkkonummi,10:00,0105383300
+49,Kamreerintie 3,20:00,Sunday,60.203824,24.6568388,K-Supermarket Kulinaari,10:00,09-8676200
+50,LEHMIJÄRVENTIE 2,21:00,Sunday,60.2722308,24.1212488,K-Supermarket Lempola,10:00,044 449 6088
+51,Sinikalliontie 1,21:00,Sunday,60.2042679,24.7679401,K-Supermarket Mankkaa,10:00,020-7510510
+52,Tapionaukio 4 (Postitusosoite: Länsituulentie 12),21:00,Sunday,60.1758526,24.8050676,K-Supermarket Tapiola,10:00,050 442 5003
+53,Kirjavantie 2,21:00,Sunday,60.4175877,24.3247551,K-Supermarket Vihti,10:00,0102866140
+54,Kuurinmäki 1,21:00,Sunday,60.200738,24.705451,K-Market Kuurinniitty,10:00,040 156 1151
+55,Louhentie 2,21:00,Sunday,60.1828849,24.7944784,K-Market Pohjantähti,10:00,09-4355760
+56,Toppelundinportti 3,21:00,Sunday,60.1621743,24.7860261,K-Market Sorsakivi,10:00,09-4355810
+57,Turuntie 563,22:00,Sunday,60.274602,24.421947,K-Market Veikkola,09:00,020 700 4015
