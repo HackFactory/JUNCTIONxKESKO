@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "18e940819e1e3439d176bd02e3650a3b"
+build_time: [1542976425, 529217000]
+inputs:
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/K Group/InitialViewController.swift": [1542976425, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/K Group/AppDelegate.swift": [1542973012, 0]
