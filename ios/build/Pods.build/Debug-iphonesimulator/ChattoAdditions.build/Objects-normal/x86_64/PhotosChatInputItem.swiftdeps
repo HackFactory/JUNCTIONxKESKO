@@ -1,0 +1,466 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotosChatInputItem"
+provides-nominal:
+- "15ChattoAdditions19PhotosChatInputItemC"
+provides-member:
+- ["15ChattoAdditions19PhotosChatInputItemC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- "ChatInputItemPresentationMode"
+- "ChatInputItemProtocol"
+- !private "LiveCameraCellAppearance"
+- "PhotosChatInputItem"
+- !private "PhotosInputView"
+- "PhotosInputViewAppearance"
+- "PhotosInputViewDelegate"
+- "PhotosInputViewProtocol"
+- !private "StringLiteralType"
+- !private "TabInputButton"
+- "TabInputButtonAppearance"
+- "UIButton"
+- !private "UIControlStateWrapper"
+- "UIImage"
+- "UIView"
+- "UIViewController"
+- "Void"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isSelected"]
+- !private ["So15CALayerDelegateP", "makeInputButton"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSelected"]
+- !private ["s7CVarArgP", "makeInputButton"]
+- !private ["15ChattoAdditions29ChatInputItemPresentationModeO", "customView"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "Bundle"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "Class"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "LiveCameraCellAppearance"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "PhotosInputView"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "PhotosInputViewAppearance"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "TabInputButton"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "TabInputButtonAppearance"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "UIControlStateWrapper"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "UIImage"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", ""]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "buttonAppearance"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "cameraPermissionHandler"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "createDefaultButtonAppearance"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "createDefaultInputViewAppearance"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "handleInput"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "inputView"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "inputViewAppearance"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "inputViewDidRequestCameraPermission"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "inputViewDidRequestPhotoLibraryPermission"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "internalTabView"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "photoInputHandler"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "photosInputView"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "photosPermissionHandler"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "presentationMode"]
+- !private ["15ChattoAdditions21ChatInputItemProtocolP", "presentingController"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "selected"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "showsSendButton"]
+- ["15ChattoAdditions21ChatInputItemProtocolP", "tabView"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "makeInputButton"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSelected"]
+- !private ["s23CustomStringConvertibleP", "makeInputButton"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "customView"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSelected"]
+- !private ["SQ", "makeInputButton"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "customView"]
+- !private ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isSelected"]
+- !private ["SH", "makeInputButton"]
+- !private ["15ChattoAdditions24LiveCameraCellAppearanceV", "createDefaultAppearance"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isSelected"]
+- !private ["So8NSCodingP", "makeInputButton"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSelected"]
+- !private ["So8NSObjectC", "makeInputButton"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSelected"]
+- !private ["So8NSObjectP", "makeInputButton"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "AnyObject"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "Bool"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "Bundle"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "ChatInputItemPresentationMode"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "Class"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "LiveCameraCellAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "PhotosChatInputItem"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "PhotosInputView"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "PhotosInputViewAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "PhotosInputViewProtocol"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "TabInputButton"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "TabInputButtonAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "UIButton"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "UIControlStateWrapper"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "UIImage"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "UIView"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "UIViewController"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "Void"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "buttonAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "cameraPermissionHandler"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "createDefaultButtonAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "createDefaultInputViewAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "deinit"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "handleInput"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "init"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "inputView"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "inputViewAppearance"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "inputViewDidRequestCameraPermission"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "inputViewDidRequestPhotoLibraryPermission"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "internalTabView"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "internalTabView.storage"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "photoInputHandler"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "photosInputView"]
+- !private ["15ChattoAdditions19PhotosChatInputItemC", "photosInputView.storage"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "photosPermissionHandler"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "presentationMode"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "presentingController"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "selected"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "showsSendButton"]
+- ["15ChattoAdditions19PhotosChatInputItemC", "tabView"]
+- !private ["15ChattoAdditions31PhotosInputDataProviderDelegateP", "delegate"]
+- !private ["15ChattoAdditions31PhotosInputDataProviderDelegateP", "init"]
+- !private ["15ChattoAdditions15PhotosInputViewC", "deinit"]
+- !private ["15ChattoAdditions15PhotosInputViewC", "delegate"]
+- !private ["15ChattoAdditions15PhotosInputViewC", "init"]
+- !private ["15ChattoAdditions25PhotosInputViewAppearanceV", "init"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "Bundle"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "Class"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "LiveCameraCellAppearance"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "PhotosInputView"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "PhotosInputViewAppearance"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "TabInputButton"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "TabInputButtonAppearance"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "UIControlStateWrapper"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "UIImage"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", ""]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "buttonAppearance"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "cameraPermissionHandler"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "createDefaultButtonAppearance"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "createDefaultInputViewAppearance"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "handleInput"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "inputView"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "inputViewAppearance"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "inputViewDidRequestCameraPermission"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "inputViewDidRequestPhotoLibraryPermission"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "internalTabView"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "photoInputHandler"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "photosInputView"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "photosPermissionHandler"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "presentationMode"]
+- !private ["15ChattoAdditions23PhotosInputViewDelegateP", "presentingController"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "selected"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "showsSendButton"]
+- ["15ChattoAdditions23PhotosInputViewDelegateP", "tabView"]
+- !private ["15ChattoAdditions23PhotosInputViewProtocolP", "delegate"]
+- !private ["15ChattoAdditions23PhotosInputViewProtocolP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "customView"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["15ChattoAdditions14TabInputButtonC", "makeInputButton"]
+- !private ["15ChattoAdditions24TabInputButtonAppearanceV", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isSelected"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "makeInputButton"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "makeInputButton"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isSelected"]
+- !private ["So12UIAppearanceP", "makeInputButton"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isSelected"]
+- !private ["So21UIAppearanceContainerP", "makeInputButton"]
+- !private ["So8UIButtonC", "isSelected"]
+- !private ["So8UIButtonC", "makeInputButton"]
+- !private ["So26UICollectionViewDataSourceP", "delegate"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So24UICollectionViewDelegateP", "delegate"]
+- !private ["So24UICollectionViewDelegateP", "init"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "delegate"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "init"]
+- !private ["So9UIControlC", "isSelected"]
+- !private ["So9UIControlC", "makeInputButton"]
+- ["15ChattoAdditions21UIControlStateWrapperV", "deinit"]
+- ["15ChattoAdditions21UIControlStateWrapperV", "init"]
+- !private ["15ChattoAdditions21UIControlStateWrapperV", "init"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isSelected"]
+- !private ["So17UICoordinateSpaceP", "makeInputButton"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isSelected"]
+- !private ["So13UIDynamicItemP", "makeInputButton"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isSelected"]
+- !private ["So18UIFocusEnvironmentP", "makeInputButton"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isSelected"]
+- !private ["So11UIFocusItemP", "makeInputButton"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isSelected"]
+- !private ["So20UIFocusItemContainerP", "makeInputButton"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeInputButton"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isSelected"]
+- !private ["So11UIResponderC", "makeInputButton"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "makeInputButton"]
+- !private ["So20UIScrollViewDelegateP", "delegate"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isSelected"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "makeInputButton"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isSelected"]
+- !private ["So18UITraitEnvironmentP", "makeInputButton"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isSelected"]
+- !private ["So23UIUserActivityRestoringP", "makeInputButton"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isSelected"]
+- !private ["So6UIViewC", "makeInputButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeInputButton"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeInputButton"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "So8NSBundleC"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "15ChattoAdditions29ChatInputItemPresentationModeO"
+- "15ChattoAdditions21ChatInputItemProtocolP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "15ChattoAdditions24LiveCameraCellAppearanceV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "15ChattoAdditions19PhotosChatInputItemC"
+- !private "15ChattoAdditions31PhotosInputDataProviderDelegateP"
+- !private "15ChattoAdditions15PhotosInputViewC"
+- !private "15ChattoAdditions25PhotosInputViewAppearanceV"
+- "15ChattoAdditions23PhotosInputViewDelegateP"
+- !private "15ChattoAdditions23PhotosInputViewProtocolP"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "15ChattoAdditions14TabInputButtonC"
+- !private "15ChattoAdditions24TabInputButtonAppearanceV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- !private "So9UIControlC"
+- "15ChattoAdditions21UIControlStateWrapperV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleIconView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressIndicatorView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "afcbc60dfbb651766b7baae63f70b389"

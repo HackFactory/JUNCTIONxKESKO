@@ -1,0 +1,430 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabInputButtonAppearance"
+- "TabInputButton"
+provides-nominal:
+- "15ChattoAdditions24TabInputButtonAppearanceV"
+- "15ChattoAdditions14TabInputButtonC"
+provides-member:
+- ["15ChattoAdditions24TabInputButtonAppearanceV", ""]
+- ["15ChattoAdditions14TabInputButtonC", ""]
+provides-dynamic-lookup:
+- "intrinsicContentSize"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGSize"
+- "String"
+- "TabInputButton"
+- "TabInputButtonAppearance"
+- "UIButton"
+- "UIControlStateWrapper"
+- "UIImage"
+depends-member:
+- !private ["So12UIButtonTypeV", "custom"]
+- !private ["So15CALayerDelegateP", "TabInputButton"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "accessibilityIdentifier"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "intrinsicContentSize"]
+- !private ["So15CALayerDelegateP", "isExclusiveTouch"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- !private ["So15CALayerDelegateP", "size"]
+- !private ["s7CVarArgP", "TabInputButton"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accessibilityIdentifier"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intrinsicContentSize"]
+- !private ["s7CVarArgP", "isExclusiveTouch"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "size"]
+- !private ["Sl", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "TabInputButton"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessibilityIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intrinsicContentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "isExclusiveTouch"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "TabInputButton"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accessibilityIdentifier"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intrinsicContentSize"]
+- !private ["s23CustomStringConvertibleP", "isExclusiveTouch"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["Se", "forEach"]
+- !private ["SD", "forEach"]
+- !private ["SE", "forEach"]
+- !private ["SQ", "TabInputButton"]
+- ["SQ", ""]
+- !private ["SQ", "accessibilityIdentifier"]
+- !private ["SQ", "controlState"]
+- !private ["SQ", "custom"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intrinsicContentSize"]
+- !private ["SQ", "isExclusiveTouch"]
+- !private ["SQ", "setImage"]
+- !private ["SQ", "size"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["SH", "TabInputButton"]
+- ["SH", ""]
+- !private ["SH", "accessibilityIdentifier"]
+- !private ["SH", "controlState"]
+- !private ["SH", "custom"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "intrinsicContentSize"]
+- !private ["SH", "isExclusiveTouch"]
+- !private ["SH", "setImage"]
+- !private ["SH", "size"]
+- !private ["So8NSCodingP", "TabInputButton"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "accessibilityIdentifier"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intrinsicContentSize"]
+- !private ["So8NSCodingP", "isExclusiveTouch"]
+- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "size"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TabInputButton"]
+- ["So8NSObjectC", "TabInputButtonAppearance"]
+- !private ["So8NSObjectC", "accessibilityIdentifier"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "intrinsicContentSize"]
+- !private ["So8NSObjectC", "isExclusiveTouch"]
+- ["So8NSObjectC", "makeInputButton"]
+- !private ["So8NSObjectC", "setImage"]
+- ["So8NSObjectC", "size"]
+- !private ["So8NSObjectP", "TabInputButton"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accessibilityIdentifier"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intrinsicContentSize"]
+- !private ["So8NSObjectP", "isExclusiveTouch"]
+- !private ["So8NSObjectP", "setImage"]
+- !private ["So8NSObjectP", "size"]
+- !private ["SY", "custom"]
+- !private ["ST", "forEach"]
+- ["15ChattoAdditions14TabInputButtonC", "CGSize"]
+- ["15ChattoAdditions14TabInputButtonC", "String"]
+- ["15ChattoAdditions14TabInputButtonC", "TabInputButton"]
+- ["15ChattoAdditions14TabInputButtonC", "TabInputButtonAppearance"]
+- !private ["15ChattoAdditions14TabInputButtonC", "accessibilityIdentifier"]
+- !private ["15ChattoAdditions14TabInputButtonC", "deinit"]
+- ["15ChattoAdditions14TabInputButtonC", "init"]
+- ["15ChattoAdditions14TabInputButtonC", "intrinsicContentSize"]
+- !private ["15ChattoAdditions14TabInputButtonC", "isExclusiveTouch"]
+- ["15ChattoAdditions14TabInputButtonC", "makeInputButton"]
+- !private ["15ChattoAdditions14TabInputButtonC", "setImage"]
+- !private ["15ChattoAdditions14TabInputButtonC", "size"]
+- ["15ChattoAdditions24TabInputButtonAppearanceV", "CGSize"]
+- ["15ChattoAdditions24TabInputButtonAppearanceV", "UIControlStateWrapper"]
+- ["15ChattoAdditions24TabInputButtonAppearanceV", "UIImage"]
+- ["15ChattoAdditions24TabInputButtonAppearanceV", "images"]
+- ["15ChattoAdditions24TabInputButtonAppearanceV", "init"]
+- ["15ChattoAdditions24TabInputButtonAppearanceV", "size"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "TabInputButton"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "accessibilityIdentifier"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "intrinsicContentSize"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isExclusiveTouch"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "size"]
+- !private ["So29UIAccessibilityIdentificationP", "TabInputButton"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "accessibilityIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "intrinsicContentSize"]
+- !private ["So29UIAccessibilityIdentificationP", "isExclusiveTouch"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So12UIAppearanceP", "TabInputButton"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "accessibilityIdentifier"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "intrinsicContentSize"]
+- !private ["So12UIAppearanceP", "isExclusiveTouch"]
+- !private ["So12UIAppearanceP", "setImage"]
+- !private ["So12UIAppearanceP", "size"]
+- !private ["So21UIAppearanceContainerP", "TabInputButton"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "accessibilityIdentifier"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "intrinsicContentSize"]
+- !private ["So21UIAppearanceContainerP", "isExclusiveTouch"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So21UIAppearanceContainerP", "size"]
+- ["So8UIButtonC", "CGSize"]
+- ["So8UIButtonC", "String"]
+- ["So8UIButtonC", "TabInputButton"]
+- ["So8UIButtonC", "TabInputButtonAppearance"]
+- ["So8UIButtonC", ""]
+- !private ["So8UIButtonC", "accessibilityIdentifier"]
+- ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "init"]
+- ["So8UIButtonC", "intrinsicContentSize"]
+- !private ["So8UIButtonC", "isExclusiveTouch"]
+- ["So8UIButtonC", "makeInputButton"]
+- !private ["So8UIButtonC", "setImage"]
+- ["So8UIButtonC", "size"]
+- ["So9UIControlC", "CGSize"]
+- ["So9UIControlC", "String"]
+- ["So9UIControlC", "TabInputButton"]
+- ["So9UIControlC", "TabInputButtonAppearance"]
+- !private ["So9UIControlC", "accessibilityIdentifier"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "init"]
+- ["So9UIControlC", "intrinsicContentSize"]
+- !private ["So9UIControlC", "isExclusiveTouch"]
+- ["So9UIControlC", "makeInputButton"]
+- !private ["So9UIControlC", "setImage"]
+- ["So9UIControlC", "size"]
+- !private ["15ChattoAdditions21UIControlStateWrapperV", "controlState"]
+- ["15ChattoAdditions21UIControlStateWrapperV", "deinit"]
+- !private ["So17UICoordinateSpaceP", "TabInputButton"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "accessibilityIdentifier"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "intrinsicContentSize"]
+- !private ["So17UICoordinateSpaceP", "isExclusiveTouch"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- !private ["So17UICoordinateSpaceP", "size"]
+- !private ["So13UIDynamicItemP", "TabInputButton"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "accessibilityIdentifier"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "intrinsicContentSize"]
+- !private ["So13UIDynamicItemP", "isExclusiveTouch"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- !private ["So13UIDynamicItemP", "size"]
+- !private ["So18UIFocusEnvironmentP", "TabInputButton"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "accessibilityIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "intrinsicContentSize"]
+- !private ["So18UIFocusEnvironmentP", "isExclusiveTouch"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- !private ["So18UIFocusEnvironmentP", "size"]
+- !private ["So11UIFocusItemP", "TabInputButton"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "accessibilityIdentifier"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "intrinsicContentSize"]
+- !private ["So11UIFocusItemP", "isExclusiveTouch"]
+- !private ["So11UIFocusItemP", "setImage"]
+- !private ["So11UIFocusItemP", "size"]
+- !private ["So20UIFocusItemContainerP", "TabInputButton"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "accessibilityIdentifier"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "intrinsicContentSize"]
+- !private ["So20UIFocusItemContainerP", "isExclusiveTouch"]
+- !private ["So20UIFocusItemContainerP", "setImage"]
+- !private ["So20UIFocusItemContainerP", "size"]
+- !private ["So30UIPasteConfigurationSupportingP", "TabInputButton"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "accessibilityIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "intrinsicContentSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "isExclusiveTouch"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "size"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "TabInputButton"]
+- ["So11UIResponderC", "TabInputButtonAppearance"]
+- !private ["So11UIResponderC", "accessibilityIdentifier"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "intrinsicContentSize"]
+- !private ["So11UIResponderC", "isExclusiveTouch"]
+- ["So11UIResponderC", "makeInputButton"]
+- !private ["So11UIResponderC", "setImage"]
+- ["So11UIResponderC", "size"]
+- !private ["So30UIResponderStandardEditActionsP", "TabInputButton"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "accessibilityIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "intrinsicContentSize"]
+- !private ["So30UIResponderStandardEditActionsP", "isExclusiveTouch"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "size"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "TabInputButton"]
+- ["So35UISpringLoadedInteractionSupportingP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "accessibilityIdentifier"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "intrinsicContentSize"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isExclusiveTouch"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "size"]
+- !private ["So18UITraitEnvironmentP", "TabInputButton"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "accessibilityIdentifier"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "intrinsicContentSize"]
+- !private ["So18UITraitEnvironmentP", "isExclusiveTouch"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- !private ["So18UITraitEnvironmentP", "size"]
+- !private ["So23UIUserActivityRestoringP", "TabInputButton"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "accessibilityIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "intrinsicContentSize"]
+- !private ["So23UIUserActivityRestoringP", "isExclusiveTouch"]
+- !private ["So23UIUserActivityRestoringP", "setImage"]
+- !private ["So23UIUserActivityRestoringP", "size"]
+- ["So6UIViewC", "CGSize"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "TabInputButton"]
+- ["So6UIViewC", "TabInputButtonAppearance"]
+- !private ["So6UIViewC", "accessibilityIdentifier"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "intrinsicContentSize"]
+- !private ["So6UIViewC", "isExclusiveTouch"]
+- ["So6UIViewC", "makeInputButton"]
+- !private ["So6UIViewC", "setImage"]
+- ["So6UIViewC", "size"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "TabInputButton"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "accessibilityIdentifier"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "intrinsicContentSize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isExclusiveTouch"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "size"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TabInputButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessibilityIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intrinsicContentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isExclusiveTouch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+depends-nominal:
+- !private "So12UIButtonTypeV"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "ST"
+- "15ChattoAdditions14TabInputButtonC"
+- "15ChattoAdditions24TabInputButtonAppearanceV"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- "So9UIControlC"
+- "15ChattoAdditions21UIControlStateWrapperV"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleIconView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressIndicatorView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d2a1979d74d5ae9c226bbbc59f42d62f"

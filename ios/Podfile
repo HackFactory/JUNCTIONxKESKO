@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'K Group' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for K Group
+  pod 'Chatto', '= 3.3.1'
+  pod 'ChattoAdditions', '= 3.3.1'
+
+  target 'K GroupTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'K GroupUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

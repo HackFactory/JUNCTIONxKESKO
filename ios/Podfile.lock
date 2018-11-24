@@ -1,0 +1,21 @@
+PODS:
+  - Chatto (3.3.1)
+  - ChattoAdditions (3.3.1):
+    - Chatto
+
+DEPENDENCIES:
+  - Chatto (= 3.3.1)
+  - ChattoAdditions (= 3.3.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Chatto
+    - ChattoAdditions
+
+SPEC CHECKSUMS:
+  Chatto: 24a6c9b0c91b08130466888b8b61563b90191c6f
+  ChattoAdditions: cc74cd3dd371aa3f70e5ab8568a4f383f0c0eb8c
+
+PODFILE CHECKSUM: 49c0c9fd78771ec227187cd2807bb21efc5291fc
+
+COCOAPODS: 1.5.0

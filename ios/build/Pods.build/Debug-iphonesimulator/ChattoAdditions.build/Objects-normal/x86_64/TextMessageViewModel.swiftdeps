@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextMessageViewModelProtocol"
+- "TextMessageViewModel"
+- "TextMessageViewModelDefaultBuilder"
+provides-nominal:
+- "15ChattoAdditions28TextMessageViewModelProtocolP"
+- "15ChattoAdditions20TextMessageViewModelC"
+- "15ChattoAdditions34TextMessageViewModelDefaultBuilderC"
+provides-member:
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", ""]
+- ["15ChattoAdditions20TextMessageViewModelC", ""]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "DecoratedMessageViewModelProtocol"
+- "MessageViewModelDefaultBuilder"
+- "MessageViewModelProtocol"
+- "String"
+- "TextMessageModelProtocol"
+- "TextMessageViewModel"
+- "TextMessageViewModelDefaultBuilder"
+- "TextMessageViewModelProtocol"
+- "ViewModelBuilderProtocol"
+depends-member:
+- !private ["15ChattoAdditions29DecoratedMessageModelProtocolP", "text"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "String"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", ""]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "avatarImage"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "date"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "decorationAttributes"]
+- !private ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "init"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "isIncoming"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "isShowingFailedIcon"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "isUserInteractionEnabled"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "messageViewModel"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "status"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "text"]
+- !private ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "textMessage"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "wasHidden"]
+- ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "willBeShown"]
+- !private ["15ChattoAdditions20MessageModelProtocolP", "text"]
+- !private ["15ChattoAdditions30MessageViewModelDefaultBuilderC", "createMessageViewModel"]
+- ["15ChattoAdditions30MessageViewModelDefaultBuilderC", "init"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "String"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", ""]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "avatarImage"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "date"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "decorationAttributes"]
+- !private ["15ChattoAdditions24MessageViewModelProtocolP", "init"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "isIncoming"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "isShowingFailedIcon"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "isUserInteractionEnabled"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "messageViewModel"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "status"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "text"]
+- !private ["15ChattoAdditions24MessageViewModelProtocolP", "textMessage"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "wasHidden"]
+- ["15ChattoAdditions24MessageViewModelProtocolP", "willBeShown"]
+- !private ["15ChattoAdditions24TextMessageModelProtocolP", "text"]
+- ["15ChattoAdditions20TextMessageViewModelC", "MessageViewModelProtocol"]
+- ["15ChattoAdditions20TextMessageViewModelC", "String"]
+- ["15ChattoAdditions20TextMessageViewModelC", "TextMessageModelT"]
+- ["15ChattoAdditions20TextMessageViewModelC", "avatarImage"]
+- ["15ChattoAdditions20TextMessageViewModelC", "date"]
+- ["15ChattoAdditions20TextMessageViewModelC", "decorationAttributes"]
+- ["15ChattoAdditions20TextMessageViewModelC", "deinit"]
+- ["15ChattoAdditions20TextMessageViewModelC", "init"]
+- ["15ChattoAdditions20TextMessageViewModelC", "isIncoming"]
+- ["15ChattoAdditions20TextMessageViewModelC", "isShowingFailedIcon"]
+- ["15ChattoAdditions20TextMessageViewModelC", "isUserInteractionEnabled"]
+- ["15ChattoAdditions20TextMessageViewModelC", "messageViewModel"]
+- ["15ChattoAdditions20TextMessageViewModelC", "status"]
+- ["15ChattoAdditions20TextMessageViewModelC", "text"]
+- ["15ChattoAdditions20TextMessageViewModelC", "textMessage"]
+- ["15ChattoAdditions20TextMessageViewModelC", "wasHidden"]
+- ["15ChattoAdditions20TextMessageViewModelC", "willBeShown"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "Bool"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "MessageViewModelDefaultBuilder"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "ModelT"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "TextMessageModelT"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "TextMessageViewModel"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "ViewModelT"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "_Default_ModelT"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "_Default_ViewModelT"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "canCreateViewModel"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "createViewModel"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "deinit"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "init"]
+- ["15ChattoAdditions34TextMessageViewModelDefaultBuilderC", "messageViewModelBuilder"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "String"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", ""]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "avatarImage"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "date"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "decorationAttributes"]
+- !private ["15ChattoAdditions28TextMessageViewModelProtocolP", "init"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "isIncoming"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "isShowingFailedIcon"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "isUserInteractionEnabled"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "messageViewModel"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "status"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "text"]
+- !private ["15ChattoAdditions28TextMessageViewModelProtocolP", "textMessage"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "wasHidden"]
+- ["15ChattoAdditions28TextMessageViewModelProtocolP", "willBeShown"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "MessageViewModelDefaultBuilder"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "ModelT"]
+- !private ["15ChattoAdditions24ViewModelBuilderProtocolP", "TextMessageViewModel"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "ViewModelT"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", ""]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "_Default_ModelT"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "_Default_ViewModelT"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "canCreateViewModel"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "createViewModel"]
+- !private ["15ChattoAdditions24ViewModelBuilderProtocolP", "messageViewModelBuilder"]
+depends-nominal:
+- !private "15ChattoAdditions29DecoratedMessageModelProtocolP"
+- "15ChattoAdditions33DecoratedMessageViewModelProtocolP"
+- !private "15ChattoAdditions20MessageModelProtocolP"
+- "15ChattoAdditions30MessageViewModelDefaultBuilderC"
+- "15ChattoAdditions24MessageViewModelProtocolP"
+- !private "15ChattoAdditions24TextMessageModelProtocolP"
+- "15ChattoAdditions20TextMessageViewModelC"
+- "15ChattoAdditions34TextMessageViewModelDefaultBuilderC"
+- "15ChattoAdditions28TextMessageViewModelProtocolP"
+- "15ChattoAdditions24ViewModelBuilderProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleIconView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressIndicatorView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fe2ead1d9982a33fa4e07988db79d795"

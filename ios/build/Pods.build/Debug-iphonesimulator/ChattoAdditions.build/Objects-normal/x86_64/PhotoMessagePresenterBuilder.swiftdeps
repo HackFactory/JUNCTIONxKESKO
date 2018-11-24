@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoMessagePresenterBuilder"
+provides-nominal:
+- "15ChattoAdditions28PhotoMessagePresenterBuilderC"
+provides-member:
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BaseMessageCollectionViewCellDefaultStyle"
+- "BaseMessageCollectionViewCellStyleProtocol"
+- "BaseMessageInteractionHandlerProtocol"
+- "Bool"
+- "ChatItemPresenterBuilderProtocol"
+- "ChatItemPresenterProtocol"
+- "ChatItemProtocol"
+- "PhotoMessageCollectionViewCell"
+- !private "PhotoMessageCollectionViewCellDefaultStyle"
+- "PhotoMessageCollectionViewCellStyleProtocol"
+- "PhotoMessagePresenterBuilder"
+- "PhotoMessageViewModelProtocol"
+- "ViewModelBuilderProtocol"
+- !private "assert"
+depends-member:
+- ["15ChattoAdditions25BackgroundSizingQueryableP", "sizingCell"]
+- ["15ChattoAdditions29BaseMessageCollectionViewCellC", "sizingCell"]
+- !private ["15ChattoAdditions41BaseMessageCollectionViewCellDefaultStyleC", "deinit"]
+- !private ["15ChattoAdditions41BaseMessageCollectionViewCellDefaultStyleC", "init"]
+- !private ["15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocolP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So15CALayerDelegateP", "sizingCell"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "sizingCell"]
+- ["s28CustomDebugStringConvertibleP", "sizingCell"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "sizingCell"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "sizingCell"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "sizingCell"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSCodingP", "sizingCell"]
+- ["So8NSObjectC", "sizingCell"]
+- ["So8NSObjectP", "sizingCell"]
+- !private ["15ChattoAdditions28PhotoBubbleViewStyleProtocolP", "init"]
+- ["15ChattoAdditions30PhotoMessageCollectionViewCellC", "sizingCell"]
+- !private ["15ChattoAdditions42PhotoMessageCollectionViewCellDefaultStyleC", "deinit"]
+- !private ["15ChattoAdditions42PhotoMessageCollectionViewCellDefaultStyleC", "init"]
+- !private ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "BaseMessageCollectionViewCellDefaultStyle"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "BaseMessageCollectionViewCellStyleProtocol"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "Bool"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "ChatItemPresenterProtocol"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "ChatItemProtocol"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "InteractionHandlerT"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "ModelT"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "PhotoMessageCollectionViewCell"]
+- !private ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "PhotoMessageCollectionViewCellDefaultStyle"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "PhotoMessageCollectionViewCellStyleProtocol"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "ViewModelBuilderT"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "ViewModelT"]
+- !private ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "assert"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "baseCellStyle"]
+- !private ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "baseCellStyle.storage"]
+- !private ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "canHandleChatItem"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "init"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "interactionHandler"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "photoCellStyle"]
+- !private ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "photoCellStyle.storage"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "sizingCell"]
+- ["15ChattoAdditions28PhotoMessagePresenterBuilderC", "viewModelBuilder"]
+- ["So29UIAccessibilityIdentificationP", "sizingCell"]
+- ["So12UIAppearanceP", "sizingCell"]
+- ["So21UIAppearanceContainerP", "sizingCell"]
+- ["So24UICollectionReusableViewC", "sizingCell"]
+- ["So20UICollectionViewCellC", "sizingCell"]
+- ["So17UICoordinateSpaceP", "sizingCell"]
+- ["So13UIDynamicItemP", "sizingCell"]
+- ["So18UIFocusEnvironmentP", "sizingCell"]
+- ["So11UIFocusItemP", "sizingCell"]
+- ["So20UIFocusItemContainerP", "sizingCell"]
+- ["So27UIGestureRecognizerDelegateP", "sizingCell"]
+- ["So30UIPasteConfigurationSupportingP", "sizingCell"]
+- ["So11UIResponderC", "sizingCell"]
+- ["So30UIResponderStandardEditActionsP", "sizingCell"]
+- ["So18UITraitEnvironmentP", "sizingCell"]
+- ["So23UIUserActivityRestoringP", "sizingCell"]
+- ["So6UIViewC", "sizingCell"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "ModelT"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "ViewModelT"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "sizingCell"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sizingCell"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "15ChattoAdditions25BackgroundSizingQueryableP"
+- "15ChattoAdditions29BaseMessageCollectionViewCellC"
+- !private "15ChattoAdditions41BaseMessageCollectionViewCellDefaultStyleC"
+- !private "15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocolP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "15ChattoAdditions28PhotoBubbleViewStyleProtocolP"
+- "15ChattoAdditions30PhotoMessageCollectionViewCellC"
+- !private "15ChattoAdditions42PhotoMessageCollectionViewCellDefaultStyleC"
+- "15ChattoAdditions28PhotoMessagePresenterBuilderC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "15ChattoAdditions24ViewModelBuilderProtocolP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleIconView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressIndicatorView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "eaae3384e5ccdc35beb51dcf061dd5ad"

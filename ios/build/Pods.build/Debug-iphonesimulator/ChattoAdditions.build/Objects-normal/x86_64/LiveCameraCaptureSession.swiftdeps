@@ -1,0 +1,548 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LiveCameraCaptureSessionProtocol"
+- "LiveCameraCaptureSession"
+provides-nominal:
+- "15ChattoAdditions32LiveCameraCaptureSessionProtocolP"
+- "15ChattoAdditions24LiveCameraCaptureSessionC"
+provides-member:
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", ""]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "??"
+- !private "AVCaptureDevice"
+- !private "AVCaptureDeviceInput"
+- "AVCaptureSession"
+- "AVCaptureVideoPreviewLayer"
+- "AssignmentPrecedence"
+- !private "BlockOperation"
+- "Bool"
+- "BooleanLiteralType"
+- !private "DispatchQueue"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "LiveCameraCaptureSession"
+- "LiveCameraCaptureSessionProtocol"
+- "LiveCameraSettings"
+- "OperationQueue"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "Thread"
+- "Void"
+- !private "assert"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "default"]
+- !private ["So15AVCaptureDeviceC", "devices"]
+- !private ["So15AVCaptureDeviceC", "position"]
+- !private ["So20AVCaptureDeviceInputC", "init"]
+- !private ["So14AVCaptureInputC", "init"]
+- !private ["So16AVCaptureSessionC", "addInput"]
+- !private ["So16AVCaptureSessionC", "inputs"]
+- !private ["So16AVCaptureSessionC", "isRunning"]
+- !private ["So16AVCaptureSessionC", "removeInput"]
+- !private ["So16AVCaptureSessionC", "startRunning"]
+- !private ["So16AVCaptureSessionC", "stopRunning"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "removeFromSuperlayer"]
+- !private ["So11AVMediaTypea", "video"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forEach"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["s13ArrayProtocolP", "forEach"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["So16NSBlockOperationC", "addExecutionBlock"]
+- !private ["So16NSBlockOperationC", "init"]
+- !private ["So16NSBlockOperationC", "isCancelled"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "removeFromSuperlayer"]
+- !private ["So13CAMediaTimingP", "removeFromSuperlayer"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addExecutionBlock"]
+- !private ["s7CVarArgP", "addInput"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "cancelAllOperations"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "devices"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "inputs"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "isMainThread"]
+- !private ["s7CVarArgP", "isRunning"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "maxConcurrentOperationCount"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "qualityOfService"]
+- !private ["s7CVarArgP", "removeFromSuperlayer"]
+- !private ["s7CVarArgP", "removeInput"]
+- !private ["s7CVarArgP", "startRunning"]
+- !private ["s7CVarArgP", "stopRunning"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "addExecutionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "addInput"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAllOperations"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "devices"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inputs"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isMainThread"]
+- !private ["s28CustomDebugStringConvertibleP", "isRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "qualityOfService"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "removeInput"]
+- !private ["s28CustomDebugStringConvertibleP", "startRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "stopRunning"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addExecutionBlock"]
+- !private ["s23CustomStringConvertibleP", "addInput"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "cancelAllOperations"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "devices"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inputs"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "isMainThread"]
+- !private ["s23CustomStringConvertibleP", "isRunning"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "qualityOfService"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperlayer"]
+- !private ["s23CustomStringConvertibleP", "removeInput"]
+- !private ["s23CustomStringConvertibleP", "startRunning"]
+- !private ["s23CustomStringConvertibleP", "stopRunning"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addExecutionBlock"]
+- !private ["SQ", "addInput"]
+- !private ["SQ", "addOperation"]
+- !private ["SQ", "async"]
+- !private ["SQ", "cancelAllOperations"]
+- !private ["SQ", "count"]
+- !private ["SQ", "default"]
+- !private ["SQ", "devices"]
+- !private ["SQ", "first"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "inputs"]
+- !private ["SQ", "isCancelled"]
+- !private ["SQ", "isMainThread"]
+- !private ["SQ", "isRunning"]
+- !private ["SQ", "main"]
+- !private ["SQ", "maxConcurrentOperationCount"]
+- !private ["SQ", "position"]
+- !private ["SQ", "qualityOfService"]
+- !private ["SQ", "removeFromSuperlayer"]
+- !private ["SQ", "removeInput"]
+- !private ["SQ", "startRunning"]
+- !private ["SQ", "stopRunning"]
+- !private ["SQ", "userInitiated"]
+- !private ["SQ", "video"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addExecutionBlock"]
+- !private ["SH", "addInput"]
+- !private ["SH", "addOperation"]
+- !private ["SH", "async"]
+- !private ["SH", "cancelAllOperations"]
+- !private ["SH", "count"]
+- !private ["SH", "default"]
+- !private ["SH", "devices"]
+- !private ["SH", "first"]
+- !private ["SH", "forEach"]
+- !private ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "inputs"]
+- !private ["SH", "isCancelled"]
+- !private ["SH", "isMainThread"]
+- !private ["SH", "isRunning"]
+- !private ["SH", "main"]
+- !private ["SH", "maxConcurrentOperationCount"]
+- !private ["SH", "position"]
+- !private ["SH", "qualityOfService"]
+- !private ["SH", "removeFromSuperlayer"]
+- !private ["SH", "removeInput"]
+- !private ["SH", "startRunning"]
+- !private ["SH", "stopRunning"]
+- !private ["SH", "userInitiated"]
+- !private ["SH", "video"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "AVCaptureDevice"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "AVCaptureDeviceInput"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "AVCaptureSession"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "AVCaptureVideoPreviewLayer"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "BlockOperation"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "Bool"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "DispatchQueue"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "LiveCameraSettings"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "OperationQueue"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "Thread"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "Void"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "addInputDevicesIfNeeded"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "assert"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "captureLayer"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "captureSession"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "captureSession.storage"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "deinit"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "init"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "isCapturing"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "isInitialized"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "queue"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "queue.storage"]
+- !private ["15ChattoAdditions24LiveCameraCaptureSessionC", "removeInputDevices"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "settings"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "startCapturing"]
+- ["15ChattoAdditions24LiveCameraCaptureSessionC", "stopCapturing"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "AVCaptureDevice"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "AVCaptureDeviceInput"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "AVCaptureVideoPreviewLayer"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "BlockOperation"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "Bool"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "DispatchQueue"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "OperationQueue"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "Thread"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "Void"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", ""]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "addInputDevicesIfNeeded"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "assert"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "captureLayer"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "captureSession"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "isCapturing"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "isInitialized"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "queue"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "removeInputDevices"]
+- !private ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "settings"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "startCapturing"]
+- ["15ChattoAdditions32LiveCameraCaptureSessionProtocolP", "stopCapturing"]
+- !private ["15ChattoAdditions18LiveCameraSettingsV", "cameraPosition"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "forEach"]
+- !private ["So8NSCodingP", "removeFromSuperlayer"]
+- !private ["So8NSObjectC", "addExecutionBlock"]
+- !private ["So8NSObjectC", "addInput"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "cancelAllOperations"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "devices"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "inputs"]
+- !private ["So8NSObjectC", "isCancelled"]
+- !private ["So8NSObjectC", "isMainThread"]
+- !private ["So8NSObjectC", "isRunning"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectC", "position"]
+- !private ["So8NSObjectC", "qualityOfService"]
+- !private ["So8NSObjectC", "removeFromSuperlayer"]
+- !private ["So8NSObjectC", "removeInput"]
+- !private ["So8NSObjectC", "startRunning"]
+- !private ["So8NSObjectC", "stopRunning"]
+- !private ["So8NSObjectP", "addExecutionBlock"]
+- !private ["So8NSObjectP", "addInput"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "cancelAllOperations"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "devices"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "inputs"]
+- !private ["So8NSObjectP", "isCancelled"]
+- !private ["So8NSObjectP", "isMainThread"]
+- !private ["So8NSObjectP", "isRunning"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectP", "position"]
+- !private ["So8NSObjectP", "qualityOfService"]
+- !private ["So8NSObjectP", "removeFromSuperlayer"]
+- !private ["So8NSObjectP", "removeInput"]
+- !private ["So8NSObjectP", "startRunning"]
+- !private ["So8NSObjectP", "stopRunning"]
+- !private ["So14NSSecureCodingP", "removeFromSuperlayer"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So11NSOperationC", "addExecutionBlock"]
+- !private ["So11NSOperationC", "init"]
+- !private ["So11NSOperationC", "isCancelled"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["So16NSOperationQueueC", "cancelAllOperations"]
+- !private ["So16NSOperationQueueC", "init"]
+- !private ["So16NSOperationQueueC", "maxConcurrentOperationCount"]
+- !private ["So16NSOperationQueueC", "qualityOfService"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["So18NSQualityOfServiceV", "userInitiated"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "userInitiated"]
+- !private ["SY", "video"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So8NSThreadC", "isMainThread"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addExecutionBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelAllOperations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "devices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMainThread"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentOperationCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "qualityOfService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopRunning"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s20_SwiftNewtypeWrapperP", "video"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- !private "So16AVCaptureSessionC"
+- !private "So26AVCaptureVideoPreviewLayerC"
+- !private "So11AVMediaTypea"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So16NSBlockOperationC"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "15ChattoAdditions24LiveCameraCaptureSessionC"
+- "15ChattoAdditions32LiveCameraCaptureSessionProtocolP"
+- !private "15ChattoAdditions18LiveCameraSettingsV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "So11NSOperationC"
+- !private "So16NSOperationQueueC"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "So18NSQualityOfServiceV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So8NSThreadC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleIconView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressIndicatorView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4656763c06adb3ef354b754847174be5"

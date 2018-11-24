@@ -1,0 +1,271 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- ">=~"
+- ">=~"
+- "bma_combine"
+provides-nominal:
+provides-member:
+- ["So12UIScrollViewC", ""]
+- ["So12UIScrollViewC", "chatto_setContentInsetAdjustment"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&*"
+- !private "&+"
+- !private "*"
+- !private ">="
+- ">=~"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "DefaultPrecedence"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+- "UIScreen"
+- "UIScrollView"
+- "UIViewController"
+- "bma_combine"
+- !private "round"
+- !private "scale"
+depends-member:
+- !private ["Sa", "reduce"]
+- !private ["s13ArrayProtocolP", "reduce"]
+- !private ["SK", "reduce"]
+- !private ["Sz", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "contentInsetAdjustmentBehavior"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s7CVarArgP", "contentInsetAdjustmentBehavior"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "reduce"]
+- ["s7CVarArgP", "scale"]
+- !private ["Sl", "reduce"]
+- !private ["SL", "hashValue"]
+- !private ["So42UIScrollViewContentInsetAdjustmentBehaviorV", "always"]
+- !private ["So42UIScrollViewContentInsetAdjustmentBehaviorV", "never"]
+- !private ["s28CustomDebugStringConvertibleP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s28CustomDebugStringConvertibleP", "contentInsetAdjustmentBehavior"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s23CustomStringConvertibleP", "contentInsetAdjustmentBehavior"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- ["s23CustomStringConvertibleP", "scale"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "hashValue"]
+- !private ["Se", "reduce"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "hashValue"]
+- !private ["SE", "reduce"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "always"]
+- !private ["SQ", "automaticallyAdjustsScrollViewInsets"]
+- !private ["SQ", "contentInsetAdjustmentBehavior"]
+- !private ["SQ", "hashValue"]
+- ["SQ", "main"]
+- !private ["SQ", "never"]
+- !private ["SQ", "reduce"]
+- ["SQ", "scale"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "always"]
+- !private ["SH", "automaticallyAdjustsScrollViewInsets"]
+- !private ["SH", "contentInsetAdjustmentBehavior"]
+- !private ["SH", "hashValue"]
+- ["SH", "main"]
+- !private ["SH", "never"]
+- !private ["SH", "reduce"]
+- ["SH", "scale"]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["SM", "reduce"]
+- !private ["So8NSCodingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So8NSCodingP", "contentInsetAdjustmentBehavior"]
+- !private ["So26NSExtensionRequestHandlingP", "automaticallyAdjustsScrollViewInsets"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "automaticallyAdjustsScrollViewInsets"]
+- ["So8NSObjectC", "chatto_setContentInsetAdjustment"]
+- !private ["So8NSObjectC", "contentInsetAdjustmentBehavior"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So8NSObjectP", "contentInsetAdjustmentBehavior"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "scale"]
+- !private ["Sj", "hashValue"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", "reduce"]
+- !private ["SY", "always"]
+- !private ["SY", "never"]
+- !private ["ST", "reduce"]
+- !private ["SZ", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["Sx", "hashValue"]
+- !private ["So29UIAccessibilityIdentificationP", "contentInsetAdjustmentBehavior"]
+- !private ["So12UIAppearanceP", "contentInsetAdjustmentBehavior"]
+- !private ["So21UIAppearanceContainerP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So21UIAppearanceContainerP", "contentInsetAdjustmentBehavior"]
+- !private ["So18UIContentContainerP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So17UICoordinateSpaceP", "contentInsetAdjustmentBehavior"]
+- !private ["So13UIDynamicItemP", "contentInsetAdjustmentBehavior"]
+- !private ["So18UIFocusEnvironmentP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So18UIFocusEnvironmentP", "contentInsetAdjustmentBehavior"]
+- !private ["So11UIFocusItemP", "contentInsetAdjustmentBehavior"]
+- !private ["So20UIFocusItemContainerP", "contentInsetAdjustmentBehavior"]
+- !private ["So30UIFocusItemScrollableContainerP", "contentInsetAdjustmentBehavior"]
+- !private ["So30UIPasteConfigurationSupportingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentInsetAdjustmentBehavior"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "automaticallyAdjustsScrollViewInsets"]
+- ["So11UIResponderC", "chatto_setContentInsetAdjustment"]
+- !private ["So11UIResponderC", "contentInsetAdjustmentBehavior"]
+- !private ["So30UIResponderStandardEditActionsP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So30UIResponderStandardEditActionsP", "contentInsetAdjustmentBehavior"]
+- ["So8UIScreenC", "main"]
+- ["So8UIScreenC", "scale"]
+- ["So12UIScrollViewC", "Bool"]
+- ["So12UIScrollViewC", "UIViewController"]
+- ["So12UIScrollViewC", "chatto_setContentInsetAdjustment"]
+- !private ["So12UIScrollViewC", "contentInsetAdjustmentBehavior"]
+- !private ["So16UIStateRestoringP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So18UITraitEnvironmentP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So18UITraitEnvironmentP", "contentInsetAdjustmentBehavior"]
+- ["So18UITraitEnvironmentP", "main"]
+- ["So18UITraitEnvironmentP", "scale"]
+- !private ["So23UIUserActivityRestoringP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["So23UIUserActivityRestoringP", "contentInsetAdjustmentBehavior"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "UIViewController"]
+- ["So6UIViewC", "chatto_setContentInsetAdjustment"]
+- !private ["So6UIViewC", "contentInsetAdjustmentBehavior"]
+- !private ["So16UIViewControllerC", "automaticallyAdjustsScrollViewInsets"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentInsetAdjustmentBehavior"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "automaticallyAdjustsScrollViewInsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentInsetAdjustmentBehavior"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "So42UIScrollViewContentInsetAdjustmentBehaviorV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So8UIScreenC"
+- "So12UIScrollViewC"
+- !private "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fa6029e29a75c55603516f5ea9c5efd5"

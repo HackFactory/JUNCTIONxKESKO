@@ -1,0 +1,403 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextMessagePresenter"
+provides-nominal:
+- "15ChattoAdditions20TextMessagePresenterC"
+provides-member:
+- ["15ChattoAdditions20TextMessagePresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BaseMessageCollectionViewCell"
+- "BaseMessageCollectionViewCellStyleProtocol"
+- "BaseMessageInteractionHandlerProtocol"
+- "BaseMessagePresenter"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "ChatItemDecorationAttributes"
+- !private "FloatLiteralType"
+- "IndexPath"
+- !private "IntegerLiteralType"
+- "NSCache"
+- "Selector"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TextBubbleView"
+- "TextMessageCollectionViewCell"
+- "TextMessageCollectionViewCellStyleProtocol"
+- "TextMessagePresenter"
+- "TextMessageViewModelProtocol"
+- "UICollectionView"
+- "UICollectionViewCell"
+- !private "UIPasteboard"
+- !private "UIResponderStandardEditActions"
+- "ViewModelBuilderProtocol"
+- "Void"
+- !private "assert"
+depends-member:
+- ["15ChattoAdditions20BaseMessagePresenterC", "AnyObject"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "BaseMessageCollectionViewCell"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "BaseMessageCollectionViewCellStyleProtocol"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "Bool"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "ChatItemDecorationAttributes"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "IndexPath"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "InteractionHandlerT"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "ModelT"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "NSCache"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "Selector"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "TextBubbleView"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "TextMessageCollectionViewCell"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "TextMessageCollectionViewCellStyleProtocol"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "UICollectionView"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "UICollectionViewCell"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "UIPasteboard"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "UIResponderStandardEditActions"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "ViewModelBuilderT"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "Void"]
+- ["15ChattoAdditions20BaseMessagePresenterC", ""]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "assert"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "canPerformMenuControllerAction"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "canShowMenu"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "cell"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "configureCell"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "createViewModel"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "decorationAttributes"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "dequeueCell"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "init"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "itemVisibility"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "layoutCache"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "messageModel"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "messageViewModel"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "performMenuControllerAction"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "registerCells"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "textCell"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "textCellStyle"]
+- ["15ChattoAdditions20BaseMessagePresenterC", "updateCurrentCell"]
+- !private ["15ChattoAdditions20BaseMessagePresenterC", "viewModelBuilder"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "general"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "string"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "general"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "general"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "avatarImage"]
+- !private ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "isIncoming"]
+- !private ["15ChattoAdditions33DecoratedMessageViewModelProtocolP", "text"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "general"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "register"]
+- !private ["SQ", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "general"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "register"]
+- !private ["SH", "string"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["15ChattoAdditions24MessageViewModelProtocolP", "avatarImage"]
+- !private ["15ChattoAdditions24MessageViewModelProtocolP", "isIncoming"]
+- !private ["15ChattoAdditions24MessageViewModelProtocolP", "text"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "general"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "copy"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "general"]
+- !private ["So8NSObjectP", "register"]
+- !private ["So8NSObjectP", "string"]
+- !private ["15ChattoAdditions10ObservableC", "observe"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["15ChattoAdditions14TextBubbleViewC", "deinit"]
+- ["15ChattoAdditions20TextMessagePresenterC", "AnyObject"]
+- ["15ChattoAdditions20TextMessagePresenterC", "BaseMessageCollectionViewCell"]
+- ["15ChattoAdditions20TextMessagePresenterC", "BaseMessageCollectionViewCellStyleProtocol"]
+- ["15ChattoAdditions20TextMessagePresenterC", "Bool"]
+- ["15ChattoAdditions20TextMessagePresenterC", "ChatItemDecorationAttributes"]
+- ["15ChattoAdditions20TextMessagePresenterC", "IndexPath"]
+- ["15ChattoAdditions20TextMessagePresenterC", "InteractionHandlerT"]
+- ["15ChattoAdditions20TextMessagePresenterC", "ModelT"]
+- ["15ChattoAdditions20TextMessagePresenterC", "NSCache"]
+- ["15ChattoAdditions20TextMessagePresenterC", "Selector"]
+- ["15ChattoAdditions20TextMessagePresenterC", "TextBubbleView"]
+- ["15ChattoAdditions20TextMessagePresenterC", "TextMessageCollectionViewCell"]
+- ["15ChattoAdditions20TextMessagePresenterC", "TextMessageCollectionViewCellStyleProtocol"]
+- ["15ChattoAdditions20TextMessagePresenterC", "UICollectionView"]
+- ["15ChattoAdditions20TextMessagePresenterC", "UICollectionViewCell"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "UIPasteboard"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "UIResponderStandardEditActions"]
+- ["15ChattoAdditions20TextMessagePresenterC", "ViewModelBuilderT"]
+- ["15ChattoAdditions20TextMessagePresenterC", "ViewModelT"]
+- ["15ChattoAdditions20TextMessagePresenterC", "Void"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "assert"]
+- ["15ChattoAdditions20TextMessagePresenterC", "canPerformMenuControllerAction"]
+- ["15ChattoAdditions20TextMessagePresenterC", "canShowMenu"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "cell"]
+- ["15ChattoAdditions20TextMessagePresenterC", "configureCell"]
+- ["15ChattoAdditions20TextMessagePresenterC", "createViewModel"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "decorationAttributes"]
+- ["15ChattoAdditions20TextMessagePresenterC", "dequeueCell"]
+- ["15ChattoAdditions20TextMessagePresenterC", "init"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "itemVisibility"]
+- ["15ChattoAdditions20TextMessagePresenterC", "layoutCache"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "messageModel"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "messageViewModel"]
+- ["15ChattoAdditions20TextMessagePresenterC", "performMenuControllerAction"]
+- ["15ChattoAdditions20TextMessagePresenterC", "registerCells"]
+- ["15ChattoAdditions20TextMessagePresenterC", "textCell"]
+- ["15ChattoAdditions20TextMessagePresenterC", "textCellStyle"]
+- ["15ChattoAdditions20TextMessagePresenterC", "updateCurrentCell"]
+- !private ["15ChattoAdditions20TextMessagePresenterC", "viewModelBuilder"]
+- !private ["15ChattoAdditions28TextMessageViewModelProtocolP", "avatarImage"]
+- !private ["15ChattoAdditions28TextMessageViewModelProtocolP", "isIncoming"]
+- !private ["15ChattoAdditions28TextMessageViewModelProtocolP", "text"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So16UICollectionViewC", "dequeueReusableCell"]
+- !private ["So16UICollectionViewC", "register"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "register"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So12UIPasteboardC", "general"]
+- !private ["So12UIPasteboardC", "string"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "copy"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "register"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "register"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "ModelT"]
+- ["15ChattoAdditions24ViewModelBuilderProtocolP", "ViewModelT"]
+- !private ["15ChattoAdditions24ViewModelBuilderProtocolP", "createViewModel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "general"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "15ChattoAdditions20BaseMessagePresenterC"
+- !private "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "15ChattoAdditions33DecoratedMessageViewModelProtocolP"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "15ChattoAdditions24MessageViewModelProtocolP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "15ChattoAdditions10ObservableC"
+- !private "Sm"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- "15ChattoAdditions14TextBubbleViewC"
+- "15ChattoAdditions20TextMessagePresenterC"
+- !private "15ChattoAdditions28TextMessageViewModelProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPasteboardC"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "15ChattoAdditions24ViewModelBuilderProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleIconView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressIndicatorView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/CircleProgressView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a06d41419426242e4c6a34f3eac7e3c0"
