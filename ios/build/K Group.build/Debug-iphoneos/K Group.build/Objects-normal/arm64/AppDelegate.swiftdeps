@@ -14,18 +14,22 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- !private "/"
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
-- "FloatLiteralType"
+- !private "FloatLiteralType"
 - "IntegerLiteralType"
 - !private "NSError"
 - "NSPersistentContainer"
 - "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
+- !private "UIColor"
 - "UIResponder"
+- !private "UITabBar"
 - "UIWindow"
 - !private "fatalError"
 depends-member:
@@ -33,6 +37,8 @@ depends-member:
 - !private ["7K_Group11AppDelegateC", "NSError"]
 - ["7K_Group11AppDelegateC", "NSPersistentContainer"]
 - ["7K_Group11AppDelegateC", "UIApplication"]
+- !private ["7K_Group11AppDelegateC", "UIColor"]
+- !private ["7K_Group11AppDelegateC", "UITabBar"]
 - ["7K_Group11AppDelegateC", "UIWindow"]
 - ["7K_Group11AppDelegateC", "application"]
 - ["7K_Group11AppDelegateC", "applicationDidBecomeActive"]
@@ -56,10 +62,15 @@ depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "appearance"]
+- !private ["So15CALayerDelegateP", "tintColor"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "NSPersistentContainer"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UITabBar"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "appearance"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -80,6 +91,7 @@ depends-member:
 - !private ["s7CVarArgP", "persistentContainer"]
 - !private ["s7CVarArgP", "save"]
 - !private ["s7CVarArgP", "saveContext"]
+- !private ["s7CVarArgP", "tintColor"]
 - !private ["s7CVarArgP", "userInfo"]
 - !private ["s7CVarArgP", "viewContext"]
 - ["s7CVarArgP", "window"]
@@ -89,7 +101,10 @@ depends-member:
 - !private ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "NSPersistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UITabBar"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appearance"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -110,6 +125,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
 - !private ["s28CustomDebugStringConvertibleP", "save"]
 - !private ["s28CustomDebugStringConvertibleP", "saveContext"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
 - !private ["s28CustomDebugStringConvertibleP", "userInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "viewContext"]
 - ["s28CustomDebugStringConvertibleP", "window"]
@@ -121,8 +137,11 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "NSPersistentContainer"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UITabBar"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appearance"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -143,6 +162,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "persistentContainer"]
 - !private ["s23CustomStringConvertibleP", "save"]
 - !private ["s23CustomStringConvertibleP", "saveContext"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
 - !private ["s23CustomStringConvertibleP", "userInfo"]
 - !private ["s23CustomStringConvertibleP", "viewContext"]
 - ["s23CustomStringConvertibleP", "window"]
@@ -154,8 +174,11 @@ depends-member:
 - !private ["SE", "init"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "NSPersistentContainer"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UITabBar"]
 - ["SQ", ""]
 - !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "appearance"]
 - ["SQ", "application"]
 - ["SQ", "applicationDidBecomeActive"]
 - ["SQ", "applicationDidEnterBackground"]
@@ -176,6 +199,7 @@ depends-member:
 - !private ["SQ", "persistentContainer"]
 - !private ["SQ", "save"]
 - !private ["SQ", "saveContext"]
+- !private ["SQ", "tintColor"]
 - !private ["SQ", "userInfo"]
 - !private ["SQ", "viewContext"]
 - ["SQ", "window"]
@@ -189,8 +213,11 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "NSPersistentContainer"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UITabBar"]
 - ["SH", ""]
 - !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "appearance"]
 - ["SH", "application"]
 - ["SH", "applicationDidBecomeActive"]
 - ["SH", "applicationDidEnterBackground"]
@@ -211,6 +238,7 @@ depends-member:
 - !private ["SH", "persistentContainer"]
 - !private ["SH", "save"]
 - !private ["SH", "saveContext"]
+- !private ["SH", "tintColor"]
 - !private ["SH", "userInfo"]
 - !private ["SH", "viewContext"]
 - ["SH", "window"]
@@ -219,11 +247,17 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "appearance"]
 - !private ["So8NSCodingP", "hasChanges"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "save"]
+- !private ["So8NSCodingP", "tintColor"]
 - !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "userInfo"]
 - !private ["So7NSErrorC", "userInfo"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So9NSLockingP", "hasChanges"]
 - !private ["So9NSLockingP", "save"]
 - !private ["So22NSManagedObjectContextC", "hasChanges"]
@@ -233,7 +267,10 @@ depends-member:
 - !private ["So8NSObjectC", "NSError"]
 - ["So8NSObjectC", "NSPersistentContainer"]
 - ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UITabBar"]
 - ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "appearance"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
 - ["So8NSObjectC", "applicationDidEnterBackground"]
@@ -255,12 +292,16 @@ depends-member:
 - ["So8NSObjectC", "persistentContainer.storage"]
 - !private ["So8NSObjectC", "save"]
 - ["So8NSObjectC", "saveContext"]
+- !private ["So8NSObjectC", "tintColor"]
 - !private ["So8NSObjectC", "userInfo"]
 - !private ["So8NSObjectC", "viewContext"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - !private ["So8NSObjectP", "NSPersistentContainer"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UITabBar"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "appearance"]
 - ["So8NSObjectP", "application"]
 - ["So8NSObjectP", "applicationDidBecomeActive"]
 - ["So8NSObjectP", "applicationDidEnterBackground"]
@@ -281,12 +322,14 @@ depends-member:
 - !private ["So8NSObjectP", "persistentContainer"]
 - !private ["So8NSObjectP", "save"]
 - !private ["So8NSObjectP", "saveContext"]
+- !private ["So8NSObjectP", "tintColor"]
 - !private ["So8NSObjectP", "userInfo"]
 - !private ["So8NSObjectP", "viewContext"]
 - ["So8NSObjectP", "window"]
 - !private ["So21NSPersistentContainerC", "init"]
 - !private ["So21NSPersistentContainerC", "loadPersistentStores"]
 - !private ["So21NSPersistentContainerC", "viewContext"]
+- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "userInfo"]
 - !private ["Sm", "init"]
 - !private ["Sm", "init"]
@@ -302,8 +345,16 @@ depends-member:
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "appearance"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So12UIAppearanceP", "appearance"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "appearance"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - !private ["So21UIApplicationDelegateP", "NSPersistentContainer"]
+- !private ["So21UIApplicationDelegateP", "UIColor"]
+- !private ["So21UIApplicationDelegateP", "UITabBar"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
@@ -321,9 +372,23 @@ depends-member:
 - !private ["So21UIApplicationDelegateP", "persistentContainer"]
 - !private ["So21UIApplicationDelegateP", "saveContext"]
 - ["So21UIApplicationDelegateP", "window"]
+- !private ["So7UIColorC", "init"]
+- !private ["So17UICoordinateSpaceP", "appearance"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So13UIDynamicItemP", "appearance"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "appearance"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So11UIFocusItemP", "appearance"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So20UIFocusItemContainerP", "appearance"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSPersistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITabBar"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "appearance"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -341,14 +406,18 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
 - !private ["So30UIPasteConfigurationSupportingP", "saveContext"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - !private ["So11UIResponderC", "NSError"]
 - ["So11UIResponderC", "NSPersistentContainer"]
 - ["So11UIResponderC", "UIApplication"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UITabBar"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "appearance"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
 - ["So11UIResponderC", "applicationDidEnterBackground"]
@@ -367,10 +436,14 @@ depends-member:
 - ["So11UIResponderC", "persistentContainer"]
 - ["So11UIResponderC", "persistentContainer.storage"]
 - ["So11UIResponderC", "saveContext"]
+- !private ["So11UIResponderC", "tintColor"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - !private ["So30UIResponderStandardEditActionsP", "NSPersistentContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UITabBar"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "appearance"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -388,10 +461,20 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
 - !private ["So30UIResponderStandardEditActionsP", "saveContext"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
 - ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "appearance"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
+- !private ["So8UITabBarC", "appearance"]
+- !private ["So8UITabBarC", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "appearance"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - !private ["So23UIUserActivityRestoringP", "NSPersistentContainer"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "UITabBar"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "appearance"]
 - ["So23UIUserActivityRestoringP", "application"]
 - ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
 - ["So23UIUserActivityRestoringP", "applicationDidEnterBackground"]
@@ -409,9 +492,14 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "persistentContainer"]
 - !private ["So23UIUserActivityRestoringP", "saveContext"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
 - ["So23UIUserActivityRestoringP", "window"]
+- !private ["So6UIViewC", "appearance"]
+- !private ["So6UIViewC", "tintColor"]
 - !private ["9Alamofire14URLConvertibleP", "init"]
 - !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "appearance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
@@ -421,11 +509,15 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPersistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITabBar"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearance"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -446,6 +538,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
@@ -458,6 +551,7 @@ depends-nominal:
 - "7K_Group11AppDelegateC"
 - !private "SK"
 - !private "Sb"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
@@ -479,6 +573,8 @@ depends-nominal:
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - !private "So9NSLockingP"
 - !private "So22NSManagedObjectContextC"
 - "So8NSObjectC"
@@ -492,18 +588,33 @@ depends-nominal:
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
+- !private "So7UIColorC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So8UITabBarC"
+- !private "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - !private "9Alamofire14URLConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -511,6 +622,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/SkyFloatingLabelTextField.swiftmodule/arm64.swiftmodule"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
@@ -528,6 +640,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-umbrella.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText-umbrella.h"
@@ -554,6 +667,7 @@ depends-external:
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextUtilities.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
@@ -574,6 +688,7 @@ depends-external:
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/module.modulemap"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Modules/module.modulemap"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Modules/module.modulemap"

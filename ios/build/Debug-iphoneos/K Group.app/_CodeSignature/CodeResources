@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		9eTnofKvhPilq8NaElXwM2BsgSA=
+		3GFYwKCKl7p6W0YyO6P6Q6YLvOU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		fYSYXp+49fyOJe2VqfyVA9V5U00=
+		05MPPe0DjOCZ9hb5CUFBvsWjRI8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Ifi-eq-ev5-view-3BL-Zo-Eep.nib</key>
 		<data>
-		9HGSR0BhdxCNlcQ8AOtO8cyLSTc=
+		A0frPC+mqabFzFmjzNqcFFOMBaw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,35 +30,35 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/JPs-D7-JOj-view-hTa-pG-Qzb.nib</key>
 		<data>
-		tJrdhkGpa++oAdRrlwMsrFiqYT8=
+		R3kvtWynEz9Ud/x04tf49xmOm84=
 		</data>
 		<key>Base.lproj/Main.storyboardc/NqH-Xu-M69-view-fsh-FV-Zl4.nib</key>
 		<data>
-		5DkwjnudLIeQdP33NWvXCuYp920=
+		Z2tnj/HqL5e2CAzJkGK8gzLr+uM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-y8Q-F8-noq.nib</key>
 		<data>
-		OyEl5+5n5rAXeQxlJNgH93a4uas=
+		w87+2f7sMLmG50cl3wYCEjX3Q/s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-JPs-D7-JOj.nib</key>
 		<data>
-		o548zLPygxRAKdhlTTO/ai3sFAs=
+		LQBnqNLICuGauoMAL41YDpSV1ko=
 		</data>
 		<key>Base.lproj/Main.storyboardc/dTB-Uz-l5M-view-l6j-yi-0zb.nib</key>
 		<data>
-		xLdhZ+Sl3U4BVB2KJWmTt6l3V78=
+		leHfZDyovxc2I+4GnPcmrMj3Q8Q=
 		</data>
 		<key>Base.lproj/Main.storyboardc/eBo-eW-d3u-view-ak9-Nj-5gf.nib</key>
 		<data>
-		UPf8dMhF/UUie2Y4A93AgM3Mnk4=
+		gAMSXTjb8flkWdGMz5IY6ZtI6Tc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/qc6-6f-SpD-view-eO8-SQ-LkU.nib</key>
 		<data>
-		RhWl21f8XLNnKnHAA89eoc1+We4=
+		BkZawgGniyeIXfAXj4jcD1voSF0=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		WQBeywson0smS76gpHjARwV1TC8=
+		HnaD+waaDbMquFA2a/y/KLq8n50=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/AwesomeTextFieldSwift.framework/AwesomeTextFieldSwift</key>
 		<data>
-		zIqDPIdlQPuZpknhLYiuXjRBLLI=
+		DKlhgKwdz1sIH8i6Wn7OgvRQf+M=
 		</data>
 		<key>Frameworks/AwesomeTextFieldSwift.framework/Info.plist</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Frameworks/HPGrowingTextView.framework/HPGrowingTextView</key>
 		<data>
-		s2OVBm/fCx5rwt47/ZsOH2zjSRQ=
+		fKu1fd7CzSBeVM8w0sk2N3oplEs=
 		</data>
 		<key>Frameworks/HPGrowingTextView.framework/Info.plist</key>
 		<data>
@@ -98,11 +98,35 @@
 		</data>
 		<key>Frameworks/NoChat.framework/NoChat</key>
 		<data>
-		wkvQ7JSMV6Yk774JWq/Shbp8tUU=
+		rNhmzrtOcZcx/Kn0ZxoTQEBnTI0=
 		</data>
 		<key>Frameworks/NoChat.framework/_CodeSignature/CodeResources</key>
 		<data>
 		Yi2QqpDsk4ONoY8BUcPyqciPW74=
+		</data>
+		<key>Frameworks/SkyFloatingLabelTextField.framework/Info.plist</key>
+		<data>
+		aPR1gnKZodr3JDl9imbBfAaYfbk=
+		</data>
+		<key>Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField</key>
+		<data>
+		asLtEeuM1r48LqHh7EYojDLttL4=
+		</data>
+		<key>Frameworks/SkyFloatingLabelTextField.framework/_CodeSignature/CodeResources</key>
+		<data>
+		fpJKNQ21RHZH6BwCHy8tJLBZy20=
+		</data>
+		<key>Frameworks/TextFieldEffects.framework/Info.plist</key>
+		<data>
+		3DWOoS7e46mnFCeBpLmaMw4hOG8=
+		</data>
+		<key>Frameworks/TextFieldEffects.framework/TextFieldEffects</key>
+		<data>
+		hR2oLWcwnMiNdfrRNYdCPr0zvoU=
+		</data>
+		<key>Frameworks/TextFieldEffects.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Gq4SQzCR22aJfgYUBnzFF8ysgsc=
 		</data>
 		<key>Frameworks/YYText.framework/Info.plist</key>
 		<data>
@@ -110,7 +134,7 @@
 		</data>
 		<key>Frameworks/YYText.framework/YYText</key>
 		<data>
-		jcTjODpCmAzm2humL2lnOU7q4mg=
+		NzfcRgyrG8mDJ00uOzTTay24GfY=
 		</data>
 		<key>Frameworks/YYText.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -234,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hJfvSiTSHEUBk0jFhaYOXr+SbW7y8jERCzFjOHrtPak=
+			lKZTRu1xzkmApUEx6LzcepVe+QKUNWxEnOoZ+Tlup0o=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -248,14 +272,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CVdwSoEiCSJWNsN2JUStsRdRzvOHh8IDnTIgyj+g1SQ=
+			wJJGHW8X+hhVcc+i5oYqnNwRPReBpve1wp0Xm5uh2EA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Ifi-eq-ev5-view-3BL-Zo-Eep.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bOeuZ+789jafUoalvv9DK1+twgje5O8MUGP/vdIRXZY=
+			l7QkiydpCblHtkNOumkh9VeToD0r5iCJq0Ot1yyPqPU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -269,56 +293,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wpFaI2yAGCZZPn2UUD8yOJVAdGaiwA3UNt/rVUoH2LA=
+			hSRPEei+XyQywJihn1MDbRspkEl3qdQgbzLk2rn4Eu0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/NqH-Xu-M69-view-fsh-FV-Zl4.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+028XqFAOUSbGeW+dRxPrjDeJiTeZi8ucCzkBiJGMCs=
+			PpO4rarFCSHFayRdL6Eqt2Xtc+nGh4Dfxx1st/L+S00=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-y8Q-F8-noq.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IG8HoYJKFpaqUnw4zuQgGTILUSjheEAv/5Q4cLgfqGM=
+			4bTT54+xqV0tYP30pDKPmwMu6EA9a+1l0XWhKQERsz4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-JPs-D7-JOj.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			syf4oZMOu18Tn+0KOEqsrnz04pIinvuXZEztmidZffo=
+			S8lRipaJVQtcDHIfHCJ3NDB/ktqNJhXeMNUIutoL6Go=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/dTB-Uz-l5M-view-l6j-yi-0zb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaBwJZkkO5KYOYAHZePChrl+5tXz2aO8Y9jgpIUNLJA=
+			6k4VovoKHOBD3PodyOeZByoVQAxUQiaCORsZhNuu274=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/eBo-eW-d3u-view-ak9-Nj-5gf.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJaYsjnoJg7xWfDmn01F/jR0dCiCPCIiNtpmoBURABg=
+			0Biy/W+ihAGu0en/5OgP5SMkJB/5luUfeBjpjQZwVaU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/qc6-6f-SpD-view-eO8-SQ-LkU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jrd0+IwuL3B9knvFRrpl2SGwd9U44NbUH/E1mYFRpHk=
+			Y2TsLnZK1b4cM37b7+/dGtwdfSp/WQ+bVZfqweOZuM8=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PP6zxjtQnV/C69OXMfhP7kDlfKEv1bjxlEWNPnhCK1k=
+			hLNAiA1eaF+zggOpVpwQQEYoFYk6r3+MuuSWAD376YA=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -339,7 +363,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6L1wPCOx/VIYKjihvhtqLCrBtQnZBVfQek3Vd5TEaY=
+			T0ckgn//bjeXkMsfzboMVqv1ZjLNKdz61TDysec9WHk=
 			</data>
 		</dict>
 		<key>Frameworks/AwesomeTextFieldSwift.framework/Info.plist</key>
@@ -360,7 +384,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3ZIYp30xQavcLOHRBEPbQ1F53u0Rb6L0TefFKvV3Rk=
+			2xt0Pi6K8dD6t/XxyTv0V5o3NfA3jqYeXMjWQ42jgas=
 			</data>
 		</dict>
 		<key>Frameworks/HPGrowingTextView.framework/Info.plist</key>
@@ -388,7 +412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhE/zDFqalaEkn9NCYDU6t6xsoX7P5FCMONPO+Ly/g0=
+			84VMgllrL5NAxfpxidDNY9u3irFL0dVHkC9TLN387CE=
 			</data>
 		</dict>
 		<key>Frameworks/NoChat.framework/_CodeSignature/CodeResources</key>
@@ -396,6 +420,48 @@
 			<key>hash2</key>
 			<data>
 			wUGpgwULPUWZRJXstproTMglakzdF6n8XA3IkUSffCs=
+			</data>
+		</dict>
+		<key>Frameworks/SkyFloatingLabelTextField.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QQPz1AaoN4R8W/ofhwTUWiSPoyjnJn35mRf0DMNxKKI=
+			</data>
+		</dict>
+		<key>Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UAUnlAyJItB2lBTSWJ7SN/VCpltE3VmIX0PIKr5qyf0=
+			</data>
+		</dict>
+		<key>Frameworks/SkyFloatingLabelTextField.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bio1i42wMtkD+oBei/3gGDuQhQZPXOvr70eDnbj2yZg=
+			</data>
+		</dict>
+		<key>Frameworks/TextFieldEffects.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J4gC2uDC0UbWPyXacz3UmsKY5rteAGF8BqMh7XonpBE=
+			</data>
+		</dict>
+		<key>Frameworks/TextFieldEffects.framework/TextFieldEffects</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A4vA565d9bqZHH7yXaQMKEKosET+7d5NQfLAxpv0ekM=
+			</data>
+		</dict>
+		<key>Frameworks/TextFieldEffects.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WRYJ/Q/q/P5+KPy4y9dKyKVZ9W1lUElp29Y36vdBVFo=
 			</data>
 		</dict>
 		<key>Frameworks/YYText.framework/Info.plist</key>
@@ -409,7 +475,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHDiuOwU1CC7fKBuAH4XfpJx5YxcJkZHF3XYjOzM/nI=
+			Ms5UgQyfvT/AdRwOkvOBFaVidleMZdNaWPgeWregQ80=
 			</data>
 		</dict>
 		<key>Frameworks/YYText.framework/_CodeSignature/CodeResources</key>

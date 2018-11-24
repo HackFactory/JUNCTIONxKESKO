@@ -1,0 +1,216 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So11UITextFieldC", ""]
+- ["So11UITextFieldC", "fixCaretPosition"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "UITextField"
+depends-member:
+- !private ["So15CALayerDelegateP", "beginningOfDocument"]
+- !private ["So15CALayerDelegateP", "endOfDocument"]
+- !private ["So15CALayerDelegateP", "selectedTextRange"]
+- !private ["So15CALayerDelegateP", "textRange"]
+- !private ["s7CVarArgP", "beginningOfDocument"]
+- !private ["s7CVarArgP", "endOfDocument"]
+- !private ["s7CVarArgP", "selectedTextRange"]
+- !private ["s7CVarArgP", "textRange"]
+- !private ["s28CustomDebugStringConvertibleP", "beginningOfDocument"]
+- !private ["s28CustomDebugStringConvertibleP", "endOfDocument"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedTextRange"]
+- !private ["s28CustomDebugStringConvertibleP", "textRange"]
+- !private ["s23CustomStringConvertibleP", "beginningOfDocument"]
+- !private ["s23CustomStringConvertibleP", "endOfDocument"]
+- !private ["s23CustomStringConvertibleP", "selectedTextRange"]
+- !private ["s23CustomStringConvertibleP", "textRange"]
+- !private ["SQ", "beginningOfDocument"]
+- !private ["SQ", "endOfDocument"]
+- !private ["SQ", "selectedTextRange"]
+- !private ["SQ", "textRange"]
+- !private ["SH", "beginningOfDocument"]
+- !private ["SH", "endOfDocument"]
+- !private ["SH", "selectedTextRange"]
+- !private ["SH", "textRange"]
+- !private ["So8NSCodingP", "beginningOfDocument"]
+- !private ["So8NSCodingP", "endOfDocument"]
+- !private ["So8NSCodingP", "selectedTextRange"]
+- !private ["So8NSCodingP", "textRange"]
+- !private ["So8NSObjectC", "beginningOfDocument"]
+- !private ["So8NSObjectC", "endOfDocument"]
+- ["So8NSObjectC", "fixCaretPosition"]
+- !private ["So8NSObjectC", "selectedTextRange"]
+- !private ["So8NSObjectC", "textRange"]
+- !private ["So8NSObjectP", "beginningOfDocument"]
+- !private ["So8NSObjectP", "endOfDocument"]
+- !private ["So8NSObjectP", "selectedTextRange"]
+- !private ["So8NSObjectP", "textRange"]
+- !private ["So29UIAccessibilityIdentificationP", "beginningOfDocument"]
+- !private ["So29UIAccessibilityIdentificationP", "endOfDocument"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedTextRange"]
+- !private ["So29UIAccessibilityIdentificationP", "textRange"]
+- !private ["So12UIAppearanceP", "beginningOfDocument"]
+- !private ["So12UIAppearanceP", "endOfDocument"]
+- !private ["So12UIAppearanceP", "selectedTextRange"]
+- !private ["So12UIAppearanceP", "textRange"]
+- !private ["So21UIAppearanceContainerP", "beginningOfDocument"]
+- !private ["So21UIAppearanceContainerP", "endOfDocument"]
+- !private ["So21UIAppearanceContainerP", "selectedTextRange"]
+- !private ["So21UIAppearanceContainerP", "textRange"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "beginningOfDocument"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "endOfDocument"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "selectedTextRange"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textRange"]
+- !private ["So9UIControlC", "beginningOfDocument"]
+- !private ["So9UIControlC", "endOfDocument"]
+- ["So9UIControlC", "fixCaretPosition"]
+- !private ["So9UIControlC", "selectedTextRange"]
+- !private ["So9UIControlC", "textRange"]
+- !private ["So17UICoordinateSpaceP", "beginningOfDocument"]
+- !private ["So17UICoordinateSpaceP", "endOfDocument"]
+- !private ["So17UICoordinateSpaceP", "selectedTextRange"]
+- !private ["So17UICoordinateSpaceP", "textRange"]
+- !private ["So13UIDynamicItemP", "beginningOfDocument"]
+- !private ["So13UIDynamicItemP", "endOfDocument"]
+- !private ["So13UIDynamicItemP", "selectedTextRange"]
+- !private ["So13UIDynamicItemP", "textRange"]
+- !private ["So18UIFocusEnvironmentP", "beginningOfDocument"]
+- !private ["So18UIFocusEnvironmentP", "endOfDocument"]
+- !private ["So18UIFocusEnvironmentP", "selectedTextRange"]
+- !private ["So18UIFocusEnvironmentP", "textRange"]
+- !private ["So11UIFocusItemP", "beginningOfDocument"]
+- !private ["So11UIFocusItemP", "endOfDocument"]
+- !private ["So11UIFocusItemP", "selectedTextRange"]
+- !private ["So11UIFocusItemP", "textRange"]
+- !private ["So20UIFocusItemContainerP", "beginningOfDocument"]
+- !private ["So20UIFocusItemContainerP", "endOfDocument"]
+- !private ["So20UIFocusItemContainerP", "selectedTextRange"]
+- !private ["So20UIFocusItemContainerP", "textRange"]
+- !private ["So10UIKeyInputP", "beginningOfDocument"]
+- !private ["So10UIKeyInputP", "endOfDocument"]
+- !private ["So10UIKeyInputP", "selectedTextRange"]
+- !private ["So10UIKeyInputP", "textRange"]
+- !private ["So30UIPasteConfigurationSupportingP", "beginningOfDocument"]
+- !private ["So30UIPasteConfigurationSupportingP", "endOfDocument"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedTextRange"]
+- !private ["So30UIPasteConfigurationSupportingP", "textRange"]
+- !private ["So11UIResponderC", "beginningOfDocument"]
+- !private ["So11UIResponderC", "endOfDocument"]
+- ["So11UIResponderC", "fixCaretPosition"]
+- !private ["So11UIResponderC", "selectedTextRange"]
+- !private ["So11UIResponderC", "textRange"]
+- !private ["So30UIResponderStandardEditActionsP", "beginningOfDocument"]
+- !private ["So30UIResponderStandardEditActionsP", "endOfDocument"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedTextRange"]
+- !private ["So30UIResponderStandardEditActionsP", "textRange"]
+- !private ["So15UITextDraggableP", "beginningOfDocument"]
+- !private ["So15UITextDraggableP", "endOfDocument"]
+- !private ["So15UITextDraggableP", "selectedTextRange"]
+- !private ["So15UITextDraggableP", "textRange"]
+- !private ["So15UITextDroppableP", "beginningOfDocument"]
+- !private ["So15UITextDroppableP", "endOfDocument"]
+- !private ["So15UITextDroppableP", "selectedTextRange"]
+- !private ["So15UITextDroppableP", "textRange"]
+- !private ["So11UITextFieldC", "beginningOfDocument"]
+- !private ["So11UITextFieldC", "endOfDocument"]
+- ["So11UITextFieldC", "fixCaretPosition"]
+- !private ["So11UITextFieldC", "selectedTextRange"]
+- !private ["So11UITextFieldC", "textRange"]
+- !private ["So11UITextInputP", "beginningOfDocument"]
+- !private ["So11UITextInputP", "endOfDocument"]
+- !private ["So11UITextInputP", "selectedTextRange"]
+- !private ["So11UITextInputP", "textRange"]
+- !private ["So17UITextInputTraitsP", "beginningOfDocument"]
+- !private ["So17UITextInputTraitsP", "endOfDocument"]
+- !private ["So17UITextInputTraitsP", "selectedTextRange"]
+- !private ["So17UITextInputTraitsP", "textRange"]
+- !private ["So34UITextPasteConfigurationSupportingP", "beginningOfDocument"]
+- !private ["So34UITextPasteConfigurationSupportingP", "endOfDocument"]
+- !private ["So34UITextPasteConfigurationSupportingP", "selectedTextRange"]
+- !private ["So34UITextPasteConfigurationSupportingP", "textRange"]
+- !private ["So18UITraitEnvironmentP", "beginningOfDocument"]
+- !private ["So18UITraitEnvironmentP", "endOfDocument"]
+- !private ["So18UITraitEnvironmentP", "selectedTextRange"]
+- !private ["So18UITraitEnvironmentP", "textRange"]
+- !private ["So23UIUserActivityRestoringP", "beginningOfDocument"]
+- !private ["So23UIUserActivityRestoringP", "endOfDocument"]
+- !private ["So23UIUserActivityRestoringP", "selectedTextRange"]
+- !private ["So23UIUserActivityRestoringP", "textRange"]
+- !private ["So6UIViewC", "beginningOfDocument"]
+- !private ["So6UIViewC", "endOfDocument"]
+- ["So6UIViewC", "fixCaretPosition"]
+- !private ["So6UIViewC", "selectedTextRange"]
+- !private ["So6UIViewC", "textRange"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "beginningOfDocument"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endOfDocument"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedTextRange"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginningOfDocument"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endOfDocument"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedTextRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textRange"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphoneos/SkyFloatingLabelTextField.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "39397b5d9f66e5c878afb29879c62d8d"

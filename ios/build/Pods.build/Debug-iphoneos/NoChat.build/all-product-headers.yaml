@@ -194,6 +194,60 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphoneos/SkyFloatingLabelTextField.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/TextFieldEffects/TextFieldEffects.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TextFieldEffects-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/TextFieldEffects/TextFieldEffects.framework/Headers/TextFieldEffects-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TextFieldEffects-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/TextFieldEffects/TextFieldEffects-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/TextFieldEffects/TextFieldEffects.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphoneos/TextFieldEffects.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers",
       'contents': [
         {
