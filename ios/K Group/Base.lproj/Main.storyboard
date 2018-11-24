@@ -25,7 +25,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Jbl-dB-g6J"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Places" id="L8g-Jo-pAD"/>
+                    <tabBarItem key="tabBarItem" title="Places" image="shops" id="L8g-Jo-pAD"/>
                     <connections>
                         <outlet property="mapView" destination="vxw-jH-l8Q" id="k1G-bJ-os9"/>
                     </connections>
@@ -44,7 +44,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tpO-ge-zaq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plan" id="gg7-cP-0vM"/>
+                    <tabBarItem key="tabBarItem" title="Plan" image="plans" id="gg7-cP-0vM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BEr-Py-5Jn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,7 +60,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="clW-Jx-UOd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="NJd-El-SeF"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="NJd-El-SeF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bo5-AI-Grl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +121,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XiG-WT-nJx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Featured" id="f63-Vc-AsD"/>
+                    <tabBarItem key="tabBarItem" title="Featured" image="featured" selectedImage="featured" id="f63-Vc-AsD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQC-Ch-6j7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -216,7 +216,7 @@
         <scene sceneID="1fL-4d-Eim">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2wa-B7-ugx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chat" id="SXq-Rm-C2p"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="chat" id="SXq-Rm-C2p"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mmc-nx-48r">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -233,6 +233,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chat" width="30" height="30"/>
+        <image name="featured" width="30" height="30"/>
         <image name="kesk_bigger" width="311" height="347.51998901367188"/>
+        <image name="plans" width="30" height="30"/>
+        <image name="profile" width="30" height="30"/>
+        <image name="shops" width="30" height="30"/>
     </resources>
 </document>
