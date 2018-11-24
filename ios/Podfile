@@ -10,8 +10,6 @@ target 'K Group' do
   pod 'YYText'
   pod 'HPGrowingTextView'
   pod 'Alamofire', '~> 4.7'
-  pod 'AwesomeTextFieldSwift'  
-  pod 'TextFieldEffects'
   pod 'SkyFloatingLabelTextField', '~> 3.0'
   
   target 'K GroupTests' do

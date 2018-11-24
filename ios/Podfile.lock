@@ -1,40 +1,32 @@
 PODS:
   - Alamofire (4.7.3)
-  - AwesomeTextFieldSwift (0.2.5)
   - HPGrowingTextView (1.1)
   - NoChat (0.3.2)
   - SkyFloatingLabelTextField (3.6.0)
-  - TextFieldEffects (1.5.1)
   - YYText (1.0.7)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
-  - AwesomeTextFieldSwift
   - HPGrowingTextView
   - NoChat (~> 0.3)
   - SkyFloatingLabelTextField (~> 3.0)
-  - TextFieldEffects
   - YYText
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
-    - AwesomeTextFieldSwift
     - HPGrowingTextView
     - NoChat
     - SkyFloatingLabelTextField
-    - TextFieldEffects
     - YYText
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  AwesomeTextFieldSwift: 5dbe899fa593144bb6547748b52f916cf4f21756
   HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
   NoChat: aaa980b8b29c0db8c8bd8ecde22e718cc8ad1bf7
   SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
-  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 40b0da2262f6c90ae9583473292f618132ba152f
+PODFILE CHECKSUM: c142f9b3d1df594c92ae5d0494fce483c7a62448
 
 COCOAPODS: 1.5.0

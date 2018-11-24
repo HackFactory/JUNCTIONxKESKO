@@ -25,6 +25,7 @@ depends-top-level:
 - !private "=="
 - !private ">"
 - !private ">="
+- !private "Alamofire"
 - "AnyHashable"
 - !private "Array"
 - "AssignmentPrecedence"
@@ -71,11 +72,13 @@ depends-top-level:
 - "UINavigationController"
 - "UINavigationControllerDelegate"
 - "UIViewController"
+- !private "URLEncoding"
 - !private "User"
 - !private "fatalError"
 - !private "floor"
 - !private "max"
 - !private "min"
+- !private "print"
 depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "init"]
@@ -115,6 +118,7 @@ depends-member:
 - !private ["So6CGRectV", "size"]
 - !private ["So6CGRectV", "width"]
 - !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "Alamofire"]
 - !private ["s7CVarArgP", "CGFloat"]
 - !private ["s7CVarArgP", "CGPoint"]
 - ["s7CVarArgP", "DispatchQoS"]
@@ -138,6 +142,7 @@ depends-member:
 - !private ["s7CVarArgP", "UIBarButtonItem"]
 - !private ["s7CVarArgP", "UIContentSizeCategory"]
 - !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URLEncoding"]
 - !private ["s7CVarArgP", "User"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
@@ -195,6 +200,7 @@ depends-member:
 - ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "register"]
 - !private ["s7CVarArgP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["s7CVarArgP", "reloadData"]
@@ -227,6 +233,7 @@ depends-member:
 - !private ["SL", "greatestFiniteMagnitude"]
 - ["SL", "init"]
 - ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
 - !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
 - ["s28CustomDebugStringConvertibleP", "DispatchQoS"]
@@ -250,6 +257,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
 - !private ["s28CustomDebugStringConvertibleP", "UIContentSizeCategory"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URLEncoding"]
 - !private ["s28CustomDebugStringConvertibleP", "User"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addDelegate"]
@@ -275,6 +283,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "didReceiveMessages"]
 - ["s28CustomDebugStringConvertibleP", "didTapLink"]
 - !private ["s28CustomDebugStringConvertibleP", "endInputting"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
 - !private ["s28CustomDebugStringConvertibleP", "fatalError"]
 - !private ["s28CustomDebugStringConvertibleP", "fetchMessages"]
 - !private ["s28CustomDebugStringConvertibleP", "floor"]
@@ -307,12 +316,15 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
 - !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "register"]
 - !private ["s28CustomDebugStringConvertibleP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["s28CustomDebugStringConvertibleP", "reloadData"]
 - !private ["s28CustomDebugStringConvertibleP", "removeAllObjects"]
 - !private ["s28CustomDebugStringConvertibleP", "removeDelegate"]
 - !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
 - !private ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
 - !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItems"]
 - !private ["s28CustomDebugStringConvertibleP", "scrollToBottom"]
@@ -321,12 +333,14 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setupNavigationItems"]
 - !private ["s28CustomDebugStringConvertibleP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "title"]
 - !private ["s28CustomDebugStringConvertibleP", "titleView"]
 - !private ["s28CustomDebugStringConvertibleP", "topViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "transitionCoordinator"]
 - !private ["s28CustomDebugStringConvertibleP", "unregisterContentSizeCategoryDidChangeNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
@@ -355,6 +369,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "width"]
 - !private ["s17CustomReflectableP", "y"]
 - !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
 - !private ["s23CustomStringConvertibleP", "CGFloat"]
 - !private ["s23CustomStringConvertibleP", "CGPoint"]
 - ["s23CustomStringConvertibleP", "DispatchQoS"]
@@ -378,6 +393,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
 - !private ["s23CustomStringConvertibleP", "UIContentSizeCategory"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URLEncoding"]
 - !private ["s23CustomStringConvertibleP", "User"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
@@ -404,6 +420,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "didReceiveMessages"]
 - ["s23CustomStringConvertibleP", "didTapLink"]
 - !private ["s23CustomStringConvertibleP", "endInputting"]
+- !private ["s23CustomStringConvertibleP", "failure"]
 - !private ["s23CustomStringConvertibleP", "fatalError"]
 - !private ["s23CustomStringConvertibleP", "fetchMessages"]
 - !private ["s23CustomStringConvertibleP", "floor"]
@@ -435,12 +452,15 @@ depends-member:
 - ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "register"]
 - !private ["s23CustomStringConvertibleP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["s23CustomStringConvertibleP", "reloadData"]
 - !private ["s23CustomStringConvertibleP", "removeAllObjects"]
 - !private ["s23CustomStringConvertibleP", "removeDelegate"]
 - !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
 - !private ["s23CustomStringConvertibleP", "reuseIdentifier"]
 - !private ["s23CustomStringConvertibleP", "rightBarButtonItems"]
 - !private ["s23CustomStringConvertibleP", "scrollToBottom"]
@@ -448,14 +468,18 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "senderId"]
 - !private ["s23CustomStringConvertibleP", "setupNavigationItems"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "title"]
 - !private ["s23CustomStringConvertibleP", "titleView"]
 - !private ["s23CustomStringConvertibleP", "topViewController"]
 - !private ["s23CustomStringConvertibleP", "transitionCoordinator"]
 - !private ["s23CustomStringConvertibleP", "unregisterContentSizeCategoryDidChangeNotification"]
+- !private ["s23CustomStringConvertibleP", "value"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["s23CustomStringConvertibleP", "width"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "result"]
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "count"]
 - !private ["Se", "greatestFiniteMagnitude"]
@@ -490,6 +514,7 @@ depends-member:
 - !private ["SE", "width"]
 - !private ["SE", "y"]
 - !private ["SE", "zero"]
+- !private ["SQ", "Alamofire"]
 - !private ["SQ", "CGFloat"]
 - !private ["SQ", "CGPoint"]
 - ["SQ", "DispatchQoS"]
@@ -514,6 +539,7 @@ depends-member:
 - !private ["SQ", "UIBarButtonItem"]
 - !private ["SQ", "UIContentSizeCategory"]
 - !private ["SQ", "UIImage"]
+- !private ["SQ", "URLEncoding"]
 - !private ["SQ", "User"]
 - ["SQ", ""]
 - !private ["SQ", "_getBuiltinLogicValue"]
@@ -547,6 +573,7 @@ depends-member:
 - !private ["SQ", "fixedSpace"]
 - !private ["SQ", "floor"]
 - !private ["SQ", "frame"]
+- !private ["SQ", "get"]
 - !private ["SQ", "greatestFiniteMagnitude"]
 - !private ["SQ", "handleContentSizeCategoryDidChanged"]
 - !private ["SQ", "height"]
@@ -576,6 +603,7 @@ depends-member:
 - ["SQ", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["SQ", "navigationItem"]
 - !private ["SQ", "origin"]
+- !private ["SQ", "print"]
 - !private ["SQ", "register"]
 - !private ["SQ", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["SQ", "reloadData"]
@@ -622,6 +650,8 @@ depends-member:
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["SF", "greatestFiniteMagnitude"]
 - !private ["SF", "init"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["SH", "Alamofire"]
 - !private ["SH", "CGFloat"]
 - !private ["SH", "CGPoint"]
 - ["SH", "DispatchQoS"]
@@ -646,6 +676,7 @@ depends-member:
 - !private ["SH", "UIBarButtonItem"]
 - !private ["SH", "UIContentSizeCategory"]
 - !private ["SH", "UIImage"]
+- !private ["SH", "URLEncoding"]
 - !private ["SH", "User"]
 - ["SH", ""]
 - !private ["SH", "_getBuiltinLogicValue"]
@@ -678,6 +709,7 @@ depends-member:
 - !private ["SH", "fixedSpace"]
 - !private ["SH", "floor"]
 - !private ["SH", "frame"]
+- !private ["SH", "get"]
 - !private ["SH", "greatestFiniteMagnitude"]
 - !private ["SH", "handleContentSizeCategoryDidChanged"]
 - !private ["SH", "image"]
@@ -705,6 +737,7 @@ depends-member:
 - ["SH", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["SH", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["SH", "navigationItem"]
+- !private ["SH", "print"]
 - !private ["SH", "register"]
 - !private ["SH", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["SH", "reloadData"]
@@ -743,6 +776,7 @@ depends-member:
 - ["7K_Group14MessageManagerC", "manager"]
 - !private ["7K_Group14MessageManagerC", "removeDelegate"]
 - !private ["7K_Group14MessageManagerC", "sendMessage"]
+- !private ["7K_Group22MessageManagerDelegateP", "Alamofire"]
 - !private ["7K_Group22MessageManagerDelegateP", "CGFloat"]
 - !private ["7K_Group22MessageManagerDelegateP", "CGPoint"]
 - ["7K_Group22MessageManagerDelegateP", "DispatchQoS"]
@@ -766,6 +800,7 @@ depends-member:
 - !private ["7K_Group22MessageManagerDelegateP", "UIBarButtonItem"]
 - !private ["7K_Group22MessageManagerDelegateP", "UIContentSizeCategory"]
 - !private ["7K_Group22MessageManagerDelegateP", "UIImage"]
+- !private ["7K_Group22MessageManagerDelegateP", "URLEncoding"]
 - !private ["7K_Group22MessageManagerDelegateP", "User"]
 - ["7K_Group22MessageManagerDelegateP", ""]
 - !private ["7K_Group22MessageManagerDelegateP", "addMessages"]
@@ -797,6 +832,7 @@ depends-member:
 - ["7K_Group22MessageManagerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["7K_Group22MessageManagerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["7K_Group22MessageManagerDelegateP", "navigationItem"]
+- !private ["7K_Group22MessageManagerDelegateP", "print"]
 - !private ["7K_Group22MessageManagerDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["7K_Group22MessageManagerDelegateP", "scrollToBottom"]
 - !private ["7K_Group22MessageManagerDelegateP", "sendMessage"]
@@ -816,6 +852,7 @@ depends-member:
 - !private ["So21NOCChatCollectionViewC", "reloadData"]
 - !private ["So27NOCChatCollectionViewLayoutC", "invalidateLayout"]
 - !private ["So27NOCChatCollectionViewLayoutC", "layoutAttributes"]
+- !private ["So35NOCChatCollectionViewLayoutDelegateP", "Alamofire"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "CGFloat"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "CGPoint"]
 - ["So35NOCChatCollectionViewLayoutDelegateP", "DispatchQoS"]
@@ -839,6 +876,7 @@ depends-member:
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "UIBarButtonItem"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "UIContentSizeCategory"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "UIImage"]
+- !private ["So35NOCChatCollectionViewLayoutDelegateP", "URLEncoding"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "User"]
 - ["So35NOCChatCollectionViewLayoutDelegateP", ""]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "addMessages"]
@@ -871,6 +909,7 @@ depends-member:
 - ["So35NOCChatCollectionViewLayoutDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So35NOCChatCollectionViewLayoutDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "navigationItem"]
+- !private ["So35NOCChatCollectionViewLayoutDelegateP", "print"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "scrollToBottom"]
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "sendMessage"]
@@ -880,6 +919,7 @@ depends-member:
 - !private ["So35NOCChatCollectionViewLayoutDelegateP", "viewDidLoad"]
 - !private ["So20NOCChatContainerViewC", "bounds"]
 - !private ["So17NOCChatInputPanelC", "endInputting"]
+- !private ["So25NOCChatInputPanelDelegateP", "Alamofire"]
 - !private ["So25NOCChatInputPanelDelegateP", "CGFloat"]
 - !private ["So25NOCChatInputPanelDelegateP", "CGPoint"]
 - ["So25NOCChatInputPanelDelegateP", "DispatchQoS"]
@@ -903,6 +943,7 @@ depends-member:
 - !private ["So25NOCChatInputPanelDelegateP", "UIBarButtonItem"]
 - !private ["So25NOCChatInputPanelDelegateP", "UIContentSizeCategory"]
 - !private ["So25NOCChatInputPanelDelegateP", "UIImage"]
+- !private ["So25NOCChatInputPanelDelegateP", "URLEncoding"]
 - !private ["So25NOCChatInputPanelDelegateP", "User"]
 - ["So25NOCChatInputPanelDelegateP", ""]
 - !private ["So25NOCChatInputPanelDelegateP", "addMessages"]
@@ -935,6 +976,7 @@ depends-member:
 - ["So25NOCChatInputPanelDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So25NOCChatInputPanelDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So25NOCChatInputPanelDelegateP", "navigationItem"]
+- !private ["So25NOCChatInputPanelDelegateP", "print"]
 - !private ["So25NOCChatInputPanelDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So25NOCChatInputPanelDelegateP", "scrollToBottom"]
 - !private ["So25NOCChatInputPanelDelegateP", "sendMessage"]
@@ -948,6 +990,7 @@ depends-member:
 - !private ["So11NOCChatItemP", "senderId"]
 - !private ["So11NOCChatItemP", "text"]
 - !private ["So15NOCChatItemCellC", "reuseIdentifier"]
+- !private ["So23NOCChatItemCellDelegateP", "Alamofire"]
 - !private ["So23NOCChatItemCellDelegateP", "CGFloat"]
 - !private ["So23NOCChatItemCellDelegateP", "CGPoint"]
 - ["So23NOCChatItemCellDelegateP", "DispatchQoS"]
@@ -971,6 +1014,7 @@ depends-member:
 - !private ["So23NOCChatItemCellDelegateP", "UIBarButtonItem"]
 - !private ["So23NOCChatItemCellDelegateP", "UIContentSizeCategory"]
 - !private ["So23NOCChatItemCellDelegateP", "UIImage"]
+- !private ["So23NOCChatItemCellDelegateP", "URLEncoding"]
 - !private ["So23NOCChatItemCellDelegateP", "User"]
 - ["So23NOCChatItemCellDelegateP", ""]
 - !private ["So23NOCChatItemCellDelegateP", "addMessages"]
@@ -1003,6 +1047,7 @@ depends-member:
 - ["So23NOCChatItemCellDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So23NOCChatItemCellDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So23NOCChatItemCellDelegateP", "navigationItem"]
+- !private ["So23NOCChatItemCellDelegateP", "print"]
 - !private ["So23NOCChatItemCellDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So23NOCChatItemCellDelegateP", "scrollToBottom"]
 - !private ["So23NOCChatItemCellDelegateP", "sendMessage"]
@@ -1011,6 +1056,7 @@ depends-member:
 - !private ["So23NOCChatItemCellDelegateP", "unregisterContentSizeCategoryDidChangeNotification"]
 - !private ["So23NOCChatItemCellDelegateP", "viewDidLoad"]
 - !private ["So21NOCChatItemCellLayoutP", "calculate"]
+- !private ["So21NOCChatViewControllerC", "Alamofire"]
 - ["So21NOCChatViewControllerC", "AnchorItem"]
 - ["So21NOCChatViewControllerC", "AnyHashable"]
 - ["So21NOCChatViewControllerC", "Bool"]
@@ -1045,6 +1091,7 @@ depends-member:
 - !private ["So21NOCChatViewControllerC", "UIImage"]
 - ["So21NOCChatViewControllerC", "UINavigationController"]
 - ["So21NOCChatViewControllerC", "UIViewController"]
+- !private ["So21NOCChatViewControllerC", "URLEncoding"]
 - !private ["So21NOCChatViewControllerC", "User"]
 - ["So21NOCChatViewControllerC", ""]
 - ["So21NOCChatViewControllerC", "addMessages"]
@@ -1079,6 +1126,7 @@ depends-member:
 - ["So21NOCChatViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So21NOCChatViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So21NOCChatViewControllerC", "navigationItem"]
+- !private ["So21NOCChatViewControllerC", "print"]
 - ["So21NOCChatViewControllerC", "registerChatItemCells"]
 - ["So21NOCChatViewControllerC", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So21NOCChatViewControllerC", "scrollToBottom"]
@@ -1095,6 +1143,7 @@ depends-member:
 - !private ["So7NSArrayC", "count"]
 - !private ["So7NSArrayC", "map"]
 - !private ["So7NSArrayC", "removeAllObjects"]
+- !private ["So8NSCodingP", "Alamofire"]
 - !private ["So8NSCodingP", "CGFloat"]
 - !private ["So8NSCodingP", "CGPoint"]
 - ["So8NSCodingP", "DispatchQoS"]
@@ -1118,6 +1167,7 @@ depends-member:
 - !private ["So8NSCodingP", "UIBarButtonItem"]
 - !private ["So8NSCodingP", "UIContentSizeCategory"]
 - !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "URLEncoding"]
 - !private ["So8NSCodingP", "User"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addMessages"]
@@ -1162,6 +1212,7 @@ depends-member:
 - ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "register"]
 - !private ["So8NSCodingP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So8NSCodingP", "reloadData"]
@@ -1182,6 +1233,7 @@ depends-member:
 - !private ["So9NSCopyingP", "frame"]
 - !private ["So9NSCopyingP", "map"]
 - !private ["So9NSCopyingP", "removeAllObjects"]
+- !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
 - !private ["So26NSExtensionRequestHandlingP", "CGFloat"]
 - !private ["So26NSExtensionRequestHandlingP", "CGPoint"]
 - ["So26NSExtensionRequestHandlingP", "DispatchQoS"]
@@ -1205,6 +1257,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
 - !private ["So26NSExtensionRequestHandlingP", "UIContentSizeCategory"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "URLEncoding"]
 - !private ["So26NSExtensionRequestHandlingP", "User"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "addMessages"]
@@ -1238,6 +1291,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So26NSExtensionRequestHandlingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So26NSExtensionRequestHandlingP", "scrollToBottom"]
 - !private ["So26NSExtensionRequestHandlingP", "sendMessage"]
@@ -1258,6 +1312,7 @@ depends-member:
 - !private ["So16NSMutableCopyingP", "count"]
 - !private ["So16NSMutableCopyingP", "map"]
 - !private ["So16NSMutableCopyingP", "removeAllObjects"]
+- !private ["So8NSObjectC", "Alamofire"]
 - ["So8NSObjectC", "AnchorItem"]
 - ["So8NSObjectC", "AnyHashable"]
 - ["So8NSObjectC", "Bool"]
@@ -1292,6 +1347,7 @@ depends-member:
 - !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UINavigationController"]
 - ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "URLEncoding"]
 - !private ["So8NSObjectC", "User"]
 - !private ["So8NSObjectC", "addDelegate"]
 - ["So8NSObjectC", "addMessages"]
@@ -1346,6 +1402,7 @@ depends-member:
 - ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "register"]
 - ["So8NSObjectC", "registerChatItemCells"]
 - ["So8NSObjectC", "registerContentSizeCategoryDidChangeNotification"]
@@ -1367,6 +1424,7 @@ depends-member:
 - ["So8NSObjectC", "unregisterContentSizeCategoryDidChangeNotification"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectC", "width"]
+- !private ["So8NSObjectP", "Alamofire"]
 - !private ["So8NSObjectP", "CGFloat"]
 - !private ["So8NSObjectP", "CGPoint"]
 - ["So8NSObjectP", "DispatchQoS"]
@@ -1390,6 +1448,7 @@ depends-member:
 - !private ["So8NSObjectP", "UIBarButtonItem"]
 - !private ["So8NSObjectP", "UIContentSizeCategory"]
 - !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "URLEncoding"]
 - !private ["So8NSObjectP", "User"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "addDelegate"]
@@ -1446,6 +1505,7 @@ depends-member:
 - ["So8NSObjectP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So8NSObjectP", "navigationItem"]
 - !private ["So8NSObjectP", "notifyWhenInteractionEnds"]
+- !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "register"]
 - !private ["So8NSObjectP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So8NSObjectP", "reloadData"]
@@ -1478,6 +1538,7 @@ depends-member:
 - !private ["So9OS_objectC", "async"]
 - ["So9OS_objectC", "init"]
 - !private ["So9OS_objectC", "main"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
 - ["8Dispatch0A3QoSV0B6SClassO", "default"]
 - !private ["Sk", "count"]
 - !private ["Sk", "init"]
@@ -1490,7 +1551,13 @@ depends-member:
 - !private ["Sm", "subscript"]
 - !private ["SY", "didChangeNotification"]
 - !private ["SY", "fixedSpace"]
+- !private ["SY", "get"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["9Alamofire6ResultO", "value"]
 - !private ["ST", "count"]
 - ["ST", "init"]
 - ["ST", "init"]
@@ -1516,6 +1583,7 @@ depends-member:
 - ["7K_Group14TGAvatarButtonC", "deinit"]
 - ["7K_Group14TGAvatarButtonC", "init"]
 - !private ["7K_Group17TGBaseMessageCellC", "reuseIdentifier"]
+- !private ["7K_Group28TGChatInputTextPanelDelegateP", "Alamofire"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "CGFloat"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "CGPoint"]
 - ["7K_Group28TGChatInputTextPanelDelegateP", "DispatchQoS"]
@@ -1539,6 +1607,7 @@ depends-member:
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "UIBarButtonItem"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "UIContentSizeCategory"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "UIImage"]
+- !private ["7K_Group28TGChatInputTextPanelDelegateP", "URLEncoding"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "User"]
 - ["7K_Group28TGChatInputTextPanelDelegateP", ""]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "addMessages"]
@@ -1570,12 +1639,14 @@ depends-member:
 - ["7K_Group28TGChatInputTextPanelDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["7K_Group28TGChatInputTextPanelDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "navigationItem"]
+- !private ["7K_Group28TGChatInputTextPanelDelegateP", "print"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "scrollToBottom"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "sendMessage"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "setupNavigationItems"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "titleView"]
 - !private ["7K_Group28TGChatInputTextPanelDelegateP", "unregisterContentSizeCategoryDidChangeNotification"]
+- !private ["7K_Group20TGChatViewControllerC", "Alamofire"]
 - ["7K_Group20TGChatViewControllerC", "AnchorItem"]
 - ["7K_Group20TGChatViewControllerC", "AnyHashable"]
 - ["7K_Group20TGChatViewControllerC", "Bool"]
@@ -1610,6 +1681,7 @@ depends-member:
 - !private ["7K_Group20TGChatViewControllerC", "UIImage"]
 - ["7K_Group20TGChatViewControllerC", "UINavigationController"]
 - ["7K_Group20TGChatViewControllerC", "UIViewController"]
+- !private ["7K_Group20TGChatViewControllerC", "URLEncoding"]
 - !private ["7K_Group20TGChatViewControllerC", "User"]
 - !private ["7K_Group20TGChatViewControllerC", "addMessages"]
 - ["7K_Group20TGChatViewControllerC", "avatarButton"]
@@ -1644,6 +1716,7 @@ depends-member:
 - ["7K_Group20TGChatViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["7K_Group20TGChatViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["7K_Group20TGChatViewControllerC", "navigationItem"]
+- !private ["7K_Group20TGChatViewControllerC", "print"]
 - ["7K_Group20TGChatViewControllerC", "registerChatItemCells"]
 - !private ["7K_Group20TGChatViewControllerC", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["7K_Group20TGChatViewControllerC", "scrollToBottom"]
@@ -1655,6 +1728,7 @@ depends-member:
 - !private ["7K_Group17TGDateMessageCellC", "reuseIdentifier"]
 - !private ["7K_Group19TGSystemMessageCellC", "reuseIdentifier"]
 - !private ["7K_Group17TGTextMessageCellC", "reuseIdentifier"]
+- !private ["7K_Group25TGTextMessageCellDelegateP", "Alamofire"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "CGFloat"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "CGPoint"]
 - ["7K_Group25TGTextMessageCellDelegateP", "DispatchQoS"]
@@ -1678,6 +1752,7 @@ depends-member:
 - !private ["7K_Group25TGTextMessageCellDelegateP", "UIBarButtonItem"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "UIContentSizeCategory"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "UIImage"]
+- !private ["7K_Group25TGTextMessageCellDelegateP", "URLEncoding"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "User"]
 - ["7K_Group25TGTextMessageCellDelegateP", ""]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "addMessages"]
@@ -1709,6 +1784,7 @@ depends-member:
 - ["7K_Group25TGTextMessageCellDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["7K_Group25TGTextMessageCellDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "navigationItem"]
+- !private ["7K_Group25TGTextMessageCellDelegateP", "print"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "scrollToBottom"]
 - !private ["7K_Group25TGTextMessageCellDelegateP", "sendMessage"]
@@ -1751,6 +1827,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "reuseIdentifier"]
 - !private ["So12UIAppearanceP", "title"]
 - !private ["So12UIAppearanceP", "width"]
+- !private ["So21UIAppearanceContainerP", "Alamofire"]
 - !private ["So21UIAppearanceContainerP", "CGFloat"]
 - !private ["So21UIAppearanceContainerP", "CGPoint"]
 - ["So21UIAppearanceContainerP", "DispatchQoS"]
@@ -1774,6 +1851,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
 - !private ["So21UIAppearanceContainerP", "UIContentSizeCategory"]
 - !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "URLEncoding"]
 - !private ["So21UIAppearanceContainerP", "User"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addMessages"]
@@ -1814,6 +1892,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So21UIAppearanceContainerP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "register"]
 - !private ["So21UIAppearanceContainerP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So21UIAppearanceContainerP", "reloadData"]
@@ -1839,6 +1918,7 @@ depends-member:
 - !private ["So16UICollectionViewC", "register"]
 - !private ["So16UICollectionViewC", "reloadData"]
 - !private ["So20UICollectionViewCellC", "reuseIdentifier"]
+- !private ["So26UICollectionViewDataSourceP", "Alamofire"]
 - !private ["So26UICollectionViewDataSourceP", "CGFloat"]
 - !private ["So26UICollectionViewDataSourceP", "CGPoint"]
 - ["So26UICollectionViewDataSourceP", "DispatchQoS"]
@@ -1862,6 +1942,7 @@ depends-member:
 - !private ["So26UICollectionViewDataSourceP", "UIBarButtonItem"]
 - !private ["So26UICollectionViewDataSourceP", "UIContentSizeCategory"]
 - !private ["So26UICollectionViewDataSourceP", "UIImage"]
+- !private ["So26UICollectionViewDataSourceP", "URLEncoding"]
 - !private ["So26UICollectionViewDataSourceP", "User"]
 - ["So26UICollectionViewDataSourceP", ""]
 - !private ["So26UICollectionViewDataSourceP", "addMessages"]
@@ -1894,6 +1975,7 @@ depends-member:
 - ["So26UICollectionViewDataSourceP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So26UICollectionViewDataSourceP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So26UICollectionViewDataSourceP", "navigationItem"]
+- !private ["So26UICollectionViewDataSourceP", "print"]
 - !private ["So26UICollectionViewDataSourceP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So26UICollectionViewDataSourceP", "scrollToBottom"]
 - !private ["So26UICollectionViewDataSourceP", "sendMessage"]
@@ -1901,6 +1983,7 @@ depends-member:
 - !private ["So26UICollectionViewDataSourceP", "titleView"]
 - !private ["So26UICollectionViewDataSourceP", "unregisterContentSizeCategoryDidChangeNotification"]
 - !private ["So26UICollectionViewDataSourceP", "viewDidLoad"]
+- !private ["So24UICollectionViewDelegateP", "Alamofire"]
 - !private ["So24UICollectionViewDelegateP", "CGFloat"]
 - !private ["So24UICollectionViewDelegateP", "CGPoint"]
 - ["So24UICollectionViewDelegateP", "DispatchQoS"]
@@ -1924,6 +2007,7 @@ depends-member:
 - !private ["So24UICollectionViewDelegateP", "UIBarButtonItem"]
 - !private ["So24UICollectionViewDelegateP", "UIContentSizeCategory"]
 - !private ["So24UICollectionViewDelegateP", "UIImage"]
+- !private ["So24UICollectionViewDelegateP", "URLEncoding"]
 - !private ["So24UICollectionViewDelegateP", "User"]
 - ["So24UICollectionViewDelegateP", ""]
 - !private ["So24UICollectionViewDelegateP", "addMessages"]
@@ -1956,6 +2040,7 @@ depends-member:
 - ["So24UICollectionViewDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So24UICollectionViewDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So24UICollectionViewDelegateP", "navigationItem"]
+- !private ["So24UICollectionViewDelegateP", "print"]
 - !private ["So24UICollectionViewDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So24UICollectionViewDelegateP", "scrollToBottom"]
 - !private ["So24UICollectionViewDelegateP", "sendMessage"]
@@ -1966,6 +2051,7 @@ depends-member:
 - !private ["So22UICollectionViewLayoutC", "invalidateLayout"]
 - !private ["So22UICollectionViewLayoutC", "layoutAttributes"]
 - !private ["So32UICollectionViewLayoutAttributesC", "frame"]
+- !private ["So18UIContentContainerP", "Alamofire"]
 - !private ["So18UIContentContainerP", "CGFloat"]
 - !private ["So18UIContentContainerP", "CGPoint"]
 - ["So18UIContentContainerP", "DispatchQoS"]
@@ -1989,6 +2075,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIBarButtonItem"]
 - !private ["So18UIContentContainerP", "UIContentSizeCategory"]
 - !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "URLEncoding"]
 - !private ["So18UIContentContainerP", "User"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "addMessages"]
@@ -2022,6 +2109,7 @@ depends-member:
 - ["So18UIContentContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So18UIContentContainerP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So18UIContentContainerP", "scrollToBottom"]
 - !private ["So18UIContentContainerP", "sendMessage"]
@@ -2064,6 +2152,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "title"]
 - !private ["So12UIEdgeInsetsV", "bottom"]
 - !private ["So12UIEdgeInsetsV", "top"]
+- !private ["So18UIFocusEnvironmentP", "Alamofire"]
 - !private ["So18UIFocusEnvironmentP", "CGFloat"]
 - !private ["So18UIFocusEnvironmentP", "CGPoint"]
 - ["So18UIFocusEnvironmentP", "DispatchQoS"]
@@ -2087,6 +2176,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
 - !private ["So18UIFocusEnvironmentP", "UIContentSizeCategory"]
 - !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "URLEncoding"]
 - !private ["So18UIFocusEnvironmentP", "User"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addMessages"]
@@ -2127,6 +2217,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So18UIFocusEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "register"]
 - !private ["So18UIFocusEnvironmentP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So18UIFocusEnvironmentP", "reloadData"]
@@ -2174,6 +2265,7 @@ depends-member:
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So22UINavigationControllerC", "delegate"]
 - !private ["So22UINavigationControllerC", "topViewController"]
+- !private ["So30UINavigationControllerDelegateP", "Alamofire"]
 - !private ["So30UINavigationControllerDelegateP", "CGFloat"]
 - !private ["So30UINavigationControllerDelegateP", "CGPoint"]
 - ["So30UINavigationControllerDelegateP", "DispatchQoS"]
@@ -2197,6 +2289,7 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "UIBarButtonItem"]
 - !private ["So30UINavigationControllerDelegateP", "UIContentSizeCategory"]
 - !private ["So30UINavigationControllerDelegateP", "UIImage"]
+- !private ["So30UINavigationControllerDelegateP", "URLEncoding"]
 - !private ["So30UINavigationControllerDelegateP", "User"]
 - ["So30UINavigationControllerDelegateP", ""]
 - !private ["So30UINavigationControllerDelegateP", "addMessages"]
@@ -2228,6 +2321,7 @@ depends-member:
 - ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So30UINavigationControllerDelegateP", "navigationItem"]
+- !private ["So30UINavigationControllerDelegateP", "print"]
 - !private ["So30UINavigationControllerDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So30UINavigationControllerDelegateP", "scrollToBottom"]
 - !private ["So30UINavigationControllerDelegateP", "sendMessage"]
@@ -2236,6 +2330,7 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "unregisterContentSizeCategoryDidChangeNotification"]
 - !private ["So16UINavigationItemC", "rightBarButtonItems"]
 - !private ["So16UINavigationItemC", "titleView"]
+- !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
 - ["So30UIPasteConfigurationSupportingP", "DispatchQoS"]
@@ -2259,6 +2354,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIContentSizeCategory"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLEncoding"]
 - !private ["So30UIPasteConfigurationSupportingP", "User"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addMessages"]
@@ -2299,6 +2395,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
 - !private ["So30UIPasteConfigurationSupportingP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
@@ -2312,6 +2409,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "transitionCoordinator"]
 - !private ["So30UIPasteConfigurationSupportingP", "unregisterContentSizeCategoryDidChangeNotification"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Alamofire"]
 - ["So11UIResponderC", "AnchorItem"]
 - ["So11UIResponderC", "AnyHashable"]
 - ["So11UIResponderC", "Bool"]
@@ -2346,6 +2444,7 @@ depends-member:
 - !private ["So11UIResponderC", "UIImage"]
 - ["So11UIResponderC", "UINavigationController"]
 - ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "URLEncoding"]
 - !private ["So11UIResponderC", "User"]
 - ["So11UIResponderC", "addMessages"]
 - ["So11UIResponderC", "avatarButton"]
@@ -2387,6 +2486,7 @@ depends-member:
 - ["So11UIResponderC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "register"]
 - ["So11UIResponderC", "registerChatItemCells"]
 - ["So11UIResponderC", "registerContentSizeCategoryDidChangeNotification"]
@@ -2401,6 +2501,7 @@ depends-member:
 - !private ["So11UIResponderC", "transitionCoordinator"]
 - ["So11UIResponderC", "unregisterContentSizeCategoryDidChangeNotification"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
 - !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
 - !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
 - ["So30UIResponderStandardEditActionsP", "DispatchQoS"]
@@ -2424,6 +2525,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
 - !private ["So30UIResponderStandardEditActionsP", "UIContentSizeCategory"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "URLEncoding"]
 - !private ["So30UIResponderStandardEditActionsP", "User"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addMessages"]
@@ -2464,6 +2566,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UIResponderStandardEditActionsP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "register"]
 - !private ["So30UIResponderStandardEditActionsP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So30UIResponderStandardEditActionsP", "reloadData"]
@@ -2482,6 +2585,7 @@ depends-member:
 - !private ["So12UIScrollViewC", "frame"]
 - !private ["So12UIScrollViewC", "register"]
 - !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So20UIScrollViewDelegateP", "Alamofire"]
 - !private ["So20UIScrollViewDelegateP", "CGFloat"]
 - !private ["So20UIScrollViewDelegateP", "CGPoint"]
 - ["So20UIScrollViewDelegateP", "DispatchQoS"]
@@ -2505,6 +2609,7 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "UIBarButtonItem"]
 - !private ["So20UIScrollViewDelegateP", "UIContentSizeCategory"]
 - !private ["So20UIScrollViewDelegateP", "UIImage"]
+- !private ["So20UIScrollViewDelegateP", "URLEncoding"]
 - !private ["So20UIScrollViewDelegateP", "User"]
 - ["So20UIScrollViewDelegateP", ""]
 - !private ["So20UIScrollViewDelegateP", "addMessages"]
@@ -2537,6 +2642,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So20UIScrollViewDelegateP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "print"]
 - !private ["So20UIScrollViewDelegateP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So20UIScrollViewDelegateP", "scrollToBottom"]
 - !private ["So20UIScrollViewDelegateP", "sendMessage"]
@@ -2551,6 +2657,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "register"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "width"]
+- !private ["So16UIStateRestoringP", "Alamofire"]
 - !private ["So16UIStateRestoringP", "CGFloat"]
 - !private ["So16UIStateRestoringP", "CGPoint"]
 - ["So16UIStateRestoringP", "DispatchQoS"]
@@ -2574,6 +2681,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIBarButtonItem"]
 - !private ["So16UIStateRestoringP", "UIContentSizeCategory"]
 - !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "URLEncoding"]
 - !private ["So16UIStateRestoringP", "User"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "addMessages"]
@@ -2607,6 +2715,7 @@ depends-member:
 - ["So16UIStateRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So16UIStateRestoringP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So16UIStateRestoringP", "scrollToBottom"]
 - !private ["So16UIStateRestoringP", "sendMessage"]
@@ -2616,6 +2725,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "transitionCoordinator"]
 - !private ["So16UIStateRestoringP", "unregisterContentSizeCategoryDidChangeNotification"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Alamofire"]
 - !private ["So18UITraitEnvironmentP", "CGFloat"]
 - !private ["So18UITraitEnvironmentP", "CGPoint"]
 - ["So18UITraitEnvironmentP", "DispatchQoS"]
@@ -2639,6 +2749,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
 - !private ["So18UITraitEnvironmentP", "UIContentSizeCategory"]
 - !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "URLEncoding"]
 - !private ["So18UITraitEnvironmentP", "User"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addMessages"]
@@ -2679,6 +2790,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So18UITraitEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "register"]
 - !private ["So18UITraitEnvironmentP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So18UITraitEnvironmentP", "reloadData"]
@@ -2692,6 +2804,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "transitionCoordinator"]
 - !private ["So18UITraitEnvironmentP", "unregisterContentSizeCategoryDidChangeNotification"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Alamofire"]
 - !private ["So23UIUserActivityRestoringP", "CGFloat"]
 - !private ["So23UIUserActivityRestoringP", "CGPoint"]
 - ["So23UIUserActivityRestoringP", "DispatchQoS"]
@@ -2715,6 +2828,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
 - !private ["So23UIUserActivityRestoringP", "UIContentSizeCategory"]
 - !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "URLEncoding"]
 - !private ["So23UIUserActivityRestoringP", "User"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "addMessages"]
@@ -2755,6 +2869,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So23UIUserActivityRestoringP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "register"]
 - !private ["So23UIUserActivityRestoringP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So23UIUserActivityRestoringP", "reloadData"]
@@ -2780,6 +2895,7 @@ depends-member:
 - !private ["So6UIViewC", "reloadData"]
 - !private ["So6UIViewC", "reuseIdentifier"]
 - !private ["So6UIViewC", "title"]
+- !private ["So16UIViewControllerC", "Alamofire"]
 - ["So16UIViewControllerC", "AnchorItem"]
 - ["So16UIViewControllerC", "AnyHashable"]
 - ["So16UIViewControllerC", "Bool"]
@@ -2814,6 +2930,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "UIImage"]
 - ["So16UIViewControllerC", "UINavigationController"]
 - ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "URLEncoding"]
 - !private ["So16UIViewControllerC", "User"]
 - ["So16UIViewControllerC", "addMessages"]
 - ["So16UIViewControllerC", "avatarButton"]
@@ -2848,6 +2965,7 @@ depends-member:
 - ["So16UIViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "registerChatItemCells"]
 - ["So16UIViewControllerC", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["So16UIViewControllerC", "scrollToBottom"]
@@ -2861,6 +2979,9 @@ depends-member:
 - !private ["So37UIViewControllerTransitionCoordinatorP", "notifyWhenInteractionEnds"]
 - !private ["So44UIViewControllerTransitionCoordinatorContextP", "isCancelled"]
 - !private ["So44UIViewControllerTransitionCoordinatorContextP", "notifyWhenInteractionEnds"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire11URLEncodingV", "default"]
 - !private ["7K_Group4UserC", "currentUser"]
 - !private ["7K_Group4UserC", "userId"]
 - !private ["s18_BitwiseOperationsP", "init"]
@@ -2904,6 +3025,7 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "removeAllObjects"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQoS"]
@@ -2927,6 +3049,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIContentSizeCategory"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLEncoding"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "User"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addDelegate"]
@@ -2980,6 +3103,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "registerContentSizeCategoryDidChangeNotification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
@@ -3039,6 +3163,8 @@ depends-nominal:
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
 - "Se"
 - !private "SD"
 - "So18OS_dispatch_objectC"
@@ -3056,6 +3182,7 @@ depends-nominal:
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
 - !private "SF"
+- !private "9Alamofire10HTTPMethodO"
 - "SH"
 - !private "10Foundation8IndexSetV"
 - !private "Si"
@@ -3093,11 +3220,15 @@ depends-nominal:
 - !private "So20NSNotificationCenterC"
 - !private "Sj"
 - "So9OS_objectC"
+- !private "9Alamofire17ParameterEncodingP"
 - "8Dispatch0A3QoSV0B6SClassO"
 - !private "Sk"
 - "Sm"
 - !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
 - "ST"
 - !private "s10SetAlgebraP"
 - !private "SZ"
@@ -3163,6 +3294,8 @@ depends-nominal:
 - "So16UIViewControllerC"
 - !private "So37UIViewControllerTransitionCoordinatorP"
 - !private "So44UIViewControllerTransitionCoordinatorContextP"
+- "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
 - !private "7K_Group4UserC"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
@@ -3185,6 +3318,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/SkyFloatingLabelTextField.swiftmodule/x86_64.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
@@ -3192,13 +3327,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYText-umbrella.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-umbrella.h"
@@ -3224,6 +3363,8 @@ depends-external:
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextUtilities.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatItemCellLayout.h"
@@ -3243,6 +3384,8 @@ depends-external:
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Modules/module.modulemap"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Modules/module.modulemap"
 - "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Modules/module.modulemap"
@@ -3253,10 +3396,12 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "85941af27163c7ca0840316564c9885a"
+interface-hash: "500b390f90252aa6905eab7d11c5e64b"

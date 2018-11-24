@@ -4,6 +4,60 @@
   'roots': [
     {
       'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/AwesomeTextFieldSwift/AwesomeTextFieldSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AwesomeTextFieldSwift-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/AwesomeTextFieldSwift/AwesomeTextFieldSwift.framework/Headers/AwesomeTextFieldSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AwesomeTextFieldSwift-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/AwesomeTextFieldSwift/AwesomeTextFieldSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/AwesomeTextFieldSwift/AwesomeTextFieldSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/AwesomeTextFieldSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers",
       'contents': [
         {
@@ -135,6 +189,60 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Pods-K Group.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/TextFieldEffects/TextFieldEffects.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TextFieldEffects-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/TextFieldEffects/TextFieldEffects.framework/Headers/TextFieldEffects-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TextFieldEffects-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/TextFieldEffects/TextFieldEffects-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/TextFieldEffects/TextFieldEffects.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/TextFieldEffects.build/module.modulemap"
         }
       ]
     },

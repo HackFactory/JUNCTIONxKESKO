@@ -203,22 +203,21 @@ SWIFT_CLASS("_TtC7K_Group11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7K_Group18ChatViewController")
-@interface ChatViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@interface ChatViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified startMessagingButton;
+- (IBAction)startMessaging:(id _Nonnull)sender;
 - (void)viewDidLoad;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class UITableViewCell;
 
 SWIFT_CLASS("_TtC7K_Group19ChatsViewController")
 @interface ChatsViewController : UITableViewController
@@ -231,7 +230,6 @@ SWIFT_CLASS("_TtC7K_Group19ChatsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 @class UITextField;
 
 SWIFT_CLASS("_TtC7K_Group21InitialViewController")

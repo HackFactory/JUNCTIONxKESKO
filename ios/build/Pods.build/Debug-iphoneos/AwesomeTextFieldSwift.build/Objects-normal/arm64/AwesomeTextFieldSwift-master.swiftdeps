@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "50e622e16421e0a89d3976c00688d7f0"
-build_time: [1543097277, 262151000]
+build_time: [1543101793, 66869000]
 inputs:
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/AwesomeTextFieldSwift/AwesomeTextField/Classes/AwesomeTextField.swift": [1543090629, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/AwesomeTextFieldSwift/AwesomeTextField/Classes/AwesomeTextField.swift": !dirty [1543101770, 0]

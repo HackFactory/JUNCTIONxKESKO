@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a8b2ad4f79945326c195a3cc6300b60f"
+build_time: [1543101493, 90952000]
+inputs:
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/AkiraTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/HoshiTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/IsaoTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/JiroTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/KaedeTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/MadokaTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/MinoruTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/TextFieldEffects.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/YokoTextField.swift": [1543096592, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/YoshikoTextField.swift": [1543096592, 0]

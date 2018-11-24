@@ -9,45 +9,35 @@
 import UIKit
 import NoChat
 
-class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
-    @IBOutlet weak var tableView: UITableView!
+class ChatViewController: UIViewController {
+    
+    @IBOutlet weak var startMessagingButton: UIButton!
+    
+    @IBAction func startMessaging(_ sender: Any) {
+        let chat = ChatViewController.botChat
+        let vc = TGChatViewController(chat: chat)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func configureButton() {
+        let leftColor = UIColor(red: 255.0/255.0, green: 147.0/255.0, blue: 90.0/255.0, alpha: 1.0)
+        let rightColor = UIColor(red: 247.0/255.0, green: 87.0/255.0, blue: 53.0/255.0, alpha: 1.0)
+        startMessagingButton.applyGradient(colours: [leftColor, rightColor])
+        startMessagingButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        startMessagingButton.layer.shadowColor = UIColor.black.cgColor
+        startMessagingButton.layer.shadowOpacity = 0.3
+        startMessagingButton.layer.cornerRadius = 10.0
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath)
-        if indexPath.row == 0 {
-            cell.textLabel?.text = "Telegram"
-            cell.imageView?.image = UIImage(named: "TGIcon")
-        } else if indexPath.row == 1 {
-            cell.textLabel?.text = "WeChat"
-            cell.imageView?.image = UIImage(named: "MMIcon")
-        }
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let chat = ChatViewController.botChat
-        var chatVC: UIViewController?
-        if indexPath.row == 0 {
-            chatVC = TGChatViewController(chat: chat)
-        } else if indexPath.row == 1 {
-            chatVC = MMChatViewController(chat: chat)
-        }
-        if let vc = chatVC {
-            navigationController?.pushViewController(vc, animated: true)
-        }
+        configureButton()
         
-        tableView.deselectRow(at: indexPath, animated: true)
+        DispatchQueue.main.async {
+            let chat = ChatViewController.botChat
+            let vc = TGChatViewController(chat: chat)
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     static let botChat: Chat = {
