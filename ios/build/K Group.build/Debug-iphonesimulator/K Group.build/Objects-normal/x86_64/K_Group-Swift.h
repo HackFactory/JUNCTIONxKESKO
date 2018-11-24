@@ -163,8 +163,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
+@import CoreGraphics;
+@import Foundation;
+@import HPGrowingTextView;
+@import NoChat;
+@import ObjectiveC;
 @import UIKit;
 #endif
+
+#import "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/K_Group-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -196,8 +203,34 @@ SWIFT_CLASS("_TtC7K_Group11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class UITableViewCell;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7K_Group18ChatViewController")
+@interface ChatViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+- (void)viewDidLoad;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group19ChatsViewController")
+@interface ChatsViewController : UITableViewController
+- (void)viewDidLoad;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC7K_Group21InitialViewController")
 @interface InitialViewController : UIViewController
@@ -206,6 +239,292 @@ SWIFT_CLASS("_TtC7K_Group21InitialViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+@protocol NOCChatItemCellLayout;
+
+SWIFT_CLASS("_TtC7K_Group17MMBaseMessageCell")
+@interface MMBaseMessageCell : NOCChatItemCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+@protocol NOCChatItem;
+
+SWIFT_CLASS("_TtC7K_Group23MMBaseMessageCellLayout")
+@interface MMBaseMessageCellLayout : NSObject <NOCChatItemCellLayout>
+@property (nonatomic, copy) NSString * _Nonnull reuseIdentifier;
+@property (nonatomic, strong) id <NOCChatItem> _Nonnull chatItem;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+@class HPGrowingTextView;
+
+SWIFT_CLASS("_TtC7K_Group20MMChatInputTextPanel")
+@interface MMChatInputTextPanel : NOCChatInputPanel <HPGrowingTextViewDelegate>
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (void)endInputting:(BOOL)animated;
+- (void)adjustForSize:(CGSize)size keyboardHeight:(CGFloat)keyboardHeight duration:(NSTimeInterval)duration animationCurve:(int32_t)animationCurve;
+- (void)changeToSize:(CGSize)size keyboardHeight:(CGFloat)keyboardHeight duration:(NSTimeInterval)duration;
+- (void)growingTextView:(HPGrowingTextView * _Null_unspecified)growingTextView willChangeHeight:(float)height;
+- (void)growingTextViewDidBeginEditing:(HPGrowingTextView * _Null_unspecified)growingTextView;
+- (BOOL)growingTextView:(HPGrowingTextView * _Null_unspecified)growingTextView shouldChangeTextInRange:(NSRange)range replacementText:(NSString * _Null_unspecified)text SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIScrollView;
+@class UINavigationController;
+
+SWIFT_CLASS("_TtC7K_Group20MMChatViewController")
+@interface MMChatViewController : NOCChatViewController <UINavigationControllerDelegate>
++ (Class _Nullable)cellLayoutClassForItemType:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
++ (Class _Nullable)inputPanelClass SWIFT_WARN_UNUSED_RESULT;
+- (void)registerChatItemCells;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (void)navigationController:(UINavigationController * _Nonnull)navigationController willShowViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group17MMDateMessageCell")
+@interface MMDateMessageCell : NOCChatItemCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group23MMDateMessageCellLayout")
+@interface MMDateMessageCellLayout : NSObject <NOCChatItemCellLayout>
+@property (nonatomic, copy) NSString * _Nonnull reuseIdentifier;
+@property (nonatomic, strong) id <NOCChatItem> _Nonnull chatItem;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group19MMSystemMessageCell")
+@interface MMSystemMessageCell : NOCChatItemCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group25MMSystemMessageCellLayout")
+@interface MMSystemMessageCellLayout : NSObject <NOCChatItemCellLayout>
+@property (nonatomic, copy) NSString * _Nonnull reuseIdentifier;
+@property (nonatomic, strong) id <NOCChatItem> _Nonnull chatItem;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group17MMTextMessageCell")
+@interface MMTextMessageCell : MMBaseMessageCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group23MMTextMessageCellLayout")
+@interface MMTextMessageCellLayout : MMBaseMessageCellLayout
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+@end
+
+@class MKMapView;
+
+SWIFT_CLASS("_TtC7K_Group17MapViewController")
+@interface MapViewController : UIViewController
+@property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group7Message")
+@interface Message : NSObject <NOCChatItem>
+- (NSString * _Nonnull)uniqueIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group14MessageManager")
+@interface MessageManager : NSObject <NOCClientDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)clientDidReceiveMessage:(NSDictionary * _Nonnull)message;
+@end
+
+
+
+@class UITraitCollection;
+
+SWIFT_CLASS("_TtC7K_Group14TGAvatarButton")
+@interface TGAvatarButton : UIButton
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group17TGBaseMessageCell")
+@interface TGBaseMessageCell : NOCChatItemCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group23TGBaseMessageCellLayout")
+@interface TGBaseMessageCellLayout : NSObject <NOCChatItemCellLayout>
+@property (nonatomic, copy) NSString * _Nonnull reuseIdentifier;
+@property (nonatomic, strong) id <NOCChatItem> _Nonnull chatItem;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group20TGChatInputTextPanel")
+@interface TGChatInputTextPanel : NOCChatInputPanel <HPGrowingTextViewDelegate>
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (void)endInputting:(BOOL)animated;
+- (void)adjustForSize:(CGSize)size keyboardHeight:(CGFloat)keyboardHeight duration:(NSTimeInterval)duration animationCurve:(int32_t)animationCurve;
+- (void)changeToSize:(CGSize)size keyboardHeight:(CGFloat)keyboardHeight duration:(NSTimeInterval)duration;
+- (void)growingTextView:(HPGrowingTextView * _Null_unspecified)growingTextView willChangeHeight:(float)height;
+- (void)growingTextViewDidChange:(HPGrowingTextView * _Null_unspecified)growingTextView;
+- (void)didTapSendButton:(UIButton * _Nonnull)sender;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group20TGChatViewController")
+@interface TGChatViewController : NOCChatViewController <UINavigationControllerDelegate>
++ (Class _Nullable)cellLayoutClassForItemType:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
++ (Class _Nullable)inputPanelClass SWIFT_WARN_UNUSED_RESULT;
+- (void)registerChatItemCells;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (void)navigationController:(UINavigationController * _Nonnull)navigationController willShowViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group19TGClockProgressView")
+@interface TGClockProgressView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group17TGDateMessageCell")
+@interface TGDateMessageCell : NOCChatItemCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group23TGDateMessageCellLayout")
+@interface TGDateMessageCellLayout : NSObject <NOCChatItemCellLayout>
+@property (nonatomic, copy) NSString * _Nonnull reuseIdentifier;
+@property (nonatomic, strong) id <NOCChatItem> _Nonnull chatItem;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group20TGDeliveryStatusView")
+@interface TGDeliveryStatusView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group19TGSystemMessageCell")
+@interface TGSystemMessageCell : NOCChatItemCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group25TGSystemMessageCellLayout")
+@interface TGSystemMessageCellLayout : NSObject <NOCChatItemCellLayout>
+@property (nonatomic, copy) NSString * _Nonnull reuseIdentifier;
+@property (nonatomic, strong) id <NOCChatItem> _Nonnull chatItem;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group17TGTextMessageCell")
+@interface TGTextMessageCell : TGBaseMessageCell
++ (NSString * _Nonnull)reuseIdentifier SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, strong) id <NOCChatItemCellLayout> _Nullable layout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group23TGTextMessageCellLayout")
+@interface TGTextMessageCellLayout : TGBaseMessageCellLayout
+- (nonnull instancetype)initWithChatItem:(id <NOCChatItem> _Nonnull)chatItem cellWidth:(CGFloat)width OBJC_DESIGNATED_INITIALIZER;
+- (void)calculateLayout;
+@end
+
+
+SWIFT_CLASS("_TtC7K_Group11TGTitleView")
+@interface TGTitleView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+@end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

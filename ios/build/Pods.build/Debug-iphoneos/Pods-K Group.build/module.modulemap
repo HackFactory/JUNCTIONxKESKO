@@ -1,0 +1,6 @@
+framework module Pods_K_Group {
+  umbrella header "Pods-K Group-umbrella.h"
+
+  export *
+  module * { export * }
+}

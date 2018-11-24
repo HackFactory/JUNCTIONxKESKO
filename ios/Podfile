@@ -6,9 +6,11 @@ target 'K Group' do
   use_frameworks!
 
   # Pods for K Group
-  pod 'Chatto', '= 3.3.1'
-  pod 'ChattoAdditions', '= 3.3.1'
-
+  pod 'NoChat', '~> 0.3'
+  pod 'YYText'
+  pod 'HPGrowingTextView'
+  pod 'Alamofire', '~> 4.7'
+  
   target 'K GroupTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "7e4f7f6c1f7bfedc6d86289bec1ead88"
-build_time: [1543052129, 969259000]
+build_time: [1543054141, 575446000]
 inputs:
   "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/Common/Alignment.swift": !dirty [1543052053, 0]
   "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/ChattoAdditions/ChattoAdditions/Source/Common/AnimationUtils.swift": !dirty [1543052053, 0]

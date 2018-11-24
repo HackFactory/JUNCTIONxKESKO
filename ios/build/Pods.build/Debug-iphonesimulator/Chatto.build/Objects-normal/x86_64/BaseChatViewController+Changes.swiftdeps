@@ -21,7 +21,6 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "BaseChatViewController"
 - "Bool"
-- !private "BooleanLiteralType"
 - "CGFloat"
 - "CGRect"
 - "ChatCollectionViewLayoutModel"

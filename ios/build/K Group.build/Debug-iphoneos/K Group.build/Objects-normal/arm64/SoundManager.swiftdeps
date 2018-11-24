@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SoundManager"
+provides-nominal:
+- "7K_Group12SoundManagerC"
+provides-member:
+- ["7K_Group12SoundManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "-"
+- !private "<"
+- !private "??"
+- !private "AssignmentPrecedence"
+- !private "AudioServicesCreateSystemSoundID"
+- !private "AudioServicesPlaySystemSound"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- "CFAbsoluteTime"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CFURL"
+- !private "CastingPrecedence"
+- "Dictionary"
+- !private "DispatchQueue"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "SoundManager"
+- "String"
+- "StringLiteralType"
+- "SystemSoundID"
+- !private "UIApplication"
+- !private "URL"
+- "UnicodeScalarType"
+- !private "kSystemSoundID_Vibrate"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "resourcePath"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "applicationState"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "resourcePath"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationState"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "resourcePath"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "applicationState"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "resourcePath"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "active"]
+- !private ["SQ", "applicationState"]
+- !private ["SQ", "async"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "resourcePath"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "active"]
+- !private ["SH", "applicationState"]
+- !private ["SH", "async"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "resourcePath"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "applicationState"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resourcePath"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "applicationState"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resourcePath"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "active"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["7K_Group12SoundManagerC", "AudioServicesCreateSystemSoundID"]
+- !private ["7K_Group12SoundManagerC", "AudioServicesPlaySystemSound"]
+- ["7K_Group12SoundManagerC", "Bool"]
+- !private ["7K_Group12SoundManagerC", "Bundle"]
+- ["7K_Group12SoundManagerC", "CFAbsoluteTime"]
+- !private ["7K_Group12SoundManagerC", "CFAbsoluteTimeGetCurrent"]
+- !private ["7K_Group12SoundManagerC", "CFURL"]
+- ["7K_Group12SoundManagerC", "Dictionary"]
+- !private ["7K_Group12SoundManagerC", "DispatchQueue"]
+- ["7K_Group12SoundManagerC", "SoundManager"]
+- ["7K_Group12SoundManagerC", "String"]
+- ["7K_Group12SoundManagerC", "SystemSoundID"]
+- !private ["7K_Group12SoundManagerC", "UIApplication"]
+- !private ["7K_Group12SoundManagerC", "URL"]
+- ["7K_Group12SoundManagerC", "init"]
+- !private ["7K_Group12SoundManagerC", "kSystemSoundID_Vibrate"]
+- !private ["7K_Group12SoundManagerC", "loadedSoundSamples"]
+- ["7K_Group12SoundManagerC", "manager"]
+- ["7K_Group12SoundManagerC", "playSound"]
+- !private ["7K_Group12SoundManagerC", "soundPlayed"]
+- !private ["So18UIApplicationStateV", "active"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So13UIApplicationC", "applicationState"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "applicationState"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "applicationState"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "applicationState"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "applicationState"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resourcePath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- "7K_Group12SoundManagerC"
+- !private "So18UIApplicationStateV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "10Foundation3URLV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCGame.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLine.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRunDelegate.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAttribute.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPTextViewInternal.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYLabel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatInputPanel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCell.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItem.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRubyAnnotation.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextTransaction.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextDebugOption.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/K_Group-Bridging-Header.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextKeyboardManager.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCDispatcher.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextMagnifier.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoCChatViewController.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextParser.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextArchiver.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextUtilities.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCellLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionViewLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextInput.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIPasteboard+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSParagraphStyle+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSAttributedString+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIView+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextSelectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a10e93f7a38e4fb25db9359f701f06a"
