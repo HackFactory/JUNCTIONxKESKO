@@ -31,6 +31,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/AwesomeTextFieldSwift/AwesomeTextFieldSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AwesomeTextFieldSwift-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/AwesomeTextFieldSwift/AwesomeTextFieldSwift.framework/Headers/AwesomeTextFieldSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AwesomeTextFieldSwift-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/AwesomeTextFieldSwift/AwesomeTextFieldSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/AwesomeTextFieldSwift/AwesomeTextFieldSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphoneos/AwesomeTextFieldSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers",
       'contents': [
         {

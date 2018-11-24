@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VB26txUKHWXYU5dNwUnBsQSUuCQ=
+		1igGLhPPnxEzFX8ZbvqVMygb0gg=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Ifi-eq-ev5-view-3BL-Zo-Eep.nib</key>
 		<data>
-		5jOJ/Ska2+xxSHQkh3I0sX1BR6Q=
+		o8Lg9FcxzOGat28DNU/Lcm2Y86c=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,35 +30,35 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/JPs-D7-JOj-view-hTa-pG-Qzb.nib</key>
 		<data>
-		Je2punFVrW/XBylT5SQnHs0O4bg=
+		RL0A4i2ZQ4lqiBXBHgQPF25RDdg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/NqH-Xu-M69-view-fsh-FV-Zl4.nib</key>
 		<data>
-		omim013LkiWiTzpAWL6aTnseCcY=
+		k5ZQWZOHvLiil+vavz97WFI63/w=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-y8Q-F8-noq.nib</key>
 		<data>
-		ePio97oB59AYlWViSzDONOerMTs=
+		tocJZxBjd59alRVKWuGnIWg2egA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-JPs-D7-JOj.nib</key>
 		<data>
-		6g4Gs0LpbWosJWD4VJthPS/qALI=
+		2jR7TapzohyxE+5YkwwidlWNj6E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/dTB-Uz-l5M-view-l6j-yi-0zb.nib</key>
 		<data>
-		UqnPkQegeRBCNDKvUqhBP0MsdPY=
+		f9qATzIgofJcO/kXXzoDtSGo3Hg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/eBo-eW-d3u-view-ak9-Nj-5gf.nib</key>
 		<data>
-		JHEHwKpufDB8ItiQyCK2v1k66gw=
+		wykix8XfRxt0eTlJdZWSUx6I1UQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/qc6-6f-SpD-view-eO8-SQ-LkU.nib</key>
 		<data>
-		M2k5bfda6+8nY3CjQQvUGZVU42w=
+		BBFu2heIz2RbhM7BoMJ6Xuo1wbw=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		TCBht+RoJB1pW2fxMYrwtusMyXo=
+		WQBeywson0smS76gpHjARwV1TC8=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -68,9 +68,21 @@
 		<data>
 		QMWtAE3tAyf9mqiwD87uZ0AP7KY=
 		</data>
+		<key>Frameworks/AwesomeTextFieldSwift.framework/AwesomeTextFieldSwift</key>
+		<data>
+		zIqDPIdlQPuZpknhLYiuXjRBLLI=
+		</data>
+		<key>Frameworks/AwesomeTextFieldSwift.framework/Info.plist</key>
+		<data>
+		83P7Ys/+vb/rkm2iSl3xGS5ECYE=
+		</data>
+		<key>Frameworks/AwesomeTextFieldSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Dl+lziw/UmX9vZE3p8BZy1WCL7Y=
+		</data>
 		<key>Frameworks/HPGrowingTextView.framework/HPGrowingTextView</key>
 		<data>
-		YhtZhma8myEzuvt6SiX+cyC9a3w=
+		s2OVBm/fCx5rwt47/ZsOH2zjSRQ=
 		</data>
 		<key>Frameworks/HPGrowingTextView.framework/Info.plist</key>
 		<data>
@@ -86,7 +98,7 @@
 		</data>
 		<key>Frameworks/NoChat.framework/NoChat</key>
 		<data>
-		6sIXrAc0UswsvjvyoQZoydJmmVs=
+		wkvQ7JSMV6Yk774JWq/Shbp8tUU=
 		</data>
 		<key>Frameworks/NoChat.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -98,7 +110,7 @@
 		</data>
 		<key>Frameworks/YYText.framework/YYText</key>
 		<data>
-		1D6Ft0noHppBWkMjIdZmZH0lYok=
+		jcTjODpCmAzm2humL2lnOU7q4mg=
 		</data>
 		<key>Frameworks/YYText.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -215,7 +227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9hezaO81XWNfnL812BcJPRv8iE37rqEsj/ox1Q0U4cA=
+			njGQqwi009aeu+OzKILdayuNeAce/dtQOqZvz8JqFTE=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -243,7 +255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e2sn55lGZeUPb4kGeefvVW9OSiFoi6GFnzjeruvWx8U=
+			mAd365xJtCf/1qIwVBP0b7NpTsSljz7h9uqzqSX2wHg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -257,56 +269,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAl8cpqjsHRRFE+B/MBc37U1s+OEX9EYAjq9aJMh45Y=
+			oDg1CE8luVFGTm82bbaLRwLr0+0v1l/so6FSRtpkiok=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/NqH-Xu-M69-view-fsh-FV-Zl4.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t42/vVOGWIYZJdo6txp6ftTYeaygaDpEgk0wwUXdVmI=
+			E7+hRWOGBrrCJwu83Tm54p1Db9d2BT1tVST9Zfv1kh4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-y8Q-F8-noq.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ANVgmLW5hHN/z8gzTllkmTQ5VDvBzZL8X65UaIfOBtE=
+			rgm8dGZWedYXaFAwrz8ylTyDIVK4tqu8xjoLMoFUDnA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-JPs-D7-JOj.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Wq7cw7ndI60RRHCTBxi8dgtRBrPJOtoEDzSDyR6u5g=
+			JcZP1UPAKEbf2OJHqws9/fLqwwoBiPsulCxY3pvO80k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/dTB-Uz-l5M-view-l6j-yi-0zb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5qC8R+NzUBGBqhKMCUNx6xf/qYRFnjO+Vf96GCXMHI=
+			O3jZVvMiGTvfA21GmzOePXURX6XD0OxxXMJVqnqCDnI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/eBo-eW-d3u-view-ak9-Nj-5gf.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5w9hPVMk7PJLjBmIxlRkFROiFd6v6rFzrPcEVMtCkHE=
+			uXc3G1NCr9NoQMDAuNFa6YBz/gB6f07Bwi8o54hcAuc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/qc6-6f-SpD-view-eO8-SQ-LkU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C6ux9o95T4YUsI/ck26vhkeDWevgw1Hv68mUGKpi12Y=
+			1FlICsU/Y4PfmbYh5nsaT+3PdW6/Y9Yv9csAF7nQM+4=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nmF4esVS/VoPOV5sq1Su6FCJMudu05UVt6zj+970H4w=
+			PP6zxjtQnV/C69OXMfhP7kDlfKEv1bjxlEWNPnhCK1k=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -323,11 +335,32 @@
 			4kmafKEQf/ynrzytpGkZ5HkhQMEtIZbjdmG0I7I3+fk=
 			</data>
 		</dict>
+		<key>Frameworks/AwesomeTextFieldSwift.framework/AwesomeTextFieldSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P6L1wPCOx/VIYKjihvhtqLCrBtQnZBVfQek3Vd5TEaY=
+			</data>
+		</dict>
+		<key>Frameworks/AwesomeTextFieldSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5A1kDOZgjCuKlsQ8n+5jFG6z/gmlYXxuKF4JZTqfsy8=
+			</data>
+		</dict>
+		<key>Frameworks/AwesomeTextFieldSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4NJ4rEobu3i1/V1EejntpG+yeCM3wNTVcRfK5WgyOJc=
+			</data>
+		</dict>
 		<key>Frameworks/HPGrowingTextView.framework/HPGrowingTextView</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c4jfwIAdqkNU6fwkb2vRqoewojAlEqUvsut219eK+6A=
+			J3ZIYp30xQavcLOHRBEPbQ1F53u0Rb6L0TefFKvV3Rk=
 			</data>
 		</dict>
 		<key>Frameworks/HPGrowingTextView.framework/Info.plist</key>
@@ -355,7 +388,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wZM77GbTR9RwKpcChApSBgGfzzSbZwyNUzzAkpcvhY4=
+			KhE/zDFqalaEkn9NCYDU6t6xsoX7P5FCMONPO+Ly/g0=
 			</data>
 		</dict>
 		<key>Frameworks/NoChat.framework/_CodeSignature/CodeResources</key>
@@ -376,7 +409,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lbRGTkYUgbY2A0iaxU2hxOl6V9GiHXIERXdl9vUkMU8=
+			cHDiuOwU1CC7fKBuAH4XfpJx5YxcJkZHF3XYjOzM/nI=
 			</data>
 		</dict>
 		<key>Frameworks/YYText.framework/_CodeSignature/CodeResources</key>

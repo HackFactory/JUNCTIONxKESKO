@@ -10,6 +10,7 @@ target 'K Group' do
   pod 'YYText'
   pod 'HPGrowingTextView'
   pod 'Alamofire', '~> 4.7'
+  pod 'AwesomeTextFieldSwift'  
   
   target 'K GroupTests' do
     inherit! :search_paths

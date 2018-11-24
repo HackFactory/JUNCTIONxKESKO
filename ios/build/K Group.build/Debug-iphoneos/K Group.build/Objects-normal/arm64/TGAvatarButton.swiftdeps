@@ -213,7 +213,7 @@ depends-member:
 - !private ["7K_Group14TGAvatarButtonC", "UIImage"]
 - ["7K_Group14TGAvatarButtonC", "UITraitCollection"]
 - !private ["7K_Group14TGAvatarButtonC", "compactLayout"]
-- !private ["7K_Group14TGAvatarButtonC", "deinit"]
+- ["7K_Group14TGAvatarButtonC", "deinit"]
 - !private ["7K_Group14TGAvatarButtonC", "fatalError"]
 - !private ["7K_Group14TGAvatarButtonC", "frame"]
 - !private ["7K_Group14TGAvatarButtonC", "imageView"]

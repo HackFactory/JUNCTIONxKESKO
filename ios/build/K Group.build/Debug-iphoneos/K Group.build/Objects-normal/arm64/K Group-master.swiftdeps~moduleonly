@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "c007955ec1982d06e10899736c95673a"
-build_time: [1543086837, 629345000]
+options: "04263bf969871cf254619a53a0bc1d1f"
+build_time: [1543090353, 876676000]
 inputs:
   "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1542976425, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGBaseMessageCellLayout.swift": [1543059709, 0]
@@ -30,7 +30,7 @@ inputs:
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMSystemMessageCellLayout.swift": [1543060075, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMDateMessageCell.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/Message.swift": [1543059709, 0]
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/MapViewController.swift": [1543085932, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/MapViewController.swift": [1543088047, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMChatInputTextPanel.swift": [1543060075, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGClockProgressView.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMBaseMessageCellLayout.swift": [1543059709, 0]
