@@ -1,0 +1,700 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TGDateMessageCell"
+provides-nominal:
+- "7K_Group17TGDateMessageCellC"
+provides-member:
+- ["7K_Group17TGDateMessageCellC", ""]
+provides-dynamic-lookup:
+- "layout"
+- "reuseIdentifier"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NOCChatItemCell"
+- "NOCChatItemCellLayout"
+- "NSCoder"
+- "String"
+- !private "StringLiteralType"
+- "TGDateMessageCell"
+- !private "TGDateMessageCellLayout"
+- "UIImageView"
+- "UILabel"
+- !private "fatalError"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["So15CALayerDelegateP", "UIImageView"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "attributedText"]
+- !private ["So15CALayerDelegateP", "backgroundImageView"]
+- !private ["So15CALayerDelegateP", "dateLabel"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "image"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "itemView"]
+- !private ["So15CALayerDelegateP", "layout"]
+- !private ["So15CALayerDelegateP", "numberOfLines"]
+- ["s7CVarArgP", "UIImageView"]
+- ["s7CVarArgP", "UILabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "attributedDate"]
+- !private ["s7CVarArgP", "attributedText"]
+- !private ["s7CVarArgP", "backgroundImage"]
+- !private ["s7CVarArgP", "backgroundImageView"]
+- !private ["s7CVarArgP", "backgroundImageViewFrame"]
+- !private ["s7CVarArgP", "dateLabel"]
+- !private ["s7CVarArgP", "dateLabelFrame"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "itemView"]
+- !private ["s7CVarArgP", "layout"]
+- !private ["s7CVarArgP", "numberOfLines"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- ["s28CustomDebugStringConvertibleP", "UILabel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedDate"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedText"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImageViewFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "dateLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "dateLabelFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "itemView"]
+- !private ["s28CustomDebugStringConvertibleP", "layout"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfLines"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "UIImageView"]
+- ["s23CustomStringConvertibleP", "UILabel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "attributedDate"]
+- !private ["s23CustomStringConvertibleP", "attributedText"]
+- !private ["s23CustomStringConvertibleP", "backgroundImage"]
+- !private ["s23CustomStringConvertibleP", "backgroundImageView"]
+- !private ["s23CustomStringConvertibleP", "backgroundImageViewFrame"]
+- !private ["s23CustomStringConvertibleP", "dateLabel"]
+- !private ["s23CustomStringConvertibleP", "dateLabelFrame"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "itemView"]
+- !private ["s23CustomStringConvertibleP", "layout"]
+- !private ["s23CustomStringConvertibleP", "numberOfLines"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", "UIImageView"]
+- ["SQ", "UILabel"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "attributedDate"]
+- !private ["SQ", "attributedText"]
+- !private ["SQ", "backgroundImage"]
+- !private ["SQ", "backgroundImageView"]
+- !private ["SQ", "backgroundImageViewFrame"]
+- !private ["SQ", "dateLabel"]
+- !private ["SQ", "dateLabelFrame"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "image"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "itemView"]
+- !private ["SQ", "layout"]
+- !private ["SQ", "numberOfLines"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "UIImageView"]
+- ["SH", "UILabel"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "attributedDate"]
+- !private ["SH", "attributedText"]
+- !private ["SH", "backgroundImage"]
+- !private ["SH", "backgroundImageView"]
+- !private ["SH", "backgroundImageViewFrame"]
+- !private ["SH", "dateLabel"]
+- !private ["SH", "dateLabelFrame"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "frame"]
+- !private ["SH", "image"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "itemView"]
+- !private ["SH", "layout"]
+- !private ["SH", "numberOfLines"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So15NOCChatItemCellC", "CGRect"]
+- ["So15NOCChatItemCellC", "NOCChatItemCellLayout"]
+- ["So15NOCChatItemCellC", "NSCoder"]
+- ["So15NOCChatItemCellC", "String"]
+- !private ["So15NOCChatItemCellC", "TGDateMessageCellLayout"]
+- ["So15NOCChatItemCellC", "UIImageView"]
+- ["So15NOCChatItemCellC", "UILabel"]
+- ["So15NOCChatItemCellC", ""]
+- ["So15NOCChatItemCellC", "backgroundImageView"]
+- ["So15NOCChatItemCellC", "dateLabel"]
+- !private ["So15NOCChatItemCellC", "fatalError"]
+- ["So15NOCChatItemCellC", "init"]
+- !private ["So15NOCChatItemCellC", "itemView"]
+- ["So15NOCChatItemCellC", "layout"]
+- ["So15NOCChatItemCellC", "reuseIdentifier"]
+- !private ["So21NOCChatItemCellLayoutP", "attributedDate"]
+- !private ["So21NOCChatItemCellLayoutP", "backgroundImage"]
+- !private ["So21NOCChatItemCellLayoutP", "backgroundImageViewFrame"]
+- !private ["So21NOCChatItemCellLayoutP", "dateLabelFrame"]
+- ["So8NSCodingP", "UIImageView"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "attributedText"]
+- !private ["So8NSCodingP", "backgroundImageView"]
+- !private ["So8NSCodingP", "dateLabel"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "itemView"]
+- !private ["So8NSCodingP", "layout"]
+- !private ["So8NSCodingP", "numberOfLines"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NOCChatItemCellLayout"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TGDateMessageCellLayout"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "attributedDate"]
+- !private ["So8NSObjectC", "attributedText"]
+- !private ["So8NSObjectC", "backgroundImage"]
+- ["So8NSObjectC", "backgroundImageView"]
+- !private ["So8NSObjectC", "backgroundImageViewFrame"]
+- ["So8NSObjectC", "dateLabel"]
+- !private ["So8NSObjectC", "dateLabelFrame"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "itemView"]
+- ["So8NSObjectC", "layout"]
+- !private ["So8NSObjectC", "numberOfLines"]
+- ["So8NSObjectC", "reuseIdentifier"]
+- ["So8NSObjectP", "UIImageView"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "attributedDate"]
+- !private ["So8NSObjectP", "attributedText"]
+- !private ["So8NSObjectP", "backgroundImage"]
+- !private ["So8NSObjectP", "backgroundImageView"]
+- !private ["So8NSObjectP", "backgroundImageViewFrame"]
+- !private ["So8NSObjectP", "dateLabel"]
+- !private ["So8NSObjectP", "dateLabelFrame"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "image"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "itemView"]
+- !private ["So8NSObjectP", "layout"]
+- !private ["So8NSObjectP", "numberOfLines"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["7K_Group17TGDateMessageCellC", "CGRect"]
+- ["7K_Group17TGDateMessageCellC", "NOCChatItemCellLayout"]
+- ["7K_Group17TGDateMessageCellC", "NSCoder"]
+- ["7K_Group17TGDateMessageCellC", "String"]
+- !private ["7K_Group17TGDateMessageCellC", "TGDateMessageCellLayout"]
+- ["7K_Group17TGDateMessageCellC", "UIImageView"]
+- ["7K_Group17TGDateMessageCellC", "UILabel"]
+- ["7K_Group17TGDateMessageCellC", "backgroundImageView"]
+- ["7K_Group17TGDateMessageCellC", "dateLabel"]
+- !private ["7K_Group17TGDateMessageCellC", "fatalError"]
+- ["7K_Group17TGDateMessageCellC", "init"]
+- !private ["7K_Group17TGDateMessageCellC", "itemView"]
+- ["7K_Group17TGDateMessageCellC", "layout"]
+- ["7K_Group17TGDateMessageCellC", "reuseIdentifier"]
+- !private ["7K_Group23TGDateMessageCellLayoutC", "attributedDate"]
+- !private ["7K_Group23TGDateMessageCellLayoutC", "backgroundImage"]
+- !private ["7K_Group23TGDateMessageCellLayoutC", "backgroundImageViewFrame"]
+- !private ["7K_Group23TGDateMessageCellLayoutC", "dateLabelFrame"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "attributedText"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "dateLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "itemView"]
+- !private ["So29UIAccessibilityIdentificationP", "layout"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfLines"]
+- ["So12UIAppearanceP", "UIImageView"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "attributedText"]
+- !private ["So12UIAppearanceP", "backgroundImageView"]
+- !private ["So12UIAppearanceP", "dateLabel"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "image"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "itemView"]
+- !private ["So12UIAppearanceP", "layout"]
+- !private ["So12UIAppearanceP", "numberOfLines"]
+- ["So21UIAppearanceContainerP", "UIImageView"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "attributedText"]
+- !private ["So21UIAppearanceContainerP", "backgroundImageView"]
+- !private ["So21UIAppearanceContainerP", "dateLabel"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "itemView"]
+- !private ["So21UIAppearanceContainerP", "layout"]
+- !private ["So21UIAppearanceContainerP", "numberOfLines"]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- ["So24UICollectionReusableViewC", "NOCChatItemCellLayout"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "String"]
+- !private ["So24UICollectionReusableViewC", "TGDateMessageCellLayout"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- ["So24UICollectionReusableViewC", "backgroundImageView"]
+- ["So24UICollectionReusableViewC", "dateLabel"]
+- !private ["So24UICollectionReusableViewC", "fatalError"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "itemView"]
+- ["So24UICollectionReusableViewC", "layout"]
+- ["So24UICollectionReusableViewC", "reuseIdentifier"]
+- ["So20UICollectionViewCellC", "CGRect"]
+- ["So20UICollectionViewCellC", "NOCChatItemCellLayout"]
+- ["So20UICollectionViewCellC", "NSCoder"]
+- ["So20UICollectionViewCellC", "String"]
+- !private ["So20UICollectionViewCellC", "TGDateMessageCellLayout"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- ["So20UICollectionViewCellC", "backgroundImageView"]
+- ["So20UICollectionViewCellC", "dateLabel"]
+- !private ["So20UICollectionViewCellC", "fatalError"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "itemView"]
+- ["So20UICollectionViewCellC", "layout"]
+- ["So20UICollectionViewCellC", "reuseIdentifier"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedText"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "frame"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "numberOfLines"]
+- ["So17UICoordinateSpaceP", "UIImageView"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "attributedText"]
+- !private ["So17UICoordinateSpaceP", "backgroundImageView"]
+- !private ["So17UICoordinateSpaceP", "dateLabel"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "itemView"]
+- !private ["So17UICoordinateSpaceP", "layout"]
+- !private ["So17UICoordinateSpaceP", "numberOfLines"]
+- ["So13UIDynamicItemP", "UIImageView"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "attributedText"]
+- !private ["So13UIDynamicItemP", "backgroundImageView"]
+- !private ["So13UIDynamicItemP", "dateLabel"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "image"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "itemView"]
+- !private ["So13UIDynamicItemP", "layout"]
+- !private ["So13UIDynamicItemP", "numberOfLines"]
+- ["So18UIFocusEnvironmentP", "UIImageView"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "attributedText"]
+- !private ["So18UIFocusEnvironmentP", "backgroundImageView"]
+- !private ["So18UIFocusEnvironmentP", "dateLabel"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "itemView"]
+- !private ["So18UIFocusEnvironmentP", "layout"]
+- !private ["So18UIFocusEnvironmentP", "numberOfLines"]
+- ["So11UIFocusItemP", "UIImageView"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "attributedText"]
+- !private ["So11UIFocusItemP", "backgroundImageView"]
+- !private ["So11UIFocusItemP", "dateLabel"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "image"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "itemView"]
+- !private ["So11UIFocusItemP", "layout"]
+- !private ["So11UIFocusItemP", "numberOfLines"]
+- ["So20UIFocusItemContainerP", "UIImageView"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "attributedText"]
+- !private ["So20UIFocusItemContainerP", "backgroundImageView"]
+- !private ["So20UIFocusItemContainerP", "dateLabel"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "itemView"]
+- !private ["So20UIFocusItemContainerP", "layout"]
+- !private ["So20UIFocusItemContainerP", "numberOfLines"]
+- !private ["So11UIImageViewC", "frame"]
+- !private ["So11UIImageViewC", "image"]
+- ["So11UIImageViewC", "init"]
+- !private ["So7UILabelC", "attributedText"]
+- !private ["So7UILabelC", "frame"]
+- ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "numberOfLines"]
+- ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedText"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "dateLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "itemView"]
+- !private ["So30UIPasteConfigurationSupportingP", "layout"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfLines"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NOCChatItemCellLayout"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "TGDateMessageCellLayout"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "attributedText"]
+- ["So11UIResponderC", "backgroundImageView"]
+- ["So11UIResponderC", "dateLabel"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "itemView"]
+- ["So11UIResponderC", "layout"]
+- !private ["So11UIResponderC", "numberOfLines"]
+- ["So11UIResponderC", "reuseIdentifier"]
+- ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "attributedText"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "dateLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "itemView"]
+- !private ["So30UIResponderStandardEditActionsP", "layout"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfLines"]
+- ["So18UITraitEnvironmentP", "UIImageView"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "attributedText"]
+- !private ["So18UITraitEnvironmentP", "backgroundImageView"]
+- !private ["So18UITraitEnvironmentP", "dateLabel"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "itemView"]
+- !private ["So18UITraitEnvironmentP", "layout"]
+- !private ["So18UITraitEnvironmentP", "numberOfLines"]
+- ["So23UIUserActivityRestoringP", "UIImageView"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "attributedText"]
+- !private ["So23UIUserActivityRestoringP", "backgroundImageView"]
+- !private ["So23UIUserActivityRestoringP", "dateLabel"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "itemView"]
+- !private ["So23UIUserActivityRestoringP", "layout"]
+- !private ["So23UIUserActivityRestoringP", "numberOfLines"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NOCChatItemCellLayout"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "TGDateMessageCellLayout"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "attributedText"]
+- ["So6UIViewC", "backgroundImageView"]
+- ["So6UIViewC", "dateLabel"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "itemView"]
+- ["So6UIViewC", "layout"]
+- !private ["So6UIViewC", "numberOfLines"]
+- ["So6UIViewC", "reuseIdentifier"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UILabel"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "attributedText"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dateLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "itemView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberOfLines"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImageViewFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateLabelFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfLines"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So15NOCChatItemCellC"
+- !private "So21NOCChatItemCellLayoutP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sm"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- "7K_Group17TGDateMessageCellC"
+- !private "7K_Group23TGDateMessageCellLayoutC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So11UIImageViewC"
+- "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYText-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCGame.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextLine.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextRunDelegate.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextAttribute.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPTextViewInternal.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYLabel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatInputPanel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatItemCell.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatItem.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextRubyAnnotation.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextTransaction.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextDebugOption.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/K_Group-Bridging-Header.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextKeyboardManager.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCDispatcher.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextMagnifier.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NoCChatViewController.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextParser.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextArchiver.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextUtilities.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatItemCellLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatCollectionViewLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextInput.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/UIPasteboard+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/NSParagraphStyle+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/NSAttributedString+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/UIView+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextSelectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatCollectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NOCChatContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "78277431bf1ca252be561273943c5ddf"

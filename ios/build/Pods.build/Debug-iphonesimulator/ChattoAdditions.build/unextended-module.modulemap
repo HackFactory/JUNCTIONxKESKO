@@ -1,0 +1,10 @@
+framework module ChattoAdditions {
+  umbrella header "ChattoAdditions-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ChattoAdditions.__Swift {
+    exclude header "ChattoAdditions-Swift.h"
+}

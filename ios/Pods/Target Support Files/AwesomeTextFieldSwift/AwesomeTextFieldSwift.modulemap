@@ -1,0 +1,6 @@
+framework module AwesomeTextFieldSwift {
+  umbrella header "AwesomeTextFieldSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

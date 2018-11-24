@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageDeliveryStatus"
+- "Message"
+provides-nominal:
+- "7K_Group21MessageDeliveryStatusO"
+- "7K_Group7MessageC"
+provides-member:
+- ["7K_Group21MessageDeliveryStatusO", ""]
+- ["7K_Group7MessageC", ""]
+provides-dynamic-lookup:
+- "type"
+- "uniqueIdentifier"
+depends-top-level:
+- "=="
+- "Bool"
+- "BooleanLiteralType"
+- "Date"
+- "Message"
+- "MessageDeliveryStatus"
+- "NOCChatItem"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "UUID"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- ["s7CVarArgP", "Date"]
+- ["s7CVarArgP", "UUID"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "msgId"]
+- !private ["s7CVarArgP", "msgType"]
+- ["s7CVarArgP", "type"]
+- ["s7CVarArgP", "uniqueIdentifier"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Date"]
+- ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "msgId"]
+- !private ["s28CustomDebugStringConvertibleP", "msgType"]
+- ["s28CustomDebugStringConvertibleP", "type"]
+- ["s28CustomDebugStringConvertibleP", "uniqueIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "uuidString"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "uuidString"]
+- ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "msgId"]
+- !private ["s23CustomStringConvertibleP", "msgType"]
+- ["s23CustomStringConvertibleP", "type"]
+- ["s23CustomStringConvertibleP", "uniqueIdentifier"]
+- ["s23CustomStringConvertibleP", "uuidString"]
+- ["10Foundation4DateV", "init"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "uuidString"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "uuidString"]
+- ["SQ", "Date"]
+- ["SQ", "Idle"]
+- ["SQ", "UUID"]
+- ["SQ", ""]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "msgId"]
+- !private ["SQ", "msgType"]
+- ["SQ", "type"]
+- ["SQ", "uniqueIdentifier"]
+- ["SQ", "uuidString"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "Date"]
+- ["SH", "Idle"]
+- ["SH", "UUID"]
+- ["SH", ""]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "msgId"]
+- !private ["SH", "msgType"]
+- ["SH", "type"]
+- ["SH", "uniqueIdentifier"]
+- ["SH", "uuidString"]
+- !private ["s6HasherV", "combine"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["7K_Group7MessageC", "Bool"]
+- ["7K_Group7MessageC", "Date"]
+- ["7K_Group7MessageC", "MessageDeliveryStatus"]
+- ["7K_Group7MessageC", "String"]
+- ["7K_Group7MessageC", "UUID"]
+- ["7K_Group7MessageC", "date"]
+- ["7K_Group7MessageC", "deinit"]
+- ["7K_Group7MessageC", "deliveryStatus"]
+- ["7K_Group7MessageC", "init"]
+- ["7K_Group7MessageC", "isOutgoing"]
+- ["7K_Group7MessageC", "msgId"]
+- ["7K_Group7MessageC", "msgType"]
+- ["7K_Group7MessageC", "senderId"]
+- ["7K_Group7MessageC", "text"]
+- ["7K_Group7MessageC", "type"]
+- ["7K_Group7MessageC", "uniqueIdentifier"]
+- ["7K_Group21MessageDeliveryStatusO", "Delivered"]
+- ["7K_Group21MessageDeliveryStatusO", "Delivering"]
+- ["7K_Group21MessageDeliveryStatusO", "Failure"]
+- ["7K_Group21MessageDeliveryStatusO", "Idle"]
+- ["7K_Group21MessageDeliveryStatusO", "Read"]
+- ["7K_Group21MessageDeliveryStatusO", "__derived_enum_equals"]
+- ["7K_Group21MessageDeliveryStatusO", "deinit"]
+- ["7K_Group21MessageDeliveryStatusO", "hash"]
+- ["7K_Group21MessageDeliveryStatusO", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So11NOCChatItemP", "Date"]
+- ["So11NOCChatItemP", "UUID"]
+- ["So11NOCChatItemP", ""]
+- !private ["So11NOCChatItemP", "msgId"]
+- !private ["So11NOCChatItemP", "msgType"]
+- ["So11NOCChatItemP", "type"]
+- ["So11NOCChatItemP", "uniqueIdentifier"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "MessageDeliveryStatus"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "deliveryStatus"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isOutgoing"]
+- ["So8NSObjectC", "msgId"]
+- ["So8NSObjectC", "msgType"]
+- ["So8NSObjectC", "senderId"]
+- ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "type"]
+- ["So8NSObjectC", "uniqueIdentifier"]
+- ["So8NSObjectP", "Date"]
+- ["So8NSObjectP", "UUID"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "msgId"]
+- !private ["So8NSObjectP", "msgType"]
+- ["So8NSObjectP", "type"]
+- ["So8NSObjectP", "uniqueIdentifier"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["10Foundation4UUIDV", "init"]
+- ["10Foundation4UUIDV", "uuidString"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "msgId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "msgType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "uniqueIdentifier"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "7K_Group7MessageC"
+- "7K_Group21MessageDeliveryStatusO"
+- "s10MirrorPathP"
+- "So11NOCChatItemP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "10Foundation4UUIDV"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCGame.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLine.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRunDelegate.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAttribute.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPTextViewInternal.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYLabel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatInputPanel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCell.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItem.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRubyAnnotation.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextTransaction.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextDebugOption.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/K_Group-Bridging-Header.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextKeyboardManager.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCDispatcher.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextMagnifier.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoCChatViewController.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextParser.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextArchiver.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextUtilities.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCellLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionViewLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextInput.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIPasteboard+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSParagraphStyle+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSAttributedString+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIView+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextSelectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d79aeecf012f8accb96f9f0ab6dc840f"

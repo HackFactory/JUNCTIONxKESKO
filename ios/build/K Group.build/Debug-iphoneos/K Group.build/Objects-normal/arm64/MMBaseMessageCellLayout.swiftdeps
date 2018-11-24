@@ -1,0 +1,483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MMBaseMessageCellLayout"
+provides-nominal:
+- "7K_Group23MMBaseMessageCellLayoutC"
+- "7K_Group23MMBaseMessageCellLayoutC5StyleV"
+provides-member:
+- ["7K_Group23MMBaseMessageCellLayoutC", ""]
+- ["7K_Group23MMBaseMessageCellLayoutC5StyleV", ""]
+provides-dynamic-lookup:
+- "calculate"
+- "chatItem"
+- "height"
+- "reuseIdentifier"
+- "width"
+depends-top-level:
+- !private "-"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MMBaseMessageCellLayout"
+- "Message"
+- "NOCChatItem"
+- "NOCChatItemCellLayout"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UIEdgeInsets"
+- "UIImage"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So6CGRectV", "init"]
+- ["So6CGRectV", "zero"]
+- ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "Style"]
+- ["s7CVarArgP", "UIEdgeInsets"]
+- ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "avatarImage"]
+- !private ["s7CVarArgP", "avatarImageViewFrame"]
+- !private ["s7CVarArgP", "avatarSize"]
+- ["s7CVarArgP", "calculate"]
+- ["s7CVarArgP", "calculateLayout"]
+- ["s7CVarArgP", "chatItem"]
+- ["s7CVarArgP", "height"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isOutgoing"]
+- !private ["s7CVarArgP", "message"]
+- ["s7CVarArgP", "reuseIdentifier"]
+- ["s7CVarArgP", "width"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- ["s28CustomDebugStringConvertibleP", "UIEdgeInsets"]
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "avatarImage"]
+- !private ["s28CustomDebugStringConvertibleP", "avatarImageViewFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "avatarSize"]
+- ["s28CustomDebugStringConvertibleP", "calculate"]
+- ["s28CustomDebugStringConvertibleP", "calculateLayout"]
+- ["s28CustomDebugStringConvertibleP", "chatItem"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isOutgoing"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- ["s23CustomStringConvertibleP", "UIEdgeInsets"]
+- ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "avatarImage"]
+- !private ["s23CustomStringConvertibleP", "avatarImageViewFrame"]
+- !private ["s23CustomStringConvertibleP", "avatarSize"]
+- ["s23CustomStringConvertibleP", "calculate"]
+- ["s23CustomStringConvertibleP", "calculateLayout"]
+- ["s23CustomStringConvertibleP", "chatItem"]
+- ["s23CustomStringConvertibleP", "height"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isOutgoing"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- ["s23CustomStringConvertibleP", "reuseIdentifier"]
+- ["s23CustomStringConvertibleP", "width"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "zero"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "zero"]
+- ["SQ", "CGFloat"]
+- ["SQ", "CGRect"]
+- !private ["SQ", "Style"]
+- ["SQ", "UIEdgeInsets"]
+- ["SQ", "UIImage"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "avatarImage"]
+- !private ["SQ", "avatarImageViewFrame"]
+- !private ["SQ", "avatarSize"]
+- ["SQ", "calculate"]
+- ["SQ", "calculateLayout"]
+- ["SQ", "chatItem"]
+- ["SQ", "height"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isOutgoing"]
+- !private ["SQ", "message"]
+- ["SQ", "reuseIdentifier"]
+- ["SQ", "width"]
+- ["SQ", "zero"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SF", "init"]
+- ["SH", "CGFloat"]
+- ["SH", "CGRect"]
+- !private ["SH", "Style"]
+- ["SH", "UIEdgeInsets"]
+- ["SH", "UIImage"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "avatarImage"]
+- !private ["SH", "avatarImageViewFrame"]
+- !private ["SH", "avatarSize"]
+- ["SH", "calculate"]
+- ["SH", "calculateLayout"]
+- ["SH", "chatItem"]
+- ["SH", "height"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isOutgoing"]
+- !private ["SH", "message"]
+- ["SH", "reuseIdentifier"]
+- ["SH", "width"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "Bool"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "CGFloat"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "CGRect"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "Message"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "NOCChatItem"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "String"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "Style"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "UIEdgeInsets"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "UIImage"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "avatarImage"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "avatarImageViewFrame"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "avatarSize"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "bubbleViewFrame"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "bubbleViewMargin"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "calculate"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "calculateLayout"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "chatItem"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "deinit"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "height"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "init"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "isOutgoing"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "message"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "reuseIdentifier"]
+- ["7K_Group23MMBaseMessageCellLayoutC", "width"]
+- !private ["7K_Group7MessageC", "isOutgoing"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So11NOCChatItemP", "isOutgoing"]
+- ["So21NOCChatItemCellLayoutP", "CGFloat"]
+- ["So21NOCChatItemCellLayoutP", "CGRect"]
+- !private ["So21NOCChatItemCellLayoutP", "Style"]
+- ["So21NOCChatItemCellLayoutP", "UIEdgeInsets"]
+- ["So21NOCChatItemCellLayoutP", "UIImage"]
+- ["So21NOCChatItemCellLayoutP", ""]
+- !private ["So21NOCChatItemCellLayoutP", "avatarImage"]
+- !private ["So21NOCChatItemCellLayoutP", "avatarImageViewFrame"]
+- !private ["So21NOCChatItemCellLayoutP", "avatarSize"]
+- ["So21NOCChatItemCellLayoutP", "calculate"]
+- ["So21NOCChatItemCellLayoutP", "calculateLayout"]
+- ["So21NOCChatItemCellLayoutP", "chatItem"]
+- ["So21NOCChatItemCellLayoutP", "height"]
+- ["So21NOCChatItemCellLayoutP", "init"]
+- !private ["So21NOCChatItemCellLayoutP", "isOutgoing"]
+- !private ["So21NOCChatItemCellLayoutP", "message"]
+- ["So21NOCChatItemCellLayoutP", "reuseIdentifier"]
+- ["So21NOCChatItemCellLayoutP", "width"]
+- ["So8NSCodingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Message"]
+- ["So8NSObjectC", "NOCChatItem"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "avatarImage"]
+- ["So8NSObjectC", "avatarImageViewFrame"]
+- ["So8NSObjectC", "avatarSize"]
+- ["So8NSObjectC", "bubbleViewFrame"]
+- ["So8NSObjectC", "bubbleViewMargin"]
+- ["So8NSObjectC", "calculate"]
+- ["So8NSObjectC", "calculateLayout"]
+- ["So8NSObjectC", "chatItem"]
+- ["So8NSObjectC", "height"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isOutgoing"]
+- ["So8NSObjectC", "message"]
+- ["So8NSObjectC", "reuseIdentifier"]
+- ["So8NSObjectC", "width"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", "UIEdgeInsets"]
+- ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "avatarImage"]
+- !private ["So8NSObjectP", "avatarImageViewFrame"]
+- !private ["So8NSObjectP", "avatarSize"]
+- ["So8NSObjectP", "calculate"]
+- ["So8NSObjectP", "calculateLayout"]
+- ["So8NSObjectP", "chatItem"]
+- ["So8NSObjectP", "height"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isOutgoing"]
+- !private ["So8NSObjectP", "message"]
+- ["So8NSObjectP", "reuseIdentifier"]
+- ["So8NSObjectP", "width"]
+- ["So14NSSecureCodingP", "init"]
+- ["Sj", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["7K_Group23MMBaseMessageCellLayoutC5StyleV", "UIImage"]
+- ["7K_Group23MMBaseMessageCellLayoutC5StyleV", "incomingAvatarImage"]
+- ["7K_Group23MMBaseMessageCellLayoutC5StyleV", "init"]
+- ["7K_Group23MMBaseMessageCellLayoutC5StyleV", "outgoingAvatarImage"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So12UIEdgeInsetsV", "init"]
+- ["So7UIImageC", "init"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByImageLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "avatarImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "avatarImageViewFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "avatarSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calculate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calculateLayout"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "chatItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "height"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOutgoing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "reuseIdentifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "SB"
+- !private "Sb"
+- "12CoreGraphics7CGFloatV"
+- "So6CGRectV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "7K_Group23MMBaseMessageCellLayoutC"
+- !private "7K_Group7MessageC"
+- "s10MirrorPathP"
+- !private "So11NOCChatItemP"
+- "So21NOCChatItemCellLayoutP"
+- "So8NSCodingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "Sj"
+- "Sm"
+- "ST"
+- "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "Sx"
+- "SS"
+- "Sy"
+- "7K_Group23MMBaseMessageCellLayoutC5StyleV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIEdgeInsetsV"
+- "So7UIImageC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- "9Alamofire14URLConvertibleP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCGame.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLine.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRunDelegate.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAttribute.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPTextViewInternal.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYLabel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatInputPanel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCell.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItem.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRubyAnnotation.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextTransaction.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextDebugOption.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/K_Group-Bridging-Header.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextKeyboardManager.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCDispatcher.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextMagnifier.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoCChatViewController.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextParser.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextArchiver.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextUtilities.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCellLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionViewLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextInput.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIPasteboard+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSParagraphStyle+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSAttributedString+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIView+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextSelectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "78d1890bb5edcd96bf51481bba3ee622"

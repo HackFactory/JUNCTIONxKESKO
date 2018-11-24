@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AwesomeTextFieldSwift (0.2.5)
+  - HPGrowingTextView (1.1)
+  - NoChat (0.3.2)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AwesomeTextFieldSwift
+  - HPGrowingTextView
+  - NoChat (~> 0.3)
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AwesomeTextFieldSwift
+    - HPGrowingTextView
+    - NoChat
+    - YYText
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AwesomeTextFieldSwift: 5dbe899fa593144bb6547748b52f916cf4f21756
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
+  NoChat: aaa980b8b29c0db8c8bd8ecde22e718cc8ad1bf7
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 61a729b0f6f998faceb7fc670b05a2de42ad6f75
+
+COCOAPODS: 1.5.0

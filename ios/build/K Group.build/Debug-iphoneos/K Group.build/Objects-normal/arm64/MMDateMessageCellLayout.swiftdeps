@@ -1,0 +1,803 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MMDateMessageCellLayout"
+provides-nominal:
+- "7K_Group23MMDateMessageCellLayoutC"
+- "7K_Group23MMDateMessageCellLayoutC5StyleV"
+provides-member:
+- ["7K_Group23MMDateMessageCellLayoutC", ""]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", ""]
+provides-dynamic-lookup:
+- "calculate"
+- "chatItem"
+- "height"
+- "reuseIdentifier"
+- "width"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private ">"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CGRect"
+- !private "CGSize"
+- "CastingPrecedence"
+- "DateFormatter"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Locale"
+- "MMDateMessageCellLayout"
+- !private "MMSystemMessageCellLayout"
+- "Message"
+- "NOCChatItem"
+- "NOCChatItemCellLayout"
+- "NSAttributedString"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "UIColor"
+- "UIEdgeInsets"
+- "UIFont"
+- "UIImage"
+- !private "ceil"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SB", "greatestFiniteMagnitude"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "greatestFiniteMagnitude"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "width"]
+- ["So6CGRectV", "zero"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "CGSize"]
+- ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "Key"]
+- ["s7CVarArgP", "Locale"]
+- !private ["s7CVarArgP", "MMSystemMessageCellLayout"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "Style"]
+- ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", "UIEdgeInsets"]
+- ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "attributedDate"]
+- !private ["s7CVarArgP", "backgroundImage"]
+- !private ["s7CVarArgP", "backgroundImageViewFrame"]
+- ["s7CVarArgP", "calculate"]
+- ["s7CVarArgP", "calculateLayout"]
+- !private ["s7CVarArgP", "ceil"]
+- ["s7CVarArgP", "chatItem"]
+- !private ["s7CVarArgP", "date"]
+- ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "dateLabelFrame"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- ["s7CVarArgP", "height"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "length"]
+- ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "message"]
+- ["s7CVarArgP", "noc_mediumSystemFont"]
+- !private ["s7CVarArgP", "noc_sizeThatFits"]
+- ["s7CVarArgP", "reuseIdentifier"]
+- !private ["s7CVarArgP", "setupAttributedDate"]
+- !private ["s7CVarArgP", "setupBackgroundImage"]
+- !private ["s7CVarArgP", "string"]
+- ["s7CVarArgP", "white"]
+- ["s7CVarArgP", "width"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["SL", "greatestFiniteMagnitude"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "MMSystemMessageCellLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", "UIEdgeInsets"]
+- ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "attributedDate"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImageViewFrame"]
+- ["s28CustomDebugStringConvertibleP", "calculate"]
+- ["s28CustomDebugStringConvertibleP", "calculateLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "ceil"]
+- ["s28CustomDebugStringConvertibleP", "chatItem"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dateLabelFrame"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- ["s28CustomDebugStringConvertibleP", "noc_mediumSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "noc_sizeThatFits"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "setupAttributedDate"]
+- !private ["s28CustomDebugStringConvertibleP", "setupBackgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "MMSystemMessageCellLayout"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", "UIEdgeInsets"]
+- ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "attributedDate"]
+- !private ["s23CustomStringConvertibleP", "backgroundImage"]
+- !private ["s23CustomStringConvertibleP", "backgroundImageViewFrame"]
+- ["s23CustomStringConvertibleP", "calculate"]
+- ["s23CustomStringConvertibleP", "calculateLayout"]
+- !private ["s23CustomStringConvertibleP", "ceil"]
+- ["s23CustomStringConvertibleP", "chatItem"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dateLabelFrame"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- ["s23CustomStringConvertibleP", "height"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- ["s23CustomStringConvertibleP", "noc_mediumSystemFont"]
+- !private ["s23CustomStringConvertibleP", "noc_sizeThatFits"]
+- ["s23CustomStringConvertibleP", "reuseIdentifier"]
+- !private ["s23CustomStringConvertibleP", "setupAttributedDate"]
+- !private ["s23CustomStringConvertibleP", "setupBackgroundImage"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", "width"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "greatestFiniteMagnitude"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "origin"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- ["Se", "zero"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "greatestFiniteMagnitude"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "origin"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- ["SE", "zero"]
+- !private ["SQ", "CGFloat"]
+- ["SQ", "CGRect"]
+- !private ["SQ", "CGSize"]
+- ["SQ", "DateFormatter"]
+- !private ["SQ", "Key"]
+- ["SQ", "Locale"]
+- !private ["SQ", "MMSystemMessageCellLayout"]
+- !private ["SQ", "NSAttributedString"]
+- !private ["SQ", "Style"]
+- ["SQ", "UIColor"]
+- ["SQ", "UIEdgeInsets"]
+- ["SQ", "UIFont"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "attributedDate"]
+- !private ["SQ", "backgroundImage"]
+- !private ["SQ", "backgroundImageViewFrame"]
+- !private ["SQ", "bottom"]
+- ["SQ", "calculate"]
+- ["SQ", "calculateLayout"]
+- !private ["SQ", "ceil"]
+- ["SQ", "chatItem"]
+- !private ["SQ", "date"]
+- ["SQ", "dateFormat"]
+- !private ["SQ", "dateLabelFrame"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "greatestFiniteMagnitude"]
+- ["SQ", "height"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "left"]
+- !private ["SQ", "length"]
+- ["SQ", "locale"]
+- !private ["SQ", "message"]
+- ["SQ", "noc_mediumSystemFont"]
+- !private ["SQ", "noc_sizeThatFits"]
+- !private ["SQ", "origin"]
+- ["SQ", "reuseIdentifier"]
+- !private ["SQ", "right"]
+- !private ["SQ", "setupAttributedDate"]
+- !private ["SQ", "setupBackgroundImage"]
+- !private ["SQ", "string"]
+- !private ["SQ", "top"]
+- ["SQ", "white"]
+- ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- ["SQ", "zero"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "init"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "CGFloat"]
+- ["SH", "CGRect"]
+- !private ["SH", "CGSize"]
+- ["SH", "DateFormatter"]
+- !private ["SH", "Key"]
+- ["SH", "Locale"]
+- !private ["SH", "MMSystemMessageCellLayout"]
+- !private ["SH", "NSAttributedString"]
+- !private ["SH", "Style"]
+- ["SH", "UIColor"]
+- ["SH", "UIEdgeInsets"]
+- ["SH", "UIFont"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "attributedDate"]
+- !private ["SH", "backgroundImage"]
+- !private ["SH", "backgroundImageViewFrame"]
+- ["SH", "calculate"]
+- ["SH", "calculateLayout"]
+- !private ["SH", "ceil"]
+- ["SH", "chatItem"]
+- !private ["SH", "date"]
+- ["SH", "dateFormat"]
+- !private ["SH", "dateLabelFrame"]
+- !private ["SH", "font"]
+- !private ["SH", "foregroundColor"]
+- !private ["SH", "greatestFiniteMagnitude"]
+- ["SH", "height"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "length"]
+- ["SH", "locale"]
+- !private ["SH", "message"]
+- ["SH", "noc_mediumSystemFont"]
+- !private ["SH", "noc_sizeThatFits"]
+- ["SH", "reuseIdentifier"]
+- !private ["SH", "setupAttributedDate"]
+- !private ["SH", "setupBackgroundImage"]
+- !private ["SH", "string"]
+- ["SH", "white"]
+- ["SH", "width"]
+- !private ["So21NSAttributedStringKeya", "font"]
+- !private ["So21NSAttributedStringKeya", "foregroundColor"]
+- ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["7K_Group23MMDateMessageCellLayoutC", "CGFloat"]
+- ["7K_Group23MMDateMessageCellLayoutC", "CGRect"]
+- !private ["7K_Group23MMDateMessageCellLayoutC", "CGSize"]
+- ["7K_Group23MMDateMessageCellLayoutC", "DateFormatter"]
+- ["7K_Group23MMDateMessageCellLayoutC", "Locale"]
+- !private ["7K_Group23MMDateMessageCellLayoutC", "MMSystemMessageCellLayout"]
+- ["7K_Group23MMDateMessageCellLayoutC", "Message"]
+- ["7K_Group23MMDateMessageCellLayoutC", "NOCChatItem"]
+- ["7K_Group23MMDateMessageCellLayoutC", "NSAttributedString"]
+- ["7K_Group23MMDateMessageCellLayoutC", "String"]
+- ["7K_Group23MMDateMessageCellLayoutC", "Style"]
+- ["7K_Group23MMDateMessageCellLayoutC", "UIColor"]
+- ["7K_Group23MMDateMessageCellLayoutC", "UIEdgeInsets"]
+- ["7K_Group23MMDateMessageCellLayoutC", "UIFont"]
+- ["7K_Group23MMDateMessageCellLayoutC", "UIImage"]
+- ["7K_Group23MMDateMessageCellLayoutC", "attributedDate"]
+- ["7K_Group23MMDateMessageCellLayoutC", "backgroundImage"]
+- ["7K_Group23MMDateMessageCellLayoutC", "backgroundImageViewFrame"]
+- ["7K_Group23MMDateMessageCellLayoutC", "calculate"]
+- ["7K_Group23MMDateMessageCellLayoutC", "calculateLayout"]
+- !private ["7K_Group23MMDateMessageCellLayoutC", "ceil"]
+- ["7K_Group23MMDateMessageCellLayoutC", "chatItem"]
+- ["7K_Group23MMDateMessageCellLayoutC", "dateLabelFrame"]
+- ["7K_Group23MMDateMessageCellLayoutC", "deinit"]
+- ["7K_Group23MMDateMessageCellLayoutC", "height"]
+- ["7K_Group23MMDateMessageCellLayoutC", "init"]
+- ["7K_Group23MMDateMessageCellLayoutC", "message"]
+- ["7K_Group23MMDateMessageCellLayoutC", "reuseIdentifier"]
+- !private ["7K_Group23MMDateMessageCellLayoutC", "setupAttributedDate"]
+- !private ["7K_Group23MMDateMessageCellLayoutC", "setupBackgroundImage"]
+- ["7K_Group23MMDateMessageCellLayoutC", "width"]
+- !private ["7K_Group25MMSystemMessageCellLayoutC", "Style"]
+- !private ["7K_Group7MessageC", "date"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So11NOCChatItemP", "date"]
+- !private ["So21NOCChatItemCellLayoutP", "CGFloat"]
+- ["So21NOCChatItemCellLayoutP", "CGRect"]
+- !private ["So21NOCChatItemCellLayoutP", "CGSize"]
+- ["So21NOCChatItemCellLayoutP", "DateFormatter"]
+- ["So21NOCChatItemCellLayoutP", "Locale"]
+- !private ["So21NOCChatItemCellLayoutP", "MMSystemMessageCellLayout"]
+- !private ["So21NOCChatItemCellLayoutP", "NSAttributedString"]
+- !private ["So21NOCChatItemCellLayoutP", "Style"]
+- ["So21NOCChatItemCellLayoutP", "UIColor"]
+- ["So21NOCChatItemCellLayoutP", "UIEdgeInsets"]
+- ["So21NOCChatItemCellLayoutP", "UIFont"]
+- ["So21NOCChatItemCellLayoutP", ""]
+- !private ["So21NOCChatItemCellLayoutP", "attributedDate"]
+- !private ["So21NOCChatItemCellLayoutP", "backgroundImage"]
+- !private ["So21NOCChatItemCellLayoutP", "backgroundImageViewFrame"]
+- ["So21NOCChatItemCellLayoutP", "calculate"]
+- ["So21NOCChatItemCellLayoutP", "calculateLayout"]
+- !private ["So21NOCChatItemCellLayoutP", "ceil"]
+- ["So21NOCChatItemCellLayoutP", "chatItem"]
+- !private ["So21NOCChatItemCellLayoutP", "dateLabelFrame"]
+- ["So21NOCChatItemCellLayoutP", "height"]
+- ["So21NOCChatItemCellLayoutP", "init"]
+- !private ["So21NOCChatItemCellLayoutP", "message"]
+- ["So21NOCChatItemCellLayoutP", "reuseIdentifier"]
+- !private ["So21NOCChatItemCellLayoutP", "setupAttributedDate"]
+- !private ["So21NOCChatItemCellLayoutP", "setupBackgroundImage"]
+- ["So21NOCChatItemCellLayoutP", "width"]
+- !private ["So18NSAttributedStringC", "Key"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So18NSAttributedStringC", "length"]
+- !private ["So18NSAttributedStringC", "noc_sizeThatFits"]
+- !private ["So8NSCodingP", "Key"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "length"]
+- ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "noc_sizeThatFits"]
+- !private ["So8NSCodingP", "string"]
+- ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "Key"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "length"]
+- ["So9NSCopyingP", "locale"]
+- ["So9NSCopyingP", "noc_mediumSystemFont"]
+- !private ["So9NSCopyingP", "noc_sizeThatFits"]
+- !private ["So9NSCopyingP", "string"]
+- ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "Key"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "length"]
+- !private ["So21NSItemProviderReadingP", "noc_sizeThatFits"]
+- ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "Key"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "length"]
+- !private ["So21NSItemProviderWritingP", "noc_sizeThatFits"]
+- ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "Key"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "length"]
+- !private ["So16NSMutableCopyingP", "noc_sizeThatFits"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "DateFormatter"]
+- !private ["So8NSObjectC", "Key"]
+- ["So8NSObjectC", "Locale"]
+- !private ["So8NSObjectC", "MMSystemMessageCellLayout"]
+- ["So8NSObjectC", "Message"]
+- ["So8NSObjectC", "NOCChatItem"]
+- ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "attributedDate"]
+- ["So8NSObjectC", "backgroundImage"]
+- ["So8NSObjectC", "backgroundImageViewFrame"]
+- ["So8NSObjectC", "calculate"]
+- ["So8NSObjectC", "calculateLayout"]
+- !private ["So8NSObjectC", "ceil"]
+- ["So8NSObjectC", "chatItem"]
+- !private ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "dateLabelFrame"]
+- ["So8NSObjectC", "height"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "length"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "message"]
+- ["So8NSObjectC", "noc_mediumSystemFont"]
+- !private ["So8NSObjectC", "noc_sizeThatFits"]
+- ["So8NSObjectC", "reuseIdentifier"]
+- ["So8NSObjectC", "setupAttributedDate"]
+- ["So8NSObjectC", "setupBackgroundImage"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "white"]
+- ["So8NSObjectC", "width"]
+- !private ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "CGSize"]
+- ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "Key"]
+- ["So8NSObjectP", "Locale"]
+- !private ["So8NSObjectP", "MMSystemMessageCellLayout"]
+- !private ["So8NSObjectP", "NSAttributedString"]
+- !private ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIEdgeInsets"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "attributedDate"]
+- !private ["So8NSObjectP", "backgroundImage"]
+- !private ["So8NSObjectP", "backgroundImageViewFrame"]
+- ["So8NSObjectP", "calculate"]
+- ["So8NSObjectP", "calculateLayout"]
+- !private ["So8NSObjectP", "ceil"]
+- ["So8NSObjectP", "chatItem"]
+- !private ["So8NSObjectP", "date"]
+- ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "dateLabelFrame"]
+- ["So8NSObjectP", "height"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "length"]
+- ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "message"]
+- ["So8NSObjectP", "noc_mediumSystemFont"]
+- !private ["So8NSObjectP", "noc_sizeThatFits"]
+- ["So8NSObjectP", "reuseIdentifier"]
+- !private ["So8NSObjectP", "setupAttributedDate"]
+- !private ["So8NSObjectP", "setupBackgroundImage"]
+- !private ["So8NSObjectP", "string"]
+- ["So8NSObjectP", "white"]
+- ["So8NSObjectP", "width"]
+- !private ["So14NSSecureCodingP", "Key"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "length"]
+- !private ["So14NSSecureCodingP", "noc_sizeThatFits"]
+- ["So14NSSecureCodingP", "white"]
+- !private ["Sj", "greatestFiniteMagnitude"]
+- !private ["Sj", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "font"]
+- !private ["SY", "foregroundColor"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "greatestFiniteMagnitude"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "DateFormatter"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "Locale"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "UIColor"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "UIEdgeInsets"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "UIFont"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "dateColor"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "dateFont"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "dateFormatter"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "dateInsets"]
+- ["7K_Group23MMDateMessageCellLayoutC5StyleV", "init"]
+- !private ["7K_Group25MMSystemMessageCellLayoutC5StyleV", "systemMessageBackground"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So7UIColorC", "white"]
+- !private ["So12UIEdgeInsetsV", "bottom"]
+- ["So12UIEdgeInsetsV", "init"]
+- !private ["So12UIEdgeInsetsV", "left"]
+- !private ["So12UIEdgeInsetsV", "right"]
+- !private ["So12UIEdgeInsetsV", "top"]
+- ["So6UIFontC", "noc_mediumSystemFont"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "font"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "foregroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Key"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MMSystemMessageCellLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImageViewFrame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calculate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calculateLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ceil"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "chatItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateLabelFrame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "height"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "length"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "noc_mediumSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noc_sizeThatFits"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "reuseIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupAttributedDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupBackgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "left"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "right"]
+- !private ["s21_ObjectiveCBridgeableP", "top"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- !private "SB"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So15NSDateFormatterC"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "So11NSFormatterC"
+- "SH"
+- !private "So21NSAttributedStringKeya"
+- "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "7K_Group23MMDateMessageCellLayoutC"
+- !private "7K_Group25MMSystemMessageCellLayoutC"
+- !private "7K_Group7MessageC"
+- "s10MirrorPathP"
+- !private "So11NOCChatItemP"
+- "So21NOCChatItemCellLayoutP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "7K_Group23MMDateMessageCellLayoutC5StyleV"
+- !private "7K_Group25MMSystemMessageCellLayoutC5StyleV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So7UIColorC"
+- "So12UIEdgeInsetsV"
+- "So6UIFontC"
+- "9Alamofire14URLConvertibleP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-umbrella.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCGame.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLine.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRunDelegate.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAttribute.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPTextViewInternal.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYLabel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatInputPanel.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCell.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItem.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextRubyAnnotation.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextTransaction.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextDebugOption.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/K_Group-Bridging-Header.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextKeyboardManager.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCDispatcher.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextMagnifier.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoCChatViewController.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextParser.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextArchiver.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextAsyncLayer.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextUtilities.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NoChat.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCProtoKit.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/NOCClient.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatItemCellLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionViewLayout.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextInput.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIPasteboard+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSParagraphStyle+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/NSAttributedString+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/UIView+YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYText.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextSelectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatCollectionView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Headers/NOCChatContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextContainerView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextEffectWindow.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Headers/YYTextWeakProxy.h"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/NoChat/NoChat.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/YYText/YYText.framework/Modules/module.modulemap"
+- "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphoneos/HPGrowingTextView/HPGrowingTextView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "00e4ac7e5e3419998154e7fdd9ad4822"

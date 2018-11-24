@@ -1,0 +1,294 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HPGrowingTextView-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Headers/HPGrowingTextView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HPGrowingTextView-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/HPGrowingTextView/HPGrowingTextView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "HPGrowingTextView.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/HPGrowingTextView/class/HPGrowingTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "HPTextViewInternal.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/HPGrowingTextView/class/HPTextViewInternal.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/HPGrowingTextView/HPGrowingTextView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/HPGrowingTextView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NOCChatCollectionView.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatCollectionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatCollectionViewLayout.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatCollectionViewLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatContainerView.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatContainerView.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatInputPanel.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatInputPanel.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatItem.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatItemCell.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatItemCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatItemCellLayout.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatItemCellLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "NOCChatViewController.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NOCChatViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "NoChat-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Headers/NoChat-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NoChat-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/NoChat/NoChat-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "NoChat.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/NoChat/NoChat/NoChat/NoChat.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/NoChat/NoChat.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/NoChat.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Pods_K_Group.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-K Group-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/Pods-K Group/Pods-K Group-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_K_Group-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Pods_K_Group.framework/Headers/Pods_K_Group-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/Pods_K_Group.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/Pods-K Group.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSAttributedString+YYText.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/NSAttributedString+YYText.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSParagraphStyle+YYText.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/NSParagraphStyle+YYText.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIPasteboard+YYText.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/UIPasteboard+YYText.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+YYText.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/UIView+YYText.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYLabel.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/YYLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYText-Swift.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYText-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYText-umbrella.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/Target Support Files/YYText/YYText-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYText.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/YYText.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextArchiver.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/String/YYTextArchiver.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextAsyncLayer.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/YYTextAsyncLayer.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextAttribute.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/String/YYTextAttribute.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextContainerView.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextContainerView.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextDebugOption.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextDebugOption.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextEffectWindow.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextEffectWindow.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextInput.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextInput.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextKeyboardManager.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextKeyboardManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextLayout.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextLine.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextLine.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextMagnifier.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextMagnifier.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextParser.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/String/YYTextParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextRubyAnnotation.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/String/YYTextRubyAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextRunDelegate.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/String/YYTextRunDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextSelectionView.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Component/YYTextSelectionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextTransaction.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/YYTextTransaction.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextUtilities.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/YYTextUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextView.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/YYTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYTextWeakProxy.h",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/YYText/YYText/Utility/YYTextWeakProxy.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Debug-iphonesimulator/YYText/YYText.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/build/Pods.build/Debug-iphonesimulator/YYText.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
