@@ -42,6 +42,8 @@ class InitialViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    textField
+    
     func addLoyaltyCardInput() {
         let textField = SkyFloatingLabelTextField(frame: CGRect(x: 40, y: 270, width: 300, height: 45))
         textField.placeholder = "ex. 6523 3843 4235 7923"
