@@ -4,4 +4,4 @@ The project we worked on during Junction Hackathon.
 
 # TODO DESCRIPTION
 
-<img src="./static/1.png" width="200"/>
+<img src="./static/2.png" width="200"/>
