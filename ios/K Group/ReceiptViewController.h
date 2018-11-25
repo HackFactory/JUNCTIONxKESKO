@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSArray* prices;
 @property (strong, nonatomic) NSArray* images;
 @property (strong, nonatomic) UIView* noodles;
+@property int indexx;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -41,7 +41,7 @@
     CGRect frame = _line.frame;
     frame.size.height = 0.5;
     _line.frame = frame;
-    
+    _indexx = [self getIndex];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -142,20 +142,21 @@
     [self.view addSubview:_noodles];
 }
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     ReceiptTableViewCell* cell = [_tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.title.text = _names[[self getIndex]][indexPath.row];
-    cell.price.text= [NSString stringWithFormat:@"%@€", _prices[[self getIndex]][indexPath.row]];
-    cell.image.image = [UIImage imageNamed:[NSString stringWithFormat:@"product_%d_%d", (int)[self getIndex] + 1, (int)indexPath.row + 1]];
+    int indx = _indexx;
+    cell.title.text = _names[indx][indexPath.row];
+    cell.price.text= [NSString stringWithFormat:@"%@€", _prices[indx][indexPath.row]];
+    cell.image.image = [UIImage imageNamed:[NSString stringWithFormat:@"product_%d_%d", (int)indx + 1, (int)indexPath.row + 1]];
     cell.price.layer.cornerRadius = cell.price.frame.size.height / 2.;
     [cell.price setNeedsDisplay];
     cell.whiteView.layer.shadowColor = [UIColor blackColor].CGColor;
@@ -165,7 +166,7 @@
 }
 
 - (int) getIndex {
-
+    
     int plan_number = [[[NSUserDefaults standardUserDefaults]
                         objectForKey:@"plan_number"] intValue];
     bool t1 =[[[NSUserDefaults standardUserDefaults] objectForKey:@"tumblr_1_set"] boolValue];
@@ -185,7 +186,8 @@
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return ((NSArray*)(_names[[self getIndex]])).count;
+    int cnt = ((NSArray*)(_names[_indexx])).count;
+    return cnt;
 }
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -200,6 +202,7 @@
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
+
 - (BOOL) tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     return false;
 }
