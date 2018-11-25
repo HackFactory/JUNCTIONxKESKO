@@ -1,7 +1,7 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "d505e097380a5cace3c73eb8209c0385"
-build_time: [1543101493, 318584000]
+build_time: [1543105957, 12209000]
 inputs:
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift": [1543097239, 0]
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift": [1543097239, 0]
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/UITextField+fixCaretPosition.swift": [1543097239, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift": [1543101871, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift": [1543101871, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/UITextField+fixCaretPosition.swift": [1543101871, 0]

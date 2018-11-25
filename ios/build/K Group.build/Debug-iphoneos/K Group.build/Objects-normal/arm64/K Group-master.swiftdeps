@@ -1,8 +1,8 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "1ed602442fd2c512839ce0bbb73b44b6"
-build_time: [1543103137, 597312000]
+build_time: [1543107308, 988026000]
 inputs:
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1543098627, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1543107307, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGBaseMessageCellLayout.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGDateMessageCell.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMDateMessageCellLayout.swift": [1543060128, 0]

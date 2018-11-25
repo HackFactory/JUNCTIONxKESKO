@@ -36,13 +36,24 @@ class InitialViewController: UIViewController, UITextFieldDelegate {
         addLoyaltyCardInput()
         addPasswordInput()
     }
-    
+
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
     
-    textField
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        let sizes = [4, 9, 14]
+        for size in sizes {
+            if textField.text?.count == size {
+                textField.text?.append(" ")
+            }
+        }
+        
+        if let length = textField.text?.count, length == 20 {
+            textField.text?.removeLast()
+        }
+    }
     
     func addLoyaltyCardInput() {
         let textField = SkyFloatingLabelTextField(frame: CGRect(x: 40, y: 270, width: 300, height: 45))
@@ -50,6 +61,7 @@ class InitialViewController: UIViewController, UITextFieldDelegate {
         textField.title = "Your loyalty card number"
         textField.titleColor = UIColor(red: 255.0/255.0, green: 147.0/255.0, blue: 90.0/255.0, alpha: 1.0)
         textField.delegate = self
+        textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         self.view.addSubview(textField)
     }
     

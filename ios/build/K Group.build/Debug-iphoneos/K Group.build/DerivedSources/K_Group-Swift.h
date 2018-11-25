@@ -237,6 +237,7 @@ SWIFT_CLASS("_TtC7K_Group21InitialViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
 - (void)viewDidLoad;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidChange:(UITextField * _Nonnull)textField;
 - (IBAction)buttonTouchUpInside:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

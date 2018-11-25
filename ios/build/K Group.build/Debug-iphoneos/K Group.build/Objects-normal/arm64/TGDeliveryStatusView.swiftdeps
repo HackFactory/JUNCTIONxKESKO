@@ -18,7 +18,7 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - "MessageDeliveryStatus"
 - "NSCoder"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "TGClockProgressView"
 - "TGDeliveryStatusView"
 - "UIImage"
@@ -296,7 +296,7 @@ depends-member:
 - ["7K_Group20TGDeliveryStatusViewC", "checkmark1ImageView"]
 - ["7K_Group20TGDeliveryStatusViewC", "checkmark2ImageView"]
 - ["7K_Group20TGDeliveryStatusViewC", "clockView"]
-- ["7K_Group20TGDeliveryStatusViewC", "deinit"]
+- !private ["7K_Group20TGDeliveryStatusViewC", "deinit"]
 - ["7K_Group20TGDeliveryStatusViewC", "deliveryStatus"]
 - !private ["7K_Group20TGDeliveryStatusViewC", "fatalError"]
 - ["7K_Group20TGDeliveryStatusViewC", "init"]

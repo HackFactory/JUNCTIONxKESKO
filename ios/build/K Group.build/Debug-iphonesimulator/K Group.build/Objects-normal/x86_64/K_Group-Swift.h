@@ -203,11 +203,14 @@ SWIFT_CLASS("_TtC7K_Group11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7K_Group18ChatViewController")
 @interface ChatViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified startMessagingButton;
+- (IBAction)startMessaging:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -227,7 +230,6 @@ SWIFT_CLASS("_TtC7K_Group19ChatsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 @class UITextField;
 
 SWIFT_CLASS("_TtC7K_Group21InitialViewController")
@@ -235,6 +237,7 @@ SWIFT_CLASS("_TtC7K_Group21InitialViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
 - (void)viewDidLoad;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidChange:(UITextField * _Nonnull)textField;
 - (IBAction)buttonTouchUpInside:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

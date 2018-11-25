@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "7f7a7f1b4c2d58e6c7c151572f8a55ff"
-build_time: [1543101925, 411930000]
+build_time: [1543106721, 119046000]
 inputs:
   "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift": [1543101871, 0]
   "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift": [1543101871, 0]

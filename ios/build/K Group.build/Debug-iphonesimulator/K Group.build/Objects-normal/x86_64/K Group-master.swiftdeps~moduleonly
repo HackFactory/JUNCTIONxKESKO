@@ -1,8 +1,8 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "7fc109dab42301781ffdbf14bc09011d"
-build_time: [1543101511, 397510000]
+options: "4a71c8c09fa05a164286a1fef4aacc44"
+build_time: [1543106608, 832884000]
 inputs:
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1543098627, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1543106604, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGBaseMessageCellLayout.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGDateMessageCell.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMDateMessageCellLayout.swift": [1543060128, 0]
@@ -18,7 +18,7 @@ inputs:
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMTextMessageCellLayout.swift": [1543060012, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/NSAttributedString+NoChat.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGChatInputTextPanel.swift": [1543060115, 0]
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/ChatViewController.swift": [1543101106, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/ChatViewController.swift": [1543103135, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/ChatsViewController.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGChatViewController.swift": [1543079030, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MessageManager.swift": [1543068747, 0]
