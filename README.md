@@ -20,20 +20,14 @@ Health is priceless. We created a unique concept of a Smart Plan for you to chan
 
 Now we are presenting something huge. There is a large gap in communications between a customer and a retailer. In particular, most customer issues may be resolved without any retailer interference. In our App we present an innovative Personal Assistant powered by AI that automatically answers most users queries.
 
-
-
-Where is the nearest shop?
-Where can you get the product in some local store?
-Is something healthy?
-What can I cook from …?
+<img src="./static/support.jpg"/>
 
 
 For example, you no longer have to leave home to find out the availability of your favourite products at your nearest shop. Or you can find out some interesting information about healthiness of a particular product. 
 We believe that further integration with K-Market services will bring ease and happiness for our customers.
 
+<img src="./static/preza.jpg"/>
+
+## Demo on YouTube:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/os4se3w3a8U/0.jpg)](https://www.youtube.com/watch?v=os4se3w3a8U)
-
-
-<img src="./static/2.png" width="400"/>
-
