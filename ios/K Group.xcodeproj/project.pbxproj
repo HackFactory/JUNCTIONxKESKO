@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4FD60321AA303E00C00733 /* ReceiptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5F321AA303B00C00733 /* ReceiptTableViewCell.m */; };
+		1E4FD60421AA303E00C00733 /* FeaturingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5F421AA303B00C00733 /* FeaturingTableViewController.m */; };
+		1E4FD60521AA303E00C00733 /* ProfileTumblrTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5F621AA303B00C00733 /* ProfileTumblrTableViewCell.m */; };
+		1E4FD60621AA303E00C00733 /* ProfileDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5FB21AA303C00C00733 /* ProfileDataTableViewCell.m */; };
+		1E4FD60721AA303E00C00733 /* ProfileMediumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5FC21AA303C00C00733 /* ProfileMediumTableViewCell.m */; };
+		1E4FD60821AA303E00C00733 /* ProfileBigTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5FD21AA303C00C00733 /* ProfileBigTableViewCell.m */; };
+		1E4FD60921AA303E00C00733 /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD5FF21AA303D00C00733 /* ReceiptViewController.m */; };
+		1E4FD60A21AA303E00C00733 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD60021AA303D00C00733 /* ProfileTableViewController.m */; };
+		1E4FD61521AA305D00C00733 /* PlanSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD60C21AA305A00C00733 /* PlanSelectionTableViewController.m */; };
+		1E4FD61621AA305D00C00733 /* PlanExtraSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD60E21AA305A00C00733 /* PlanExtraSettingsViewController.m */; };
+		1E4FD61721AA305D00C00733 /* PlanSelectionHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD61121AA305B00C00733 /* PlanSelectionHeaderTableViewCell.m */; };
+		1E4FD61821AA305D00C00733 /* PlanSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD61221AA305C00C00733 /* PlanSelectionTableViewCell.m */; };
+		1E4FD61921AA305D00C00733 /* SmartPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FD61421AA305D00C00733 /* SmartPlanViewController.m */; };
 		1EB7ABDD21A954BE00360C71 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7ABDC21A954BE00360C71 /* ChatViewController.swift */; };
 		1EB7AC5D21A960A400360C71 /* MMSystemMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7AC3421A960A400360C71 /* MMSystemMessageCell.swift */; };
 		1EB7AC5E21A960A400360C71 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7AC3521A960A400360C71 /* SoundManager.swift */; };
@@ -109,6 +122,32 @@
 /* Begin PBXFileReference section */
 		030349E61AD66398E35341C8 /* Pods_K_GroupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_GroupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07118DC215F051B2A2C6336A /* Pods_K_Group.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_Group.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4FD5F321AA303B00C00733 /* ReceiptTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD5F421AA303B00C00733 /* FeaturingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturingTableViewController.m; sourceTree = "<group>"; };
+		1E4FD5F521AA303B00C00733 /* ProfileTumblrTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTumblrTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD5F621AA303B00C00733 /* ProfileTumblrTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTumblrTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD5F721AA303B00C00733 /* ProfileBigTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileBigTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD5F821AA303C00C00733 /* ProfileDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDataTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD5F921AA303C00C00733 /* FeaturingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturingTableViewController.h; sourceTree = "<group>"; };
+		1E4FD5FA21AA303C00C00733 /* ReceiptTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD5FB21AA303C00C00733 /* ProfileDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDataTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD5FC21AA303C00C00733 /* ProfileMediumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileMediumTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD5FD21AA303C00C00733 /* ProfileBigTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileBigTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD5FE21AA303D00C00733 /* ReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptViewController.h; sourceTree = "<group>"; };
+		1E4FD5FF21AA303D00C00733 /* ReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptViewController.m; sourceTree = "<group>"; };
+		1E4FD60021AA303D00C00733 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+		1E4FD60121AA303D00C00733 /* ProfileMediumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileMediumTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD60221AA303D00C00733 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		1E4FD60B21AA305A00C00733 /* PlanSelectionHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSelectionHeaderTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD60C21AA305A00C00733 /* PlanSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanSelectionTableViewController.m; sourceTree = "<group>"; };
+		1E4FD60D21AA305A00C00733 /* PlanExtraSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanExtraSettingsViewController.h; sourceTree = "<group>"; };
+		1E4FD60E21AA305A00C00733 /* PlanExtraSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanExtraSettingsViewController.m; sourceTree = "<group>"; };
+		1E4FD60F21AA305B00C00733 /* PlanSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSelectionTableViewCell.h; sourceTree = "<group>"; };
+		1E4FD61021AA305B00C00733 /* PlanSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSelectionTableViewController.h; sourceTree = "<group>"; };
+		1E4FD61121AA305B00C00733 /* PlanSelectionHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanSelectionHeaderTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD61221AA305C00C00733 /* PlanSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanSelectionTableViewCell.m; sourceTree = "<group>"; };
+		1E4FD61321AA305C00C00733 /* SmartPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPlanViewController.h; sourceTree = "<group>"; };
+		1E4FD61421AA305D00C00733 /* SmartPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartPlanViewController.m; sourceTree = "<group>"; };
 		1EB7ABDC21A954BE00360C71 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		1EB7AC3421A960A400360C71 /* MMSystemMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSystemMessageCell.swift; sourceTree = "<group>"; };
 		1EB7AC3521A960A400360C71 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
@@ -341,6 +380,32 @@
 				1EB7ACDE21AA1C9600360C71 /* Fonts */,
 				1EB7AC3321A960A400360C71 /* NoChat-Swift-Example */,
 				1EF427F121A81DD4000F4A45 /* AppDelegate.swift */,
+				1E4FD5F921AA303C00C00733 /* FeaturingTableViewController.h */,
+				1E4FD5F421AA303B00C00733 /* FeaturingTableViewController.m */,
+				1E4FD60D21AA305A00C00733 /* PlanExtraSettingsViewController.h */,
+				1E4FD60E21AA305A00C00733 /* PlanExtraSettingsViewController.m */,
+				1E4FD60B21AA305A00C00733 /* PlanSelectionHeaderTableViewCell.h */,
+				1E4FD61121AA305B00C00733 /* PlanSelectionHeaderTableViewCell.m */,
+				1E4FD60F21AA305B00C00733 /* PlanSelectionTableViewCell.h */,
+				1E4FD61221AA305C00C00733 /* PlanSelectionTableViewCell.m */,
+				1E4FD61021AA305B00C00733 /* PlanSelectionTableViewController.h */,
+				1E4FD60C21AA305A00C00733 /* PlanSelectionTableViewController.m */,
+				1E4FD61321AA305C00C00733 /* SmartPlanViewController.h */,
+				1E4FD61421AA305D00C00733 /* SmartPlanViewController.m */,
+				1E4FD5F721AA303B00C00733 /* ProfileBigTableViewCell.h */,
+				1E4FD5FD21AA303C00C00733 /* ProfileBigTableViewCell.m */,
+				1E4FD5F821AA303C00C00733 /* ProfileDataTableViewCell.h */,
+				1E4FD5FB21AA303C00C00733 /* ProfileDataTableViewCell.m */,
+				1E4FD60121AA303D00C00733 /* ProfileMediumTableViewCell.h */,
+				1E4FD5FC21AA303C00C00733 /* ProfileMediumTableViewCell.m */,
+				1E4FD60221AA303D00C00733 /* ProfileTableViewController.h */,
+				1E4FD60021AA303D00C00733 /* ProfileTableViewController.m */,
+				1E4FD5F521AA303B00C00733 /* ProfileTumblrTableViewCell.h */,
+				1E4FD5F621AA303B00C00733 /* ProfileTumblrTableViewCell.m */,
+				1E4FD5FA21AA303C00C00733 /* ReceiptTableViewCell.h */,
+				1E4FD5F321AA303B00C00733 /* ReceiptTableViewCell.m */,
+				1E4FD5FE21AA303D00C00733 /* ReceiptViewController.h */,
+				1E4FD5FF21AA303D00C00733 /* ReceiptViewController.m */,
 				1EB7AC8521A9634F00360C71 /* NOCGame.m */,
 				1EB7AC8621A9634F00360C71 /* NOCDispatcher.m */,
 				1EB7AC8721A9634F00360C71 /* NOCClient.m */,
@@ -652,32 +717,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4FD60921AA303E00C00733 /* ReceiptViewController.m in Sources */,
 				1EF4282321A820A9000F4A45 /* InitialViewController.swift in Sources */,
 				1EF427FA21A81DD4000F4A45 /* K_Group.xcdatamodeld in Sources */,
 				1EB7AC8021A960A400360C71 /* TGBaseMessageCellLayout.swift in Sources */,
 				1EB7AC7F21A960A400360C71 /* TGDateMessageCell.swift in Sources */,
+				1E4FD61521AA305D00C00733 /* PlanSelectionTableViewController.m in Sources */,
 				1EB7AC6721A960A400360C71 /* MMDateMessageCellLayout.swift in Sources */,
 				1EB7AC7021A960A400360C71 /* TGBaseMessageCell.swift in Sources */,
 				1EB7AC7121A960A400360C71 /* MMBaseMessageCell.swift in Sources */,
 				1EB7AC8E21A9634F00360C71 /* NOCDispatcher.m in Sources */,
 				1EB7AC6321A960A400360C71 /* TGTextMessageCellLayout.swift in Sources */,
+				1E4FD61821AA305D00C00733 /* PlanSelectionTableViewCell.m in Sources */,
 				1EB7AC8F21A9634F00360C71 /* NOCClient.m in Sources */,
 				1EB7AC7C21A960A400360C71 /* MMTextMessageCell.swift in Sources */,
+				1E4FD61621AA305D00C00733 /* PlanExtraSettingsViewController.m in Sources */,
 				1EB7AC5D21A960A400360C71 /* MMSystemMessageCell.swift in Sources */,
 				1EB7AC7521A960A400360C71 /* TGSystemMessageCellLayout.swift in Sources */,
 				1EB7AC6221A960A400360C71 /* Chat.swift in Sources */,
+				1E4FD61921AA305D00C00733 /* SmartPlanViewController.m in Sources */,
+				1E4FD60A21AA303E00C00733 /* ProfileTableViewController.m in Sources */,
 				1EB7AC6421A960A400360C71 /* TGSystemMessageCell.swift in Sources */,
+				1E4FD60621AA303E00C00733 /* ProfileDataTableViewCell.m in Sources */,
 				1EB7AC7221A960A400360C71 /* MMChatViewController.swift in Sources */,
+				1E4FD60721AA303E00C00733 /* ProfileMediumTableViewCell.m in Sources */,
 				1EB7AC6A21A960A400360C71 /* MMTextMessageCellLayout.swift in Sources */,
 				1EB7AC6121A960A400360C71 /* NSAttributedString+NoChat.swift in Sources */,
 				1EB7AC7921A960A400360C71 /* TGChatInputTextPanel.swift in Sources */,
 				1EB7ABDD21A954BE00360C71 /* ChatViewController.swift in Sources */,
 				1EB7AC5F21A960A400360C71 /* ChatsViewController.swift in Sources */,
+				1E4FD61721AA305D00C00733 /* PlanSelectionHeaderTableViewCell.m in Sources */,
 				1EB7AC6621A960A400360C71 /* TGChatViewController.swift in Sources */,
+				1E4FD60821AA303E00C00733 /* ProfileBigTableViewCell.m in Sources */,
 				1EB7AC7321A960A400360C71 /* MessageManager.swift in Sources */,
 				1EB7AC8321A960A400360C71 /* UIFont+NoChat.swift in Sources */,
 				1EB7AC6021A960A400360C71 /* TGAvatarButton.swift in Sources */,
 				1EB7AC6521A960A400360C71 /* TGTitleView.swift in Sources */,
+				1E4FD60521AA303E00C00733 /* ProfileTumblrTableViewCell.m in Sources */,
+				1E4FD60321AA303E00C00733 /* ReceiptTableViewCell.m in Sources */,
 				1EB7AC6B21A960A400360C71 /* User.swift in Sources */,
 				1EB7AC7D21A960A400360C71 /* TGTextMessageCell.swift in Sources */,
 				1EB7AC7621A960A400360C71 /* MMSystemMessageCellLayout.swift in Sources */,
@@ -686,6 +763,7 @@
 				1EB7ACA121A977ED00360C71 /* MapViewController.swift in Sources */,
 				1EB7AC6F21A960A400360C71 /* MMChatInputTextPanel.swift in Sources */,
 				1EB7AC7721A960A400360C71 /* TGClockProgressView.swift in Sources */,
+				1E4FD60421AA303E00C00733 /* FeaturingTableViewController.m in Sources */,
 				1EB7AC7A21A960A400360C71 /* MMBaseMessageCellLayout.swift in Sources */,
 				1EB7AC6C21A960A400360C71 /* TGDateMessageCellLayout.swift in Sources */,
 				1EB7AC8D21A9634F00360C71 /* NOCGame.m in Sources */,
