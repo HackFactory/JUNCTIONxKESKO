@@ -32,12 +32,6 @@ class ChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureButton()
-        
-        DispatchQueue.main.async {
-            let chat = ChatViewController.botChat
-            let vc = TGChatViewController(chat: chat)
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
     }
     
     static let botChat: Chat = {

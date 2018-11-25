@@ -1,8 +1,8 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "1ed602442fd2c512839ce0bbb73b44b6"
-build_time: [1543109738, 345379000]
+build_time: [1543128435, 330365000]
 inputs:
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1543108224, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/InitialViewController.swift": [1543127772, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGBaseMessageCellLayout.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGDateMessageCell.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMDateMessageCellLayout.swift": [1543060128, 0]
@@ -18,7 +18,7 @@ inputs:
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMTextMessageCellLayout.swift": [1543060012, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/NSAttributedString+NoChat.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGChatInputTextPanel.swift": [1543060115, 0]
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/ChatViewController.swift": [1543103135, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/ChatViewController.swift": [1543128432, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/ChatsViewController.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGChatViewController.swift": [1543079030, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MessageManager.swift": [1543068747, 0]
@@ -30,7 +30,7 @@ inputs:
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMSystemMessageCellLayout.swift": [1543060075, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMDateMessageCell.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/Message.swift": [1543059709, 0]
-  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/MapViewController.swift": [1543108324, 0]
+  "/Users/yar/Desktop/iOS Education/Projects/K Group/ios/K Group/MapViewController.swift": [1543126332, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMChatInputTextPanel.swift": [1543060075, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/TGClockProgressView.swift": [1543059709, 0]
   "/Users/yar/Desktop/iOS Education/Projects/NoChat/Examples/NoChat-Swift-Example/NoChat-Swift-Example/MMBaseMessageCellLayout.swift": [1543059709, 0]

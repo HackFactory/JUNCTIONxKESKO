@@ -580,7 +580,6 @@ depends-member:
 - !private ["7K_Group17TGTextMessageCellC", "YYTextHighlightAttributeName"]
 - ["7K_Group17TGTextMessageCellC", "bubbleImageView"]
 - !private ["7K_Group17TGTextMessageCellC", "bubbleView"]
-- ["7K_Group17TGTextMessageCellC", "deinit"]
 - !private ["7K_Group17TGTextMessageCellC", "delegate"]
 - ["7K_Group17TGTextMessageCellC", "deliveryStatusView"]
 - !private ["7K_Group17TGTextMessageCellC", "fatalError"]
