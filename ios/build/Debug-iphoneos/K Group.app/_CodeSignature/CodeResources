@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		8YL4yi+6aBNTJyUqeQ4H+v0nigg=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		aJC3fTwI8m4b8j7Q8Fby8H9KHgI=
+		KgOfongr3MpQCByNoj8TYcOSuTs=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -210,7 +214,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8EGwtSYA99FQNkQDC5mOw2I5cpM=
+		NbvM/EKGFrB5apha9DMJ/aogHvU=
 		</data>
 		<key>K_Group.momd/K_Group.mom</key>
 		<data>
@@ -367,11 +371,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xK1eiDSfMGn/ZhpLFequCWBREbJRrZYscXh5LtW7oAI=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+DCUvUGL7ywpV0hq3AqCqY7rPAJxeqWLcnMbKWm/as=
+			f+EL/I9fIgVTViBbwM50YCpcKK1xaT09BmcA1MsS76E=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
