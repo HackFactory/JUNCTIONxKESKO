@@ -1,4 +1,4 @@
-# junction-hack
+# JUNCTIONxKESKO challenge
 ### Project name: K-Fit
 #### Punchline: Personal assistant with smart plans powered by AI
 
@@ -7,6 +7,8 @@
 We are glad to present our app K-Fit, that brings user experience in digital retail to a new level. In collaboration with K-Market we came up with the ideas how to make everyday shopping more healthy, sustainable and convenient.
 For better personalization we are providing a way to log in with existing loyalty card. 
 
+![Alt](./static/featured.PNG#left)
+![Alt](./static/featured.PNG#right)
 <img src="./static/login.png" width="200"/>
 <img src="./static/featured.PNG" width="200"/>
 <img src="./static/profile.PNG" width="200"/>
