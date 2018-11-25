@@ -590,7 +590,7 @@
                                                             <rect key="frame" x="8" y="166" width="294" height="70"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan title " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzz-Gd-XaH">
-                                                                    <rect key="frame" x="14" y="10" width="180" height="28"/>
+                                                                    <rect key="frame" x="14" y="10" width="190" height="28"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="28" id="9F7-AO-sa8"/>
                                                                     </constraints>
@@ -629,7 +629,7 @@
                                                                 <constraint firstItem="Gzz-Gd-XaH" firstAttribute="leading" secondItem="v2G-p8-5xj" secondAttribute="leading" constant="14" id="RIE-0u-Gh6"/>
                                                                 <constraint firstAttribute="trailing" secondItem="fbZ-3M-Sm4" secondAttribute="trailing" constant="90" id="cA7-zl-Yum"/>
                                                                 <constraint firstAttribute="trailing" secondItem="bDi-33-1bR" secondAttribute="trailing" constant="14" id="dpp-uR-BLk"/>
-                                                                <constraint firstAttribute="trailing" secondItem="Gzz-Gd-XaH" secondAttribute="trailing" constant="100" id="mPD-k3-g7d"/>
+                                                                <constraint firstAttribute="trailing" secondItem="Gzz-Gd-XaH" secondAttribute="trailing" constant="90" id="mPD-k3-g7d"/>
                                                                 <constraint firstItem="fbZ-3M-Sm4" firstAttribute="top" secondItem="Gzz-Gd-XaH" secondAttribute="bottom" constant="-8" id="nK3-zJ-Jt0"/>
                                                             </constraints>
                                                         </view>
