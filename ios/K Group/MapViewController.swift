@@ -43,6 +43,7 @@ class MapViewController: UIViewController {
     
     func setUpShops() {
         let shops = [
+            Shop(60.186152, 24.824001, "K-Market Otaniemi", "Otaniementie 12", "10:00", "21:00"),
             Shop(60.180428000000006, 24.6785064, "K-Supermarket Malminmäki", "Malminkorpi 2", "09:00", "22:00"),
             Shop(60.333779299999996, 24.3191819, "K-Supermarket Nummela", "Keskikuja 3", "10:00", "20:00"),
             Shop(60.268841099999996, 24.443631699999997, "K-Supermarket Veikkola", "Koskentie 6", "10:00", "21:00"),
